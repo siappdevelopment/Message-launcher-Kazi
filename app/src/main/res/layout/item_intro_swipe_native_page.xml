@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rlNativeAdView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/slNativeShimmer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include layout="@layout/native_fullscreen_ad_shimmer" />
+
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flNativeAd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivClose"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/_12sdp"
+        android:background="@drawable/custom_circle"
+        android:backgroundTint="@color/gray"
+        android:padding="@dimen/_2sdp"
+        android:src="@drawable/ic_close_menu"
+        app:tint="@color/white" />
+
+</RelativeLayout>

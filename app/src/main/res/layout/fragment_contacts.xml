@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:gravity="center_vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:fontFamily="@font/avigea"
+            android:text="@string/contacts"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/_20sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llContactData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <FrameLayout
+            android:id="@+id/flDataContacts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_12sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llPermissionData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llPermissionAllow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvPermissionRequired"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fig_tree_medium"
+                    android:text="@string/permission_required"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvPermissionContactDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fig_tree_medium"
+                    android:text="@string/permission_contact_description"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_10sdp" />
+
+            </LinearLayout>
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/btnAllow"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_30sdp"
+                app:shimmer_base_alpha="1"
+                app:shimmer_duration="1500"
+                app:shimmer_highlight_alpha="0.4">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvBtnAllow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/custom_button"
+                    android:fontFamily="@font/fig_tree_medium"
+                    android:gravity="center"
+                    android:paddingStart="@dimen/_6sdp"
+                    android:paddingEnd="@dimen/_6sdp"
+                    android:singleLine="true"
+                    android:text="@string/allow"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_11sdp" />
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvContacts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/fig_tree_medium"
+            android:gravity="center"
+            android:text="@string/your_contacts_will_appear_here"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+
+    </LinearLayout>
+
+</LinearLayout>

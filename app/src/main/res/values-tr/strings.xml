@@ -1,0 +1,211 @@
+<resources>
+    <string name="app_name">Messages</string>
+    <string name="app_name_launcher"># Messages</string>
+    <string name="one_inbox_for_every_conversation">One Inbox For Every Conversation</string>
+
+    // Language Screen
+    <string name="done">Bitti</string>
+    <string name="next">İleri</string>
+
+    // Collection / Data consent screen
+    <string name="collection_title">Verileriniz hakkında kısa bir bilgilendirme</string>
+    <string name="collection_intro_1">Messages uygulamasını hızlı, güvenli ve güvenilir tutmak, uygulamanın ücretsiz kalmasına yardımcı olan reklamlar göstermek ve size önemli bildirimler göndermek için sınırlı cihaz ve uygulama bilgileri kullanıyoruz.</string>
+    <string name="collection_intro_2">Mesajlarınız, kişileriniz ve kişisel konuşmalarınız analiz veya reklam amacıyla toplanmaz ve cihazınızda kalır.</string>
+    <string name="collection_what_we_use">Hangi verileri kullanıyoruz ve neden:</string>
+    <string name="collection_bullet_1">• Uygulama kullanım bilgileri – açtığınız ekranlar ve kullandığınız özellikler gibi – performansı ve kullanıcı deneyimini iyileştirmek için</string>
+    <string name="collection_bullet_2">• Cihaz ve uygulama tanımlayıcıları – tercihlerinizi kaydetmek, uygulama kararlılığını artırmak ve bildirimleri desteklemek için</string>
+    <string name="collection_bullet_3">• Ağınıza dayalı genel konum bilgisi – kullanım eğilimlerini anlamak ve bölgenize uygun özellikler sunmak için</string>
+    <string name="collection_bullet_4">• Reklam tanımlayıcıları – uygulamanın ücretsiz kalmasına yardımcı olan reklamları göstermek ve ölçmek için</string>
+    <string name="collection_footer">Kabul Et ve Devam Et\'e dokunarak Hizmet Koşullarımızı kabul etmiş ve Gizlilik Politikamızı onaylamış olursunuz. Uygulamayı geliştirmek, temel özellikleri sunmak ve reklamları desteklemek için yalnızca yukarıda açıklanan bilgileri topluyoruz. Kişisel mesajlarınız ve konuşmalarınız gizli kalır.</string>
+    <string name="collection_agree_checkbox">Bu veri toplama işlemine onay veriyorum</string>
+    <string name="collection_agree_continue">Kabul Et ve Devam Et</string>
+    <string name="collection_agree_toast">Devam etmek için lütfen veri toplamayı kabul edin.</string>
+    <string name="terms">Koşullar</string>
+
+    // Default SMS Screen
+    <string name="set_default_sms">Varsayılan SMS\'i Ayarla</string>
+    <string name="set_default_sms_desc">Tüm mesajlarınızı düzenli, güvenli ve kolay yönetilebilir tutmak için bu uygulamayı varsayılan SMS uygulamanız olarak ayarlayın.</string>
+    <string name="set_as_default_sms">Varsayılan SMS Olarak Ayarla</string>
+
+    // Default App Screen
+    <string name="set_default_app">Varsayılan Uygulamayı Ayarla</string>
+    <string name="set_default_app_desc">Daha hızlı, daha temiz ve kişiselleştirilmiş bir ana ekran deneyimi için bu uygulamayı varsayılan ana ekran başlatıcınız olarak ayarlayın.</string>
+    <string name="set_as_default_app">Varsayılan Uygulama Olarak Ayarla</string>
+
+    // Intro Screen
+    <string name="intro_1_title">Akıllı mesajlaşma</string>
+    <string name="intro_1_description">Düzenli, güvenli ve anlık mesajlaşma deneyimiyle konuşmaları verimli şekilde yönetin.</string>
+    <string name="intro_2_title">Gerçek zamanlı sohbet</string>
+    <string name="intro_2_description">Her gün hızlı, güvenilir ve sorunsuz gerçek zamanlı konuşmalarla anında bağlanın.</string>
+    <string name="intro_3_title">Kişi yönetimi</string>
+    <string name="intro_3_description">Daha hızlı iletişim ve her an daha iyi erişilebilirlik için kişileri zahmetsizce düzenleyin.</string>
+    <string name="intro_4_title">Sohbet arşivlendi</string>
+    <string name="intro_4_description">Önemli konuşmaları daha sonra ihtiyaç duyduğunuzda hızlı erişim için güvenle saklayın.</string>
+
+    // Permission Dialog
+    <string name="please_allow_permissions_from_app_settings">Lütfen uygulama ayarlarından izinleri verin</string>
+    <string name="open_settings">Ayarları aç</string>
+
+    // Main Screen
+    <string name="messages">Mesajlar</string>
+    <string name="contacts">Kişiler</string>
+    <string name="settings">Ayarlar</string>
+
+    // Messages Screen
+    <string name="overlay_permission_required">Katman izni gerekli</string>
+    <string name="overlay_permission_description">Bu uygulamanın açılır mesaj pencerelerini göstermek için katman iznine ihtiyacı vardır.</string>
+    <string name="permission_required">Gerekli izin</string>
+    <string name="permission_message_description">Mesajlarınıza erişmek ve hızlı mesaj göndermek için mesaj izni gereklidir.</string>
+    <string name="permission_contact_description">Kayıtlı kişilerinize erişmek ve hızlı arama yapmak için kişiler izni gereklidir.</string>
+    <string name="your_conversation_will_appear_here">Konuşmanız burada görünecek</string>
+    <string name="allow">İzin ver</string>
+    <string name="your_contacts_will_appear_here">Kişileriniz burada görünecek</string>
+    <string name="search_message">Mesaj ara</string>
+    <string name="all">Tümü</string>
+    <string name="unread">Okunmamış</string>
+    <string name="personal">Kişisel</string>
+    <string name="transaction">İşlem</string>
+    <string name="otp">OTP</string>
+    <string name="offer">Teklif</string>
+    <string name="blocked">Engellenenler</string>
+    <string name="to_move_this_conversation_out_of_blocking_and_get_messages_again_unblock">Bu konuşmayı \'Engelleme\'den çıkarmak ve yeniden mesaj almak için engeli kaldırın</string>
+    <string name="sender_does_not_support_replies">Gönderen yanıtları desteklemiyor</string>
+    <string name="this_conversation_blocked_by_you">Bu konuşma sizin tarafınızdan engellendi</string>
+    <string name="enter_message">Mesaj yazın</string>
+    <string name="today">Bugün</string>
+    <string name="yesterday">Dün</string>
+    <string name="send_failed">Mesaj gönderilemedi</string>
+    <string name="send_sms_permission_required">Mesaj göndermek için SMS izni gereklidir</string>
+
+    // Menu
+    <string name="mark_as_all_read">Tümünü okundu olarak işaretle</string>
+    <string name="add_to_contact">Kişilere ekle</string>
+    <string name="archived">Arşivlendi</string>
+    <string name="unarchived">Arşivden çıkarıldı</string>
+    <string name="block">Engelle</string>
+    <string name="unblock">Engeli kaldır</string>
+    <string name="recycle_bin">Geri dönüşüm kutusu</string>
+    <string name="restore_from_bin">Kutudan geri yükle</string>
+    <string name="change_langauge">Dili değiştir</string>
+
+    // Contacts Screen
+    <string name="search_contact">Kişi ara</string>
+
+    // Setting Screen
+    <string name="app_language">Uygulama dili</string>
+    <string name="system_default">Sistem varsayılanı</string>
+    <string name="delay_sending">Gecikmeli gönderme</string>
+    <string name="no_delay">Gecikme yok</string>
+    <string name="signatures">İmzalar</string>
+    <string name="add_your_signature">İmzanızı ekleyin</string>
+    <string name="launcher_settings">Başlatıcı ayarları</string>
+    <string name="customize_your_layout_and_icons">Düzeni ve simgeleri özelleştirin</string>
+    <string name="about_messages">Messages hakkında</string>
+    <string name="invite_friends">Arkadaşları davet et</string>
+    <string name="rate_us">Bizi değerlendirin</string>
+
+    // Delay Dialog
+    <string name="_3_sec_delay">3 sn gecikme</string>
+    <string name="_5_sec_delay">5 sn gecikme</string>
+    <string name="_10_sec_delay">10 sn gecikme</string>
+    <string name="cancel">İptal</string>
+    <string name="okay">Tamam</string>
+
+    // Signature Dialog
+    <string name="delete">Sil</string>
+    <string name="dash">-</string>
+    <string name="save">Kaydet</string>
+
+    // Launcher Settings Screen
+    <string name="serialize">Sırala</string>
+    <string name="by_name_asc_a_to_z">Ada göre artan (A\'dan Z\'ye)</string>
+    <string name="by_name_desc_z_to_a">Ada göre azalan (Z\'den A\'ya)</string>
+    <string name="by_installed_date">Kurulum tarihine göre</string>
+
+    // App Page Screen
+    <string name="preview">Önizleme</string>
+    <string name="label_visibility">Etiket görünürlüğü</string>
+    <string name="hide_app_name">Uygulama adını gizle</string>
+    <string name="app_icon_size">Uygulama simgesi boyutu</string>
+    <string name="app_label_size">Uygulama etiketi boyutu</string>
+    <string name="_10">10</string>
+
+    // About Messages Screen
+    <string name="version">Sürüm</string>
+    <string name="privacy_policy">Gizlilik politikası</string>
+    <string name="terms_conditions">Şartlar ve koşullar</string>
+
+    // Recycle Bin Dialog
+    <string name="move_to_bin">Kutuya taşı</string>
+    <string name="are_you_sure_you_want_to_move_to_bin_this_message">Bu mesajı geri dönüşüm kutusuna taşımak istediğinizden emin misiniz?</string>
+
+    // Block Dialog
+    <string name="are_you_sure_you_want_to_block_this_message">Bu mesajı engellemek istediğinizden emin misiniz?</string>
+
+    // Delete Dialog
+    <string name="delete_conversation">Konuşmayı sil</string>
+    <string name="are_you_sure_you_want_to_delete_permanently_this_message">Bu mesajı kalıcı olarak silmek istediğinizden emin misiniz?</string>
+
+    // Toast Messages
+    <string name="toast_archived">Arşivlendi</string>
+    <string name="toast_unarchived">Arşivden çıkarıldı</string>
+    <string name="toast_blocked">Engellendi</string>
+    <string name="toast_unblocked">Engel kaldırıldı</string>
+    <string name="toast_moved_to_recycle_bin">Geri dönüşüm kutusuna taşındı</string>
+    <string name="toast_restored_from_bin">Kutudan geri yüklendi</string>
+    <string name="toast_conversation_deleted">Konuşma silindi</string>
+    <string name="toast_pinned">Üste sabitlendi</string>
+    <string name="toast_unpinned">Sabitleme kaldırıldı</string>
+
+    // Other in App
+    <string name="selected">Seçildi</string>
+    <string name="no_archived_messages">Arşivlenmiş mesaj yok</string>
+    <string name="no_block_messages">Engellenmiş mesaj yok</string>
+    <string name="no_data_found">Veri bulunamadı</string>
+    <string name="recycle_bin_empty">Geri dönüşüm kutusu boş</string>
+
+    // Backup Activity
+    <string name="backup_and_restore">Yedekleme ve geri yükleme</string>
+    <string name="backup_and_restore_message_easily">Mesajları kolayca yedekleyin ve geri yükleyin</string>
+    <string name="backup_location">Yedekleme konumu</string>
+    <string name="set_folder">Klasör ayarla</string>
+    <string name="restore">Geri yükle</string>
+    <string name="select_a_backup">Bir yedek seçin</string>
+    <string name="currently_only_sms_is_supported_by_backup_and_restore_mms_support_and_scheduled_backups_will_be_coming_soon">Şu anda yedekleme ve geri yükleme yalnızca SMS için destekleniyor. MMS desteği ve zamanlanmış yedeklemeler yakında geliyor!</string>
+    <string name="backup_now">Şimdi yedekle</string>
+    <string name="backup_backing_up">Mesajlar yedekleniyor</string>
+    <string name="backup_restoring">Yedekten geri yükleniyor</string>
+    <string name="backup_parsing">Yedek analiz ediliyor…</string>
+    <string name="backup_saving">Yedek kaydediliyor…</string>
+    <string name="backup_syncing">Mesajlar senkronize ediliyor…</string>
+    <string name="backup_finished">Tamamlandı!</string>
+    <string name="backup_progress">%1$d/%2$d mesaj</string>
+    <string name="backup_message_count">%1$d mesaj</string>
+    <string name="backup_restore_dialog_title">Yedekler</string>
+    <string name="backup_restore_dialog_empty">Yedek bulunamadı</string>
+    <string name="backup_restore_confirm_title">Yedekten geri yükle</string>
+    <string name="backup_restore_confirm_message">Mesajlarınızı bu yedekten geri yüklemek istediğinizden emin misiniz?</string>
+    <string name="backup_error_title">Hata</string>
+    <string name="backup_error_read">Yedek dosyası okunamadı</string>
+    <string name="backup_select_location_first">Lütfen önce bir yedekleme konumu seçin</string>
+    <string name="backup_permission_required">Yedekleme ve geri yükleme için SMS izni gereklidir</string>
+    <string name="backup_default_app_required">Mesajları geri yüklemek için bu uygulamayı varsayılan SMS uygulaması olarak ayarlayın</string>
+    <string name="backup_stop_restore_title">Geri yükleme durdurulsun mu?</string>
+    <string name="backup_stop_restore_message">Zaten geri yüklenen mesajlar cihazınızda kalır</string>
+    <string name="stop">Durdur</string>
+
+    // Other out App
+    <string name="search">Search</string>
+    <string name="open">Open</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="trending_news">Trending News</string>
+    <string name="read_more">Read More</string>
+    <string name="loading_ads">Loading Ads…</string>
+    <string name="this_action_may_contain_ads">This action may contain Ads</string>
+
+    <string name="markrting_converter1">gclid</string>
+    <string name="utm_source_apps_facebook_com">utm_source=apps.facebook.com</string>
+    <string name="utm_source_apps_instagram_com">utm_source=apps.instagram.com</string>
+    <string name="utm_source_marketing">utm_source=marketing</string>
+
+</resources>

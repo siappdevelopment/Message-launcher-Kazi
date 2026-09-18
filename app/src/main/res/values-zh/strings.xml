@@ -1,0 +1,211 @@
+﻿<resources>
+    <string name="app_name">Messages</string>
+    <string name="app_name_launcher"># Messages</string>
+    <string name="one_inbox_for_every_conversation">One Inbox For Every Conversation</string>
+
+    // Language Screen
+    <string name="done">完成</string>
+    <string name="next">下一步</string>
+
+    // Collection / Data consent screen
+    <string name="collection_title">关于您的数据的简要说明</string>
+    <string name="collection_intro_1">我们会使用有限的设备和应用信息，以确保 Messages 快速、安全且稳定运行，展示帮助应用保持免费的广告，并向您发送重要通知。</string>
+    <string name="collection_intro_2">您的短信、联系人和个人对话不会被收集用于分析或广告用途，并始终保留在您的设备上。</string>
+    <string name="collection_what_we_use">我们收集哪些信息及其用途：</string>
+    <string name="collection_bullet_1">• 应用使用信息——例如您打开的页面和使用的功能——用于提升应用性能和用户体验</string>
+    <string name="collection_bullet_2">• 设备和应用标识符——用于保存您的偏好设置、提升应用稳定性以及支持通知功能</string>
+    <string name="collection_bullet_3">• 基于您的网络获取的大致位置——用于了解使用趋势并提供适合您所在地区的功能</string>
+    <string name="collection_bullet_4">• 广告标识符——用于展示和衡量广告效果，以帮助应用保持免费</string>
+    <string name="collection_footer">点击“同意并继续”，即表示您同意我们的服务条款并确认已阅读我们的隐私政策。我们仅收集上述信息，用于改进应用、提供必要功能以及支持广告服务。您的个人短信和对话始终保持私密。</string>
+    <string name="collection_agree_checkbox">我同意此数据收集</string>
+    <string name="collection_agree_continue">同意并继续</string>
+    <string name="collection_agree_toast">请先同意数据收集后再继续。</string>
+    <string name="terms">条款</string>
+
+    // Default SMS Screen
+    <string name="set_default_sms">设置默认短信应用</string>
+    <string name="set_default_sms_desc">将此应用设置为默认短信应用，让您的所有短信保持井然有序、安全且易于管理。</string>
+    <string name="set_as_default_sms">设为默认短信应用</string>
+
+    // Default App Screen
+    <string name="set_default_app">设置默认应用</string>
+    <string name="set_default_app_desc">将此应用设置为默认主屏幕启动器，享受更快速、更整洁且更个性化的主屏幕体验。</string>
+    <string name="set_as_default_app">设为默认应用</string>
+
+    // Intro Screen
+    <string name="intro_1_title">智能消息</string>
+    <string name="intro_1_description">通过有序、安全且即时的消息体验，高效管理对话。</string>
+    <string name="intro_2_title">实时聊天</string>
+    <string name="intro_2_description">通过快速、可靠且流畅的实时对话，每天即时连接。</string>
+    <string name="intro_3_title">联系人管理</string>
+    <string name="intro_3_description">轻松整理联系人，随时实现更快的沟通和更好的可访问性。</string>
+    <string name="intro_4_title">聊天已归档</string>
+    <string name="intro_4_description">安全存储重要对话，以便日后需要时快速访问。</string>
+
+    // Permission Dialog
+    <string name="please_allow_permissions_from_app_settings">请从应用设置中允许权限</string>
+    <string name="open_settings">打开设置</string>
+
+    // Main Screen
+    <string name="messages">消息</string>
+    <string name="contacts">联系人</string>
+    <string name="settings">设置</string>
+
+    // Messages Screen
+    <string name="overlay_permission_required">需要悬浮窗权限</string>
+    <string name="overlay_permission_description">此应用需要悬浮窗权限才能显示弹出消息窗口。</string>
+    <string name="permission_required">需要权限</string>
+    <string name="permission_message_description">需要消息权限才能访问您的消息并发送快捷消息。</string>
+    <string name="permission_contact_description">需要联系人权限才能访问您保存的联系人并进行快速拨号。</string>
+    <string name="your_conversation_will_appear_here">您的对话将显示在这里</string>
+    <string name="allow">允许</string>
+    <string name="your_contacts_will_appear_here">您的联系人将显示在这里</string>
+    <string name="search_message">搜索消息</string>
+    <string name="all">全部</string>
+    <string name="unread">未读</string>
+    <string name="personal">个人</string>
+    <string name="transaction">交易</string>
+    <string name="otp">OTP</string>
+    <string name="offer">优惠</string>
+    <string name="blocked">已屏蔽</string>
+    <string name="to_move_this_conversation_out_of_blocking_and_get_messages_again_unblock">要将此对话移出“屏蔽”并再次接收消息，请取消屏蔽</string>
+    <string name="sender_does_not_support_replies">发件人不支持回复</string>
+    <string name="this_conversation_blocked_by_you">此对话已被您屏蔽</string>
+    <string name="enter_message">输入消息</string>
+    <string name="today">今天</string>
+    <string name="yesterday">昨天</string>
+    <string name="send_failed">消息发送失败</string>
+    <string name="send_sms_permission_required">发送消息需要短信权限</string>
+
+    // Menu
+    <string name="mark_as_all_read">全部标为已读</string>
+    <string name="add_to_contact">添加到联系人</string>
+    <string name="archived">已归档</string>
+    <string name="unarchived">已取消归档</string>
+    <string name="block">屏蔽</string>
+    <string name="unblock">取消屏蔽</string>
+    <string name="recycle_bin">回收站</string>
+    <string name="restore_from_bin">从回收站恢复</string>
+    <string name="change_langauge">更改语言</string>
+
+    // Contacts Screen
+    <string name="search_contact">搜索联系人</string>
+
+    // Setting Screen
+    <string name="app_language">应用语言</string>
+    <string name="system_default">系统默认</string>
+    <string name="delay_sending">延迟发送</string>
+    <string name="no_delay">无延迟</string>
+    <string name="signatures">签名</string>
+    <string name="add_your_signature">添加您的签名</string>
+    <string name="launcher_settings">启动器设置</string>
+    <string name="customize_your_layout_and_icons">自定义布局和图标</string>
+    <string name="about_messages">关于 Messages</string>
+    <string name="invite_friends">邀请好友</string>
+    <string name="rate_us">给我们评分</string>
+
+    // Delay Dialog
+    <string name="_3_sec_delay">延迟 3 秒</string>
+    <string name="_5_sec_delay">延迟 5 秒</string>
+    <string name="_10_sec_delay">延迟 10 秒</string>
+    <string name="cancel">取消</string>
+    <string name="okay">确定</string>
+
+    // Signature Dialog
+    <string name="delete">删除</string>
+    <string name="dash">-</string>
+    <string name="save">保存</string>
+
+    // Launcher Settings Screen
+    <string name="serialize">排序</string>
+    <string name="by_name_asc_a_to_z">按名称升序（A 到 Z）</string>
+    <string name="by_name_desc_z_to_a">按名称降序（Z 到 A）</string>
+    <string name="by_installed_date">按安装日期</string>
+
+    // App Page Screen
+    <string name="preview">预览</string>
+    <string name="label_visibility">标签可见性</string>
+    <string name="hide_app_name">隐藏应用名称</string>
+    <string name="app_icon_size">应用图标大小</string>
+    <string name="app_label_size">应用标签大小</string>
+    <string name="_10">10</string>
+
+    // About Messages Screen
+    <string name="version">版本</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="terms_conditions">条款与条件</string>
+
+    // Recycle Bin Dialog
+    <string name="move_to_bin">移至回收站</string>
+    <string name="are_you_sure_you_want_to_move_to_bin_this_message">确定要将此消息移至回收站吗？</string>
+
+    // Block Dialog
+    <string name="are_you_sure_you_want_to_block_this_message">确定要屏蔽此消息吗？</string>
+
+    // Delete Dialog
+    <string name="delete_conversation">删除对话</string>
+    <string name="are_you_sure_you_want_to_delete_permanently_this_message">确定要永久删除此消息吗？</string>
+
+    // Toast Messages
+    <string name="toast_archived">已归档</string>
+    <string name="toast_unarchived">已取消归档</string>
+    <string name="toast_blocked">已屏蔽</string>
+    <string name="toast_unblocked">已取消屏蔽</string>
+    <string name="toast_moved_to_recycle_bin">已移至回收站</string>
+    <string name="toast_restored_from_bin">已从回收站恢复</string>
+    <string name="toast_conversation_deleted">对话已删除</string>
+    <string name="toast_pinned">已置顶</string>
+    <string name="toast_unpinned">已取消置顶</string>
+
+    // Other in App
+    <string name="selected">已选择</string>
+    <string name="no_archived_messages">没有已归档的消息</string>
+    <string name="no_block_messages">没有已屏蔽的消息</string>
+    <string name="no_data_found">未找到数据</string>
+    <string name="recycle_bin_empty">回收站为空</string>
+
+    // Backup Activity
+    <string name="backup_and_restore">备份与恢复</string>
+    <string name="backup_and_restore_message_easily">轻松备份和恢复消息</string>
+    <string name="backup_location">备份位置</string>
+    <string name="set_folder">设置文件夹</string>
+    <string name="restore">恢复</string>
+    <string name="select_a_backup">选择备份</string>
+    <string name="currently_only_sms_is_supported_by_backup_and_restore_mms_support_and_scheduled_backups_will_be_coming_soon">目前备份与恢复仅支持短信。彩信支持和定时备份即将推出！</string>
+    <string name="backup_now">立即备份</string>
+    <string name="backup_backing_up">正在备份消息</string>
+    <string name="backup_restoring">正在从备份恢复</string>
+    <string name="backup_parsing">正在解析备份…</string>
+    <string name="backup_saving">正在保存备份…</string>
+    <string name="backup_syncing">正在同步消息…</string>
+    <string name="backup_finished">完成！</string>
+    <string name="backup_progress">%1$d/%2$d 条消息</string>
+    <string name="backup_message_count">%1$d 条消息</string>
+    <string name="backup_restore_dialog_title">备份</string>
+    <string name="backup_restore_dialog_empty">未找到备份</string>
+    <string name="backup_restore_confirm_title">从备份恢复</string>
+    <string name="backup_restore_confirm_message">确定要从该备份恢复您的消息吗？</string>
+    <string name="backup_error_title">错误</string>
+    <string name="backup_error_read">无法读取备份文件</string>
+    <string name="backup_select_location_first">请先选择备份位置</string>
+    <string name="backup_permission_required">备份与恢复需要短信权限</string>
+    <string name="backup_default_app_required">请将此应用设为默认短信应用以恢复消息</string>
+    <string name="backup_stop_restore_title">停止恢复？</string>
+    <string name="backup_stop_restore_message">已恢复的消息将保留在您的设备上</string>
+    <string name="stop">停止</string>
+
+    // Other out App
+    <string name="search">Search</string>
+    <string name="open">Open</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="trending_news">Trending News</string>
+    <string name="read_more">Read More</string>
+    <string name="loading_ads">Loading Ads…</string>
+    <string name="this_action_may_contain_ads">This action may contain Ads</string>
+
+    <string name="markrting_converter1">gclid</string>
+    <string name="utm_source_apps_facebook_com">utm_source=apps.facebook.com</string>
+    <string name="utm_source_apps_instagram_com">utm_source=apps.instagram.com</string>
+    <string name="utm_source_marketing">utm_source=marketing</string>
+
+</resources>

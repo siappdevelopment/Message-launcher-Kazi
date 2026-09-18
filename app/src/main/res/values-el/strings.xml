@@ -1,0 +1,211 @@
+﻿<resources>
+    <string name="app_name">Messages</string>
+    <string name="app_name_launcher"># Messages</string>
+    <string name="one_inbox_for_every_conversation">One Inbox For Every Conversation</string>
+
+    // Language Screen
+    <string name="done">Τέλος</string>
+    <string name="next">Επόμενο</string>
+
+    // Collection / Data consent screen
+    <string name="collection_title">Μια σύντομη σημείωση για τα δεδομένα σας</string>
+    <string name="collection_intro_1">Χρησιμοποιούμε περιορισμένες πληροφορίες συσκευής και εφαρμογής για να διατηρούμε το Messages γρήγορο, ασφαλές και αξιόπιστο, να προβάλλουμε διαφημίσεις που βοηθούν να παραμένει δωρεάν και να σας στέλνουμε σημαντικές ειδοποιήσεις.</string>
+    <string name="collection_intro_2">Τα μηνύματά σας, οι επαφές σας και οι προσωπικές συνομιλίες σας δεν συλλέγονται για αναλύσεις ή διαφημίσεις και παραμένουν στη συσκευή σας.</string>
+    <string name="collection_what_we_use">Τι χρησιμοποιούμε και γιατί:</string>
+    <string name="collection_bullet_1">• Πληροφορίες χρήσης της εφαρμογής – όπως οι οθόνες που ανοίγετε και οι λειτουργίες που χρησιμοποιείτε – για τη βελτίωση της απόδοσης και της εμπειρίας χρήστη</string>
+    <string name="collection_bullet_2">• Αναγνωριστικά συσκευής και εφαρμογής – για την αποθήκευση των προτιμήσεών σας, τη βελτίωση της σταθερότητας της εφαρμογής και την υποστήριξη ειδοποιήσεων</string>
+    <string name="collection_bullet_3">• Γενική τοποθεσία βάσει του δικτύου σας – για την κατανόηση των τάσεων χρήσης και την παροχή λειτουργιών σχετικών με την περιοχή σας</string>
+    <string name="collection_bullet_4">• Αναγνωριστικά διαφήμισης – για την προβολή και τη μέτρηση διαφημίσεων που βοηθούν να παραμένει η εφαρμογή δωρεάν</string>
+    <string name="collection_footer">Πατώντας «Συμφωνώ &amp; Συνέχεια», αποδέχεστε τους Όρους Χρήσης και αναγνωρίζετε την Πολιτική Απορρήτου μας. Συλλέγουμε μόνο τις πληροφορίες που περιγράφονται παραπάνω για να βελτιώσουμε την εφαρμογή, να παρέχουμε βασικές λειτουργίες και να υποστηρίζουμε τη διαφήμιση. Τα προσωπικά σας μηνύματα και οι συνομιλίες σας παραμένουν ιδιωτικά.</string>
+    <string name="collection_agree_checkbox">Συμφωνώ με αυτή τη συλλογή δεδομένων</string>
+    <string name="collection_agree_continue">Συμφωνώ &amp; Συνέχεια</string>
+    <string name="collection_agree_toast">Παρακαλώ συμφωνήστε με τη συλλογή δεδομένων για να συνεχίσετε.</string>
+    <string name="terms">Όροι</string>
+
+    // Default SMS Screen
+    <string name="set_default_sms">Ορισμός προεπιλεγμένης εφαρμογής SMS</string>
+    <string name="set_default_sms_desc">Ορίστε αυτήν την εφαρμογή ως την προεπιλεγμένη εφαρμογή SMS, ώστε όλα τα μηνύματά σας να παραμένουν οργανωμένα, ασφαλή και εύκολα στη διαχείριση.</string>
+    <string name="set_as_default_sms">Ορισμός ως προεπιλεγμένης εφαρμογής SMS</string>
+
+    // Default App Screen
+    <string name="set_default_app">Ορισμός προεπιλεγμένης εφαρμογής</string>
+    <string name="set_default_app_desc">Ορίστε αυτήν την εφαρμογή ως τον προεπιλεγμένο εκκινητή αρχικής οθόνης για μια ταχύτερη, πιο καθαρή και πιο εξατομικευμένη εμπειρία αρχικής οθόνης.</string>
+    <string name="set_as_default_app">Ορισμός ως προεπιλεγμένης εφαρμογής</string>
+
+    // Intro Screen
+    <string name="intro_1_title">Έξυπνα μηνύματα</string>
+    <string name="intro_1_description">Διαχειριστείτε τις συνομιλίες αποτελεσματικά με μια οργανωμένη, ασφαλή και άμεση εμπειρία μηνυμάτων.</string>
+    <string name="intro_2_title">Συνομιλία σε πραγματικό χρόνο</string>
+    <string name="intro_2_description">Συνδεθείτε άμεσα μέσω γρήγορων, αξιόπιστων και απρόσκοπτων συνομιλιών σε πραγματικό χρόνο κάθε μέρα.</string>
+    <string name="intro_3_title">Διαχείριση επαφών</string>
+    <string name="intro_3_description">Οργανώστε τις επαφές χωρίς κόπο για ταχύτερη επικοινωνία και καλύτερη προσβασιμότητα ανά πάσα στιγμή.</string>
+    <string name="intro_4_title">Αρχειοθετημένη συνομιλία</string>
+    <string name="intro_4_description">Αποθηκεύστε με ασφάλεια σημαντικές συνομιλίες για γρήγορη πρόσβαση όποτε τις χρειαστείτε αργότερα.</string>
+
+    // Permission Dialog
+    <string name="please_allow_permissions_from_app_settings">Επιτρέψτε τα δικαιώματα από τις ρυθμίσεις της εφαρμογής</string>
+    <string name="open_settings">Άνοιγμα ρυθμίσεων</string>
+
+    // Main Screen
+    <string name="messages">Μηνύματα</string>
+    <string name="contacts">Επαφές</string>
+    <string name="settings">Ρυθμίσεις</string>
+
+    // Messages Screen
+    <string name="overlay_permission_required">Απαιτείται άδεια επικάλυψης</string>
+    <string name="overlay_permission_description">Αυτή η εφαρμογή χρειάζεται άδεια επικάλυψης για να εμφανίζει αναδυόμενα παράθυρα μηνυμάτων.</string>
+    <string name="permission_required">Απαιτούμενη άδεια</string>
+    <string name="permission_message_description">Απαιτείται άδεια μηνυμάτων για πρόσβαση στα μηνύματά σας και αποστολή γρήγορων μηνυμάτων.</string>
+    <string name="permission_contact_description">Απαιτείται άδεια επαφών για πρόσβαση στις αποθηκευμένες επαφές σας και γρήγορες κλήσεις.</string>
+    <string name="your_conversation_will_appear_here">Η συνομιλία σας θα εμφανιστεί εδώ</string>
+    <string name="allow">Να επιτρέπεται</string>
+    <string name="your_contacts_will_appear_here">Οι επαφές σας θα εμφανιστούν εδώ</string>
+    <string name="search_message">Αναζήτηση μηνυμάτων</string>
+    <string name="all">Όλα</string>
+    <string name="unread">Μη αναγνωσμένα</string>
+    <string name="personal">Προσωπικά</string>
+    <string name="transaction">Συναλλαγή</string>
+    <string name="otp">OTP</string>
+    <string name="offer">Προσφορά</string>
+    <string name="blocked">Αποκλεισμένα</string>
+    <string name="to_move_this_conversation_out_of_blocking_and_get_messages_again_unblock">Για να μετακινήσετε αυτή τη συνομιλία εκτός \'Αποκλεισμού\' και να λαμβάνετε ξανά μηνύματα, καταργήστε τον αποκλεισμό</string>
+    <string name="sender_does_not_support_replies">Ο αποστολέας δεν υποστηρίζει απαντήσεις</string>
+    <string name="this_conversation_blocked_by_you">Αυτή η συνομιλία έχει αποκλειστεί από εσάς</string>
+    <string name="enter_message">Εισαγωγή μηνύματος</string>
+    <string name="today">Σήμερα</string>
+    <string name="yesterday">Χθες</string>
+    <string name="send_failed">Αποτυχία αποστολής μηνύματος</string>
+    <string name="send_sms_permission_required">Απαιτείται άδεια SMS για αποστολή μηνυμάτων</string>
+
+    // Menu
+    <string name="mark_as_all_read">Επισήμανση όλων ως αναγνωσμένα</string>
+    <string name="add_to_contact">Προσθήκη στις επαφές</string>
+    <string name="archived">Αρχειοθετημένα</string>
+    <string name="unarchived">Κατάργηση αρχειοθέτησης</string>
+    <string name="block">Αποκλεισμός</string>
+    <string name="unblock">Κατάργηση αποκλεισμού</string>
+    <string name="recycle_bin">Κάδος ανακύκλωσης</string>
+    <string name="restore_from_bin">Επαναφορά από τον κάδο</string>
+    <string name="change_langauge">Αλλαγή γλώσσας</string>
+
+    // Contacts Screen
+    <string name="search_contact">Αναζήτηση επαφών</string>
+
+    // Setting Screen
+    <string name="app_language">Γλώσσα εφαρμογής</string>
+    <string name="system_default">Προεπιλογή συστήματος</string>
+    <string name="delay_sending">Καθυστερημένη αποστολή</string>
+    <string name="no_delay">Χωρίς καθυστέρηση</string>
+    <string name="signatures">Υπογραφές</string>
+    <string name="add_your_signature">Προσθέστε την υπογραφή σας</string>
+    <string name="launcher_settings">Ρυθμίσεις εκκινητή</string>
+    <string name="customize_your_layout_and_icons">Προσαρμόστε τη διάταξη και τα εικονίδια</string>
+    <string name="about_messages">Σχετικά με το Messages</string>
+    <string name="invite_friends">Προσκάλεσε φίλους</string>
+    <string name="rate_us">Αξιολογήστε μας</string>
+
+    // Delay Dialog
+    <string name="_3_sec_delay">Καθυστέρηση 3 δευτ.</string>
+    <string name="_5_sec_delay">Καθυστέρηση 5 δευτ.</string>
+    <string name="_10_sec_delay">Καθυστέρηση 10 δευτ.</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="okay">Εντάξει</string>
+
+    // Signature Dialog
+    <string name="delete">Διαγραφή</string>
+    <string name="dash">-</string>
+    <string name="save">Αποθήκευση</string>
+
+    // Launcher Settings Screen
+    <string name="serialize">Ταξινόμηση</string>
+    <string name="by_name_asc_a_to_z">Κατά όνομα αύξουσα (Α έως Ω)</string>
+    <string name="by_name_desc_z_to_a">Κατά όνομα φθίνουσα (Ω έως Α)</string>
+    <string name="by_installed_date">Κατά ημερομηνία εγκατάστασης</string>
+
+    // App Page Screen
+    <string name="preview">Προεπισκόπηση</string>
+    <string name="label_visibility">Ορατότητα ετικέτας</string>
+    <string name="hide_app_name">Απόκρυψη ονόματος εφαρμογής</string>
+    <string name="app_icon_size">Μέγεθος εικονιδίου εφαρμογής</string>
+    <string name="app_label_size">Μέγεθος ετικέτας εφαρμογής</string>
+    <string name="_10">10</string>
+
+    // About Messages Screen
+    <string name="version">Έκδοση</string>
+    <string name="privacy_policy">Πολιτική απορρήτου</string>
+    <string name="terms_conditions">Όροι &amp; Προϋποθέσεις</string>
+
+    // Recycle Bin Dialog
+    <string name="move_to_bin">Μετακίνηση στον κάδο</string>
+    <string name="are_you_sure_you_want_to_move_to_bin_this_message">Είστε βέβαιοι ότι θέλετε να μετακινήσετε αυτό το μήνυμα στον κάδο;</string>
+
+    // Block Dialog
+    <string name="are_you_sure_you_want_to_block_this_message">Είστε βέβαιοι ότι θέλετε να αποκλείσετε αυτό το μήνυμα;</string>
+
+    // Delete Dialog
+    <string name="delete_conversation">Διαγραφή συνομιλίας</string>
+    <string name="are_you_sure_you_want_to_delete_permanently_this_message">Είστε βέβαιοι ότι θέλετε να διαγράψετε οριστικά αυτό το μήνυμα;</string>
+
+    // Toast Messages
+    <string name="toast_archived">Αρχειοθετήθηκε</string>
+    <string name="toast_unarchived">Καταργήθηκε η αρχειοθέτηση</string>
+    <string name="toast_blocked">Αποκλείστηκε</string>
+    <string name="toast_unblocked">Καταργήθηκε ο αποκλεισμός</string>
+    <string name="toast_moved_to_recycle_bin">Μετακινήθηκε στον κάδο ανακύκλωσης</string>
+    <string name="toast_restored_from_bin">Επαναφέρθηκε από τον κάδο</string>
+    <string name="toast_conversation_deleted">Η συνομιλία διαγράφηκε</string>
+    <string name="toast_pinned">Καρφιτσώθηκε στην κορυφή</string>
+    <string name="toast_unpinned">Ξεκαρφιτσώθηκε</string>
+
+    // Other in App
+    <string name="selected">Επιλεγμένα</string>
+    <string name="no_archived_messages">Δεν υπάρχουν αρχειοθετημένα μηνύματα</string>
+    <string name="no_block_messages">Δεν υπάρχουν αποκλεισμένα μηνύματα</string>
+    <string name="no_data_found">Δεν βρέθηκαν δεδομένα</string>
+    <string name="recycle_bin_empty">Ο κάδος ανακύκλωσης είναι κενός</string>
+
+    // Backup Activity
+    <string name="backup_and_restore">Αντίγραφο ασφαλείας και επαναφορά</string>
+    <string name="backup_and_restore_message_easily">Δημιουργήστε αντίγραφα ασφαλείας και επαναφέρετε μηνύματα εύκολα</string>
+    <string name="backup_location">Τοποθεσία αντιγράφου ασφαλείας</string>
+    <string name="set_folder">Ορισμός φακέλου</string>
+    <string name="restore">Επαναφορά</string>
+    <string name="select_a_backup">Επιλογή αντιγράφου ασφαλείας</string>
+    <string name="currently_only_sms_is_supported_by_backup_and_restore_mms_support_and_scheduled_backups_will_be_coming_soon">Προς το παρόν υποστηρίζονται μόνο SMS για αντίγραφα ασφαλείας και επαναφορά. Η υποστήριξη MMS και τα προγραμματισμένα αντίγραφα ασφαλείας θα έρθουν σύντομα!</string>
+    <string name="backup_now">Αντίγραφο ασφαλείας τώρα</string>
+    <string name="backup_backing_up">Δημιουργία αντιγράφου ασφαλείας μηνυμάτων</string>
+    <string name="backup_restoring">Επαναφορά από αντίγραφο ασφαλείας</string>
+    <string name="backup_parsing">Ανάλυση αντιγράφου ασφαλείας…</string>
+    <string name="backup_saving">Αποθήκευση αντιγράφου ασφαλείας…</string>
+    <string name="backup_syncing">Συγχρονισμός μηνυμάτων…</string>
+    <string name="backup_finished">Ολοκληρώθηκε!</string>
+    <string name="backup_progress">%1$d/%2$d μηνύματα</string>
+    <string name="backup_message_count">%1$d μηνύματα</string>
+    <string name="backup_restore_dialog_title">Αντίγραφα ασφαλείας</string>
+    <string name="backup_restore_dialog_empty">Δεν βρέθηκαν αντίγραφα ασφαλείας</string>
+    <string name="backup_restore_confirm_title">Επαναφορά από αντίγραφο ασφαλείας</string>
+    <string name="backup_restore_confirm_message">Είστε βέβαιοι ότι θέλετε να επαναφέρετε τα μηνύματά σας από αυτό το αντίγραφο ασφαλείας;</string>
+    <string name="backup_error_title">Σφάλμα</string>
+    <string name="backup_error_read">Δεν ήταν δυνατή η ανάγνωση του αρχείου αντιγράφου ασφαλείας</string>
+    <string name="backup_select_location_first">Επιλέξτε πρώτα μια τοποθεσία αντιγράφου ασφαλείας</string>
+    <string name="backup_permission_required">Απαιτείται άδεια SMS για αντίγραφο ασφαλείας και επαναφορά</string>
+    <string name="backup_default_app_required">Ορίστε αυτή την εφαρμογή ως προεπιλεγμένη εφαρμογή SMS για επαναφορά μηνυμάτων</string>
+    <string name="backup_stop_restore_title">Διακοπή επαναφοράς;</string>
+    <string name="backup_stop_restore_message">Τα μηνύματα που έχουν ήδη επαναφερθεί θα παραμείνουν στη συσκευή σας</string>
+    <string name="stop">Διακοπή</string>
+
+    // Other out App
+    <string name="search">Search</string>
+    <string name="open">Open</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="trending_news">Trending News</string>
+    <string name="read_more">Read More</string>
+    <string name="loading_ads">Loading Ads…</string>
+    <string name="this_action_may_contain_ads">This action may contain Ads</string>
+
+    <string name="markrting_converter1">gclid</string>
+    <string name="utm_source_apps_facebook_com">utm_source=apps.facebook.com</string>
+    <string name="utm_source_apps_instagram_com">utm_source=apps.instagram.com</string>
+    <string name="utm_source_marketing">utm_source=marketing</string>
+
+</resources>

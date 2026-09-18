@@ -1,0 +1,211 @@
+﻿<resources>
+    <string name="app_name">Messages</string>
+    <string name="app_name_launcher"># Messages</string>
+    <string name="one_inbox_for_every_conversation">One Inbox For Every Conversation</string>
+
+    // Language Screen
+    <string name="done">Gotovo</string>
+    <string name="next">Dalje</string>
+
+    // Collection / Data consent screen
+    <string name="collection_title">Kratka napomena o vašim podacima</string>
+    <string name="collection_intro_1">Koristimo ograničene podatke o uređaju i aplikaciji kako bismo održali Messages brzim, sigurnim i pouzdanim, prikazivali oglase koji pomažu da aplikacija ostane besplatna te vam slali važne obavijesti.</string>
+    <string name="collection_intro_2">Vaše poruke, kontakti i osobni razgovori ne prikupljaju se za analitiku ili oglašavanje i ostaju na vašem uređaju.</string>
+    <string name="collection_what_we_use">Što koristimo i zašto:</string>
+    <string name="collection_bullet_1">• Informacije o korištenju aplikacije – poput zaslona koje otvarate i značajki koje koristite – za poboljšanje performansi i korisničkog iskustva</string>
+    <string name="collection_bullet_2">• Identifikatori uređaja i aplikacije – za spremanje vaših postavki, poboljšanje stabilnosti aplikacije i podršku obavijestima</string>
+    <string name="collection_bullet_3">• Opća lokacija na temelju vaše mreže – za razumijevanje trendova korištenja i pružanje značajki prilagođenih vašoj regiji</string>
+    <string name="collection_bullet_4">• Identifikatori za oglašavanje – za prikazivanje i mjerenje oglasa koji pomažu da aplikacija ostane besplatna</string>
+    <string name="collection_footer">Dodirom na Slažem se i nastavi prihvaćate naše Uvjete korištenja i potvrđujete da ste upoznati s našim Pravilima privatnosti. Prikupljamo samo gore opisane podatke kako bismo poboljšali aplikaciju, omogućili ključne značajke i podržali oglašavanje. Vaše osobne poruke i razgovori ostaju privatni.</string>
+    <string name="collection_agree_checkbox">Slažem se s ovim prikupljanjem podataka</string>
+    <string name="collection_agree_continue">Slažem se i nastavi</string>
+    <string name="collection_agree_toast">Molimo prihvatite prikupljanje podataka za nastavak.</string>
+    <string name="terms">Uvjeti</string>
+
+    // Default SMS Screen
+    <string name="set_default_sms">Postavi zadanu SMS aplikaciju</string>
+    <string name="set_default_sms_desc">Postavite ovu aplikaciju kao zadanu SMS aplikaciju kako bi sve vaše poruke bile organizirane, sigurne i jednostavne za upravljanje.</string>
+    <string name="set_as_default_sms">Postavi kao zadanu SMS aplikaciju</string>
+
+    // Default App Screen
+    <string name="set_default_app">Postavi zadanu aplikaciju</string>
+    <string name="set_default_app_desc">Postavite ovu aplikaciju kao zadani pokretač početnog zaslona kako biste uživali u bržem, čišćem i personaliziranijem početnom zaslonu.</string>
+    <string name="set_as_default_app">Postavi kao zadanu aplikaciju</string>
+
+    // Intro Screen
+    <string name="intro_1_title">Pametno slanje poruka</string>
+    <string name="intro_1_description">Učinkovito upravljajte razgovorima uz organizirano, sigurno i trenutno iskustvo slanja poruka.</string>
+    <string name="intro_2_title">Chat u stvarnom vremenu</string>
+    <string name="intro_2_description">Povežite se odmah putem brzih, pouzdanih i besprijekornih razgovora u stvarnom vremenu svaki dan.</string>
+    <string name="intro_3_title">Upravljanje kontaktima</string>
+    <string name="intro_3_description">Organizirajte kontakte bez napora za bržu komunikaciju i bolju dostupnost u bilo kojem trenutku.</string>
+    <string name="intro_4_title">Chat arhiviran</string>
+    <string name="intro_4_description">Sigurno pohranite važne razgovore za brzi pristup kad god vam zatreba kasnije.</string>
+
+    // Permission Dialog
+    <string name="please_allow_permissions_from_app_settings">Dopustite dozvole u postavkama aplikacije</string>
+    <string name="open_settings">Otvori postavke</string>
+
+    // Main Screen
+    <string name="messages">Poruke</string>
+    <string name="contacts">Kontakti</string>
+    <string name="settings">Postavke</string>
+
+    // Messages Screen
+    <string name="overlay_permission_required">Potrebna je dozvola za preklapanje</string>
+    <string name="overlay_permission_description">Ova aplikacija treba dozvolu za preklapanje kako bi prikazala skočne prozore poruka.</string>
+    <string name="permission_required">Potrebna dozvola</string>
+    <string name="permission_message_description">Dozvola za poruke potrebna je za pristup vašim porukama i slanje brzih poruka.</string>
+    <string name="permission_contact_description">Dozvola za kontakte potrebna je za pristup vašim spremljenim kontaktima i brzo pozivanje.</string>
+    <string name="your_conversation_will_appear_here">Vaš razgovor će se pojaviti ovdje</string>
+    <string name="allow">Dopusti</string>
+    <string name="your_contacts_will_appear_here">Vaši kontakti će se pojaviti ovdje</string>
+    <string name="search_message">Pretraži poruke</string>
+    <string name="all">Sve</string>
+    <string name="unread">Nepročitano</string>
+    <string name="personal">Osobno</string>
+    <string name="transaction">Transakcija</string>
+    <string name="otp">OTP</string>
+    <string name="offer">Ponuda</string>
+    <string name="blocked">Blokirano</string>
+    <string name="to_move_this_conversation_out_of_blocking_and_get_messages_again_unblock">Da biste premjestili ovaj razgovor iz \'Blokiranja\' i ponovno primali poruke, deblokirajte</string>
+    <string name="sender_does_not_support_replies">Pošiljatelj ne podržava odgovore</string>
+    <string name="this_conversation_blocked_by_you">Ovaj razgovor ste blokirali</string>
+    <string name="enter_message">Unesite poruku</string>
+    <string name="today">Danas</string>
+    <string name="yesterday">Jučer</string>
+    <string name="send_failed">Slanje poruke nije uspjelo</string>
+    <string name="send_sms_permission_required">Za slanje poruka potrebna je SMS dozvola</string>
+
+    // Menu
+    <string name="mark_as_all_read">Označi sve kao pročitano</string>
+    <string name="add_to_contact">Dodaj u kontakte</string>
+    <string name="archived">Arhivirano</string>
+    <string name="unarchived">Uklonjeno iz arhive</string>
+    <string name="block">Blokiraj</string>
+    <string name="unblock">Deblokiraj</string>
+    <string name="recycle_bin">Koš za smeće</string>
+    <string name="restore_from_bin">Vrati iz koša</string>
+    <string name="change_langauge">Promijeni jezik</string>
+
+    // Contacts Screen
+    <string name="search_contact">Pretraži kontakte</string>
+
+    // Setting Screen
+    <string name="app_language">Jezik aplikacije</string>
+    <string name="system_default">Zadano sustava</string>
+    <string name="delay_sending">Odgođeno slanje</string>
+    <string name="no_delay">Bez odgode</string>
+    <string name="signatures">Potpisi</string>
+    <string name="add_your_signature">Dodajte svoj potpis</string>
+    <string name="launcher_settings">Postavke pokretača</string>
+    <string name="customize_your_layout_and_icons">Prilagodite raspored i ikone</string>
+    <string name="about_messages">O aplikaciji Messages</string>
+    <string name="invite_friends">Pozovi prijatelje</string>
+    <string name="rate_us">Ocijenite nas</string>
+
+    // Delay Dialog
+    <string name="_3_sec_delay">Odgoda 3 sek</string>
+    <string name="_5_sec_delay">Odgoda 5 sek</string>
+    <string name="_10_sec_delay">Odgoda 10 sek</string>
+    <string name="cancel">Odustani</string>
+    <string name="okay">U redu</string>
+
+    // Signature Dialog
+    <string name="delete">Izbriši</string>
+    <string name="dash">-</string>
+    <string name="save">Spremi</string>
+
+    // Launcher Settings Screen
+    <string name="serialize">Razvrstaj</string>
+    <string name="by_name_asc_a_to_z">Po imenu uzlazno (A do Z)</string>
+    <string name="by_name_desc_z_to_a">Po imenu silazno (Z do A)</string>
+    <string name="by_installed_date">Po datumu instalacije</string>
+
+    // App Page Screen
+    <string name="preview">Pregled</string>
+    <string name="label_visibility">Vidljivost oznake</string>
+    <string name="hide_app_name">Sakrij naziv aplikacije</string>
+    <string name="app_icon_size">Veličina ikone aplikacije</string>
+    <string name="app_label_size">Veličina oznake aplikacije</string>
+    <string name="_10">10</string>
+
+    // About Messages Screen
+    <string name="version">Verzija</string>
+    <string name="privacy_policy">Pravila privatnosti</string>
+    <string name="terms_conditions">Uvjeti korištenja</string>
+
+    // Recycle Bin Dialog
+    <string name="move_to_bin">Premjesti u koš</string>
+    <string name="are_you_sure_you_want_to_move_to_bin_this_message">Jeste li sigurni da želite premjestiti ovu poruku u koš?</string>
+
+    // Block Dialog
+    <string name="are_you_sure_you_want_to_block_this_message">Jeste li sigurni da želite blokirati ovu poruku?</string>
+
+    // Delete Dialog
+    <string name="delete_conversation">Izbriši razgovor</string>
+    <string name="are_you_sure_you_want_to_delete_permanently_this_message">Jeste li sigurni da želite trajno izbrisati ovu poruku?</string>
+
+    // Toast Messages
+    <string name="toast_archived">Arhivirano</string>
+    <string name="toast_unarchived">Uklonjeno iz arhive</string>
+    <string name="toast_blocked">Blokirano</string>
+    <string name="toast_unblocked">Deblokirano</string>
+    <string name="toast_moved_to_recycle_bin">Premješteno u koš za smeće</string>
+    <string name="toast_restored_from_bin">Vraćeno iz koša</string>
+    <string name="toast_conversation_deleted">Razgovor izbrisan</string>
+    <string name="toast_pinned">Prikvačeno na vrh</string>
+    <string name="toast_unpinned">Otkvačeno</string>
+
+    // Other in App
+    <string name="selected">Odabrano</string>
+    <string name="no_archived_messages">Nema arhiviranih poruka</string>
+    <string name="no_block_messages">Nema blokiranih poruka</string>
+    <string name="no_data_found">Nema pronađenih podataka</string>
+    <string name="recycle_bin_empty">Koš za smeće je prazan</string>
+
+    // Backup Activity
+    <string name="backup_and_restore">Sigurnosna kopija i vraćanje</string>
+    <string name="backup_and_restore_message_easily">Jednostavno izradite sigurnosnu kopiju i vratite poruke</string>
+    <string name="backup_location">Lokacija sigurnosne kopije</string>
+    <string name="set_folder">Postavi mapu</string>
+    <string name="restore">Vrati</string>
+    <string name="select_a_backup">Odaberite sigurnosnu kopiju</string>
+    <string name="currently_only_sms_is_supported_by_backup_and_restore_mms_support_and_scheduled_backups_will_be_coming_soon">Trenutačno je za sigurnosnu kopiju i vraćanje podržan samo SMS. Podrška za MMS i zakazane sigurnosne kopije uskoro stižu!</string>
+    <string name="backup_now">Izradi sigurnosnu kopiju sada</string>
+    <string name="backup_backing_up">Izrada sigurnosne kopije poruka</string>
+    <string name="backup_restoring">Vraćanje iz sigurnosne kopije</string>
+    <string name="backup_parsing">Analiza sigurnosne kopije…</string>
+    <string name="backup_saving">Spremanje sigurnosne kopije…</string>
+    <string name="backup_syncing">Sinkronizacija poruka…</string>
+    <string name="backup_finished">Gotovo!</string>
+    <string name="backup_progress">%1$d/%2$d poruka</string>
+    <string name="backup_message_count">%1$d poruka</string>
+    <string name="backup_restore_dialog_title">Sigurnosne kopije</string>
+    <string name="backup_restore_dialog_empty">Nema pronađenih sigurnosnih kopija</string>
+    <string name="backup_restore_confirm_title">Vrati iz sigurnosne kopije</string>
+    <string name="backup_restore_confirm_message">Jeste li sigurni da želite vratiti svoje poruke iz ove sigurnosne kopije?</string>
+    <string name="backup_error_title">Greška</string>
+    <string name="backup_error_read">Nije moguće pročitati datoteku sigurnosne kopije</string>
+    <string name="backup_select_location_first">Prvo odaberite lokaciju sigurnosne kopije</string>
+    <string name="backup_permission_required">Za sigurnosnu kopiju i vraćanje potrebna je SMS dozvola</string>
+    <string name="backup_default_app_required">Postavite ovu aplikaciju kao zadanu SMS aplikaciju za vraćanje poruka</string>
+    <string name="backup_stop_restore_title">Zaustaviti vraćanje?</string>
+    <string name="backup_stop_restore_message">Poruke koje su već vraćene ostat će na vašem uređaju</string>
+    <string name="stop">Zaustavi</string>
+
+    // Other out App
+    <string name="search">Search</string>
+    <string name="open">Open</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="trending_news">Trending News</string>
+    <string name="read_more">Read More</string>
+    <string name="loading_ads">Loading Ads…</string>
+    <string name="this_action_may_contain_ads">This action may contain Ads</string>
+
+    <string name="markrting_converter1">gclid</string>
+    <string name="utm_source_apps_facebook_com">utm_source=apps.facebook.com</string>
+    <string name="utm_source_apps_instagram_com">utm_source=apps.instagram.com</string>
+    <string name="utm_source_marketing">utm_source=marketing</string>
+
+</resources>

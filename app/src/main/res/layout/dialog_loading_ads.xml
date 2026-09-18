@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_120sdp"
+    android:layout_height="@dimen/_80sdp"
+    android:background="@drawable/custom_popup_bg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:layout_width="@dimen/_24sdp"
+        android:layout_height="@dimen/_24sdp"
+        android:indeterminateTint="@color/primary"
+        android:indeterminateTintMode="src_in" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:fontFamily="@font/fig_tree_medium"
+        android:text="@string/loading_ads"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp" />
+
+</LinearLayout>

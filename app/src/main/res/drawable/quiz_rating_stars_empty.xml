@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="@dimen/quiz_rating_bar_width"
+        android:height="@dimen/quiz_rating_star_size"
+        android:drawable="@android:color/transparent" />
+
+    <item
+        android:width="@dimen/quiz_rating_star_size"
+        android:height="@dimen/quiz_rating_star_size"
+        android:drawable="@drawable/ic_quiz_rating_star_empty"
+        android:gravity="center_vertical|start" />
+
+    <item
+        android:width="@dimen/quiz_rating_star_size"
+        android:height="@dimen/quiz_rating_star_size"
+        android:drawable="@drawable/ic_quiz_rating_star_empty"
+        android:gravity="center_vertical|start"
+        android:left="@dimen/quiz_rating_star_offset_1" />
+
+    <item
+        android:width="@dimen/quiz_rating_star_size"
+        android:height="@dimen/quiz_rating_star_size"
+        android:drawable="@drawable/ic_quiz_rating_star_empty"
+        android:gravity="center_vertical|start"
+        android:left="@dimen/quiz_rating_star_offset_2" />
+
+    <item
+        android:width="@dimen/quiz_rating_star_size"
+        android:height="@dimen/quiz_rating_star_size"
+        android:drawable="@drawable/ic_quiz_rating_star_empty"
+        android:gravity="center_vertical|start"
+        android:left="@dimen/quiz_rating_star_offset_3" />
+
+    <item
+        android:width="@dimen/quiz_rating_star_size"
+        android:height="@dimen/quiz_rating_star_size"
+        android:drawable="@drawable/ic_quiz_rating_star_empty"
+        android:gravity="center_vertical|start"
+        android:left="@dimen/quiz_rating_star_offset_4" />
+</layer-list>

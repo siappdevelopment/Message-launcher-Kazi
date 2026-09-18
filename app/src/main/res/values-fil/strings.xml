@@ -1,0 +1,211 @@
+﻿<resources>
+    <string name="app_name">Messages</string>
+    <string name="app_name_launcher"># Messages</string>
+    <string name="one_inbox_for_every_conversation">One Inbox For Every Conversation</string>
+
+    // Language Screen
+    <string name="done">Tapos na</string>
+    <string name="next">Susunod</string>
+
+    // Collection / Data consent screen
+    <string name="collection_title">Isang mabilis na paalala tungkol sa iyong data</string>
+    <string name="collection_intro_1">Gumagamit kami ng limitadong impormasyon tungkol sa device at app upang mapanatiling mabilis, ligtas, at maaasahan ang Messages, magpakita ng mga ad na tumutulong na mapanatiling libre ang app, at magpadala sa iyo ng mahahalagang notification.</string>
+    <string name="collection_intro_2">Ang iyong mga mensahe, contact, at personal na pag-uusap ay hindi kinokolekta para sa analytics o advertising at nananatili sa iyong device.</string>
+    <string name="collection_what_we_use">Ano ang ginagamit namin at bakit:</string>
+    <string name="collection_bullet_1">• Impormasyon tungkol sa paggamit ng app — tulad ng mga screen na binubuksan mo at mga feature na ginagamit mo — upang mapabuti ang performance at karanasan ng user</string>
+    <string name="collection_bullet_2">• Mga identifier ng device at app — upang i-save ang iyong mga kagustuhan, mapabuti ang katatagan ng app, at suportahan ang mga notification</string>
+    <string name="collection_bullet_3">• Pangkalahatang lokasyon batay sa iyong network — upang maunawaan ang mga trend sa paggamit at makapagbigay ng mga feature na angkop sa iyong rehiyon</string>
+    <string name="collection_bullet_4">• Mga advertising identifier — upang magpakita at sukatin ang mga ad na tumutulong na mapanatiling libre ang app</string>
+    <string name="collection_footer">Sa pag-tap sa Sang-ayon at Magpatuloy, sumasang-ayon ka sa aming Mga Tuntunin ng Serbisyo at kinikilala ang aming Patakaran sa Privacy. Kinokolekta lamang namin ang impormasyong inilarawan sa itaas upang mapabuti ang app, magbigay ng mahahalagang feature, at suportahan ang advertising. Ang iyong mga personal na mensahe at pag-uusap ay nananatiling pribado.</string>
+    <string name="collection_agree_checkbox">Sumasang-ayon ako sa pangongolekta ng data na ito</string>
+    <string name="collection_agree_continue">Sang-ayon at Magpatuloy</string>
+    <string name="collection_agree_toast">Mangyaring sumang-ayon sa pangongolekta ng data upang magpatuloy.</string>
+    <string name="terms">Mga Tuntunin</string>
+
+    // Default SMS Screen
+    <string name="set_default_sms">Itakda ang Default na SMS</string>
+    <string name="set_default_sms_desc">Itakda ang app na ito bilang iyong default na SMS app upang mapanatiling organisado, ligtas, at madaling pamahalaan ang lahat ng iyong mga mensahe.</string>
+    <string name="set_as_default_sms">Itakda bilang Default na SMS</string>
+
+    // Default App Screen
+    <string name="set_default_app">Itakda ang Default na App</string>
+    <string name="set_default_app_desc">Itakda ang app na ito bilang iyong default na Home launcher upang magkaroon ng mas mabilis, mas malinis, at mas personalisadong karanasan sa home screen.</string>
+    <string name="set_as_default_app">Itakda bilang Default na App</string>
+
+    // Intro Screen
+    <string name="intro_1_title">Matalinong pagmemensahe</string>
+    <string name="intro_1_description">Pamahalaan ang mga usapan nang mahusay gamit ang organisado, secure, at instant na karanasan sa pagmemensahe.</string>
+    <string name="intro_2_title">Real-time na chat</string>
+    <string name="intro_2_description">Kumonekta agad sa pamamagitan ng mabilis, maaasahan, at seamless na real-time na usapan araw-araw.</string>
+    <string name="intro_3_title">Pamamahala ng contact</string>
+    <string name="intro_3_description">Ayusin ang mga contact nang madali para sa mas mabilis na komunikasyon at mas mahusay na accessibility anumang oras.</string>
+    <string name="intro_4_title">Naka-archive na chat</string>
+    <string name="intro_4_description">Ligtas na iimbak ang mahahalagang usapan para sa mabilis na access kapag kailangan mo mamaya.</string>
+
+    // Permission Dialog
+    <string name="please_allow_permissions_from_app_settings">Paki-payagan ang mga pahintulot mula sa mga setting ng app</string>
+    <string name="open_settings">Buksan ang Settings</string>
+
+    // Main Screen
+    <string name="messages">Mensahe</string>
+    <string name="contacts">Mga Contact</string>
+    <string name="settings">Mga Setting</string>
+
+    // Messages Screen
+    <string name="overlay_permission_required">Kailangan ang pahintulot sa overlay</string>
+    <string name="overlay_permission_description">Kailangan ng app na ito ng pahintulot sa overlay upang magpakita ng mga popup na window ng mensahe.</string>
+    <string name="permission_required">Kinakailangang pahintulot</string>
+    <string name="permission_message_description">Kailangan ang pahintulot sa mensahe upang ma-access ang iyong mga mensahe at makapagpadala ng mabilis na mensahe.</string>
+    <string name="permission_contact_description">Kailangan ang pahintulot sa mga contact upang ma-access ang iyong mga naka-save na contact at mabilis na tumawag.</string>
+    <string name="your_conversation_will_appear_here">Lalabas dito ang iyong usapan</string>
+    <string name="allow">Payagan</string>
+    <string name="your_contacts_will_appear_here">Lalabas dito ang iyong mga contact</string>
+    <string name="search_message">Maghanap ng mensahe</string>
+    <string name="all">Lahat</string>
+    <string name="unread">Hindi pa nabasa</string>
+    <string name="personal">Personal</string>
+    <string name="transaction">Transaksyon</string>
+    <string name="otp">OTP</string>
+    <string name="offer">Alok</string>
+    <string name="blocked">Naka-block</string>
+    <string name="to_move_this_conversation_out_of_blocking_and_get_messages_again_unblock">Para ilipat ang usapan na ito palabas sa \'Pag-block\' at makatanggap muli ng mga mensahe, i-unblock</string>
+    <string name="sender_does_not_support_replies">Hindi sinusuportahan ng nagpadala ang mga tugon</string>
+    <string name="this_conversation_blocked_by_you">Na-block mo ang usapan na ito</string>
+    <string name="enter_message">Mag-type ng mensahe</string>
+    <string name="today">Ngayon</string>
+    <string name="yesterday">Kahapon</string>
+    <string name="send_failed">Hindi naipadala ang mensahe</string>
+    <string name="send_sms_permission_required">Kailangan ang pahintulot sa SMS upang makapagpadala ng mga mensahe</string>
+
+    // Menu
+    <string name="mark_as_all_read">Markahan ang lahat bilang nabasa</string>
+    <string name="add_to_contact">Idagdag sa contact</string>
+    <string name="archived">Naka-archive</string>
+    <string name="unarchived">Inalis sa archive</string>
+    <string name="block">I-block</string>
+    <string name="unblock">I-unblock</string>
+    <string name="recycle_bin">Recycle Bin</string>
+    <string name="restore_from_bin">Ibalik mula sa Bin</string>
+    <string name="change_langauge">Palitan ang wika</string>
+
+    // Contacts Screen
+    <string name="search_contact">Maghanap ng contact</string>
+
+    // Setting Screen
+    <string name="app_language">Wika ng app</string>
+    <string name="system_default">Default ng system</string>
+    <string name="delay_sending">Naantalang pagpapadala</string>
+    <string name="no_delay">Walang delay</string>
+    <string name="signatures">Mga Lagda</string>
+    <string name="add_your_signature">Idagdag ang iyong lagda</string>
+    <string name="launcher_settings">Mga setting ng launcher</string>
+    <string name="customize_your_layout_and_icons">I-customize ang layout at mga icon</string>
+    <string name="about_messages">Tungkol sa Messages</string>
+    <string name="invite_friends">Mag-imbita ng mga kaibigan</string>
+    <string name="rate_us">I-rate kami</string>
+
+    // Delay Dialog
+    <string name="_3_sec_delay">3 seg. na delay</string>
+    <string name="_5_sec_delay">5 seg. na delay</string>
+    <string name="_10_sec_delay">10 seg. na delay</string>
+    <string name="cancel">Kanselahin</string>
+    <string name="okay">Okay</string>
+
+    // Signature Dialog
+    <string name="delete">Tanggalin</string>
+    <string name="dash">-</string>
+    <string name="save">I-save</string>
+
+    // Launcher Settings Screen
+    <string name="serialize">Ayusin</string>
+    <string name="by_name_asc_a_to_z">Ayon sa pangalan ASC (A hanggang Z)</string>
+    <string name="by_name_desc_z_to_a">Ayon sa pangalan DESC (Z hanggang A)</string>
+    <string name="by_installed_date">Ayon sa petsa ng pag-install</string>
+
+    // App Page Screen
+    <string name="preview">Preview</string>
+    <string name="label_visibility">Visibility ng label</string>
+    <string name="hide_app_name">Itago ang pangalan ng app</string>
+    <string name="app_icon_size">Laki ng icon ng app</string>
+    <string name="app_label_size">Laki ng label ng app</string>
+    <string name="_10">10</string>
+
+    // About Messages Screen
+    <string name="version">Bersyon</string>
+    <string name="privacy_policy">Patakaran sa privacy</string>
+    <string name="terms_conditions">Mga Tuntunin at Kundisyon</string>
+
+    // Recycle Bin Dialog
+    <string name="move_to_bin">Ilipat sa Bin</string>
+    <string name="are_you_sure_you_want_to_move_to_bin_this_message">Sigurado ka bang gusto mong ilipat ang mensaheng ito sa bin?</string>
+
+    // Block Dialog
+    <string name="are_you_sure_you_want_to_block_this_message">Sigurado ka bang gusto mong i-block ang mensaheng ito?</string>
+
+    // Delete Dialog
+    <string name="delete_conversation">Tanggalin ang usapan</string>
+    <string name="are_you_sure_you_want_to_delete_permanently_this_message">Sigurado ka bang gusto mong permanenteng tanggalin ang mensaheng ito?</string>
+
+    // Toast Messages
+    <string name="toast_archived">Naka-archive</string>
+    <string name="toast_unarchived">Inalis sa archive</string>
+    <string name="toast_blocked">Naka-block</string>
+    <string name="toast_unblocked">Na-unblock</string>
+    <string name="toast_moved_to_recycle_bin">Inilipat sa recycle bin</string>
+    <string name="toast_restored_from_bin">Naibalik mula sa recycle bin</string>
+    <string name="toast_conversation_deleted">Natanggal ang usapan</string>
+    <string name="toast_pinned">Naka-pin sa itaas</string>
+    <string name="toast_unpinned">Na-unpin</string>
+
+    // Other in App
+    <string name="selected">Napili</string>
+    <string name="no_archived_messages">Walang naka-archive na mensahe</string>
+    <string name="no_block_messages">Walang naka-block na mensahe</string>
+    <string name="no_data_found">Walang nahanap na data</string>
+    <string name="recycle_bin_empty">Walang laman ang Recycle Bin</string>
+
+    // Backup Activity
+    <string name="backup_and_restore">Backup at Restore</string>
+    <string name="backup_and_restore_message_easily">Madaling i-backup at i-restore ang mga mensahe</string>
+    <string name="backup_location">Lokasyon ng backup</string>
+    <string name="set_folder">Itakda ang folder</string>
+    <string name="restore">I-restore</string>
+    <string name="select_a_backup">Pumili ng backup</string>
+    <string name="currently_only_sms_is_supported_by_backup_and_restore_mms_support_and_scheduled_backups_will_be_coming_soon">Sa ngayon, SMS lang ang sinusuportahan para sa backup at restore. Darating na ang suporta sa MMS at naka-iskedyul na mga backup!</string>
+    <string name="backup_now">I-backup ngayon</string>
+    <string name="backup_backing_up">Bina-backup ang mga mensahe</string>
+    <string name="backup_restoring">Nire-restore mula sa backup</string>
+    <string name="backup_parsing">Sinasuri ang backup…</string>
+    <string name="backup_saving">Sine-save ang backup…</string>
+    <string name="backup_syncing">Sini-sync ang mga mensahe…</string>
+    <string name="backup_finished">Tapos na!</string>
+    <string name="backup_progress">%1$d/%2$d na mensahe</string>
+    <string name="backup_message_count">%1$d na mensahe</string>
+    <string name="backup_restore_dialog_title">Mga Backup</string>
+    <string name="backup_restore_dialog_empty">Walang nahanap na backup</string>
+    <string name="backup_restore_confirm_title">I-restore mula sa backup</string>
+    <string name="backup_restore_confirm_message">Sigurado ka bang gusto mong i-restore ang iyong mga mensahe mula sa backup na ito?</string>
+    <string name="backup_error_title">Error</string>
+    <string name="backup_error_read">Hindi mabasa ang backup file</string>
+    <string name="backup_select_location_first">Pumili muna ng lokasyon ng backup</string>
+    <string name="backup_permission_required">Kailangan ang pahintulot sa SMS para sa backup at restore</string>
+    <string name="backup_default_app_required">Itakda ang app na ito bilang default na SMS app upang ma-restore ang mga mensahe</string>
+    <string name="backup_stop_restore_title">Ihinto ang restore?</string>
+    <string name="backup_stop_restore_message">Mananatili sa iyong device ang mga mensaheng na-restore na</string>
+    <string name="stop">Ihinto</string>
+
+    // Other out App
+    <string name="search">Search</string>
+    <string name="open">Open</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="trending_news">Trending News</string>
+    <string name="read_more">Read More</string>
+    <string name="loading_ads">Loading Ads…</string>
+    <string name="this_action_may_contain_ads">This action may contain Ads</string>
+
+    <string name="markrting_converter1">gclid</string>
+    <string name="utm_source_apps_facebook_com">utm_source=apps.facebook.com</string>
+    <string name="utm_source_apps_instagram_com">utm_source=apps.instagram.com</string>
+    <string name="utm_source_marketing">utm_source=marketing</string>
+
+</resources>

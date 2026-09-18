@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/_10sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvQZLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/custom_label"
+            android:fontFamily="@font/fig_tree_semibold"
+            android:paddingStart="@dimen/_4sdp"
+            android:paddingTop="@dimen/_2sdp"
+            android:paddingEnd="@dimen/_4sdp"
+            android:paddingBottom="@dimen/_2sdp"
+            android:text="AD"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_8sdp"
+            tools:ignore="HardcodedText" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            tools:ignore="RelativeOverlap">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvQZTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_2sdp"
+                android:fontFamily="@font/fig_tree_medium"
+                android:text="@string/app_name"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/_12sdp" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivQZClose"
+                android:layout_width="@dimen/_22sdp"
+                android:layout_height="@dimen/_22sdp"
+                android:background="@drawable/custom_circle"
+                android:backgroundTint="@color/divider"
+                android:padding="@dimen/_2sdp"
+                android:src="@drawable/ic_close_menu"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:cardBackgroundColor="@color/divider"
+        app:cardCornerRadius="@dimen/_16sdp"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/_20sdp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_160sdp">
+
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/qzShimmer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone">
+
+                    <include layout="@layout/qz_shimmer" />
+
+                </com.facebook.shimmer.ShimmerFrameLayout>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivQZAppMedia"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginVertical="@dimen/_20sdp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:layout_marginBottom="@dimen/_10sdp">
+
+                    <com.facebook.shimmer.ShimmerFrameLayout
+                        android:id="@+id/qzShimmerIcon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="gone">
+
+                        <include layout="@layout/qz_shimmer" />
+
+                    </com.facebook.shimmer.ShimmerFrameLayout>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="@dimen/_18sdp"
+                        app:cardElevation="0dp">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/ivQZAppIcon"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:visibility="gone" />
+
+                    </androidx.cardview.widget.CardView>
+
+                </RelativeLayout>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvQZAppTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fig_tree_semibold"
+                    android:gravity="center_horizontal"
+                    android:singleLine="true"
+                    android:text="App Title"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16sdp"
+                    tools:ignore="HardcodedText" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvQZAppDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:fontFamily="@font/fig_tree_medium"
+                    android:gravity="center_horizontal"
+                    android:maxLines="2"
+                    android:text="App Description"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_12sdp"
+                    tools:ignore="HardcodedText" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/tvQZRate"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_18sdp"
+                            android:fontFamily="@font/fig_tree_semibold"
+                            android:gravity="center"
+                            android:text="@string/app_name"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            tools:ignore="HardcodedText" />
+
+                        <androidx.appcompat.widget.AppCompatRatingBar
+                            android:id="@+id/rbQZRating"
+                            android:layout_width="@dimen/quiz_rating_bar_width"
+                            android:layout_height="@dimen/quiz_rating_star_size"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:isIndicator="true"
+                            android:max="5"
+                            android:numStars="5"
+                            android:progressDrawable="@drawable/quiz_interstitial_rating_bar"
+                            android:rating="4.5"
+                            android:stepSize="0.1"
+                            tools:rating="4.7" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/_1sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_marginHorizontal="@dimen/_16sdp"
+                        android:alpha="0.2"
+                        android:background="@color/gray" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_18sdp"
+                            android:layout_height="@dimen/_18sdp"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/custom_circle"
+                            android:src="@drawable/ic_verified" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/tvQZUser"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/quiz_rating_star_size"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:fontFamily="@font/fig_tree_semibold"
+                            android:gravity="center"
+                            android:text="@string/app_name"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            tools:ignore="HardcodedText" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/btnQZClose"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button_round_border"
+                    android:fontFamily="@font/fig_tree_semibold"
+                    android:gravity="center"
+                    android:paddingHorizontal="@dimen/_6sdp"
+                    android:singleLine="true"
+                    android:text="Close"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11sdp"
+                    tools:ignore="HardcodedText" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/btnQZClick"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button_round"
+                    android:backgroundTint="@color/primary"
+                    android:fontFamily="@font/fig_tree_semibold"
+                    android:gravity="center"
+                    android:paddingHorizontal="@dimen/_6sdp"
+                    android:singleLine="true"
+                    android:text="Click Here"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_11sdp"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

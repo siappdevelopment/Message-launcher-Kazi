@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_160sdp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingEnd="@dimen/_12sdp"
+    android:paddingBottom="@dimen/_8sdp"
+    tools:ignore="RtlSymmetry">
+
+    <RelativeLayout
+        android:layout_width="@dimen/_160sdp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_popup_top_bg"
+        android:padding="@dimen/_12sdp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvAppName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:fontFamily="@font/fig_tree_medium"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_11sdp"
+            tools:ignore="RelativeOverlap" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivAppInfo"
+            android:layout_width="@dimen/_14sdp"
+            android:layout_height="@dimen/_14sdp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_app_info" />
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="#333333" />
+
+    <LinearLayout
+        android:layout_width="@dimen/_160sdp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_popup_bottom_bg"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/_16sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_16sdp"
+        android:paddingBottom="@dimen/_10sdp">
+
+        <LinearLayout
+            android:id="@+id/llAppOpen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_16sdp"
+                    android:layout_height="@dimen/_16sdp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_open" />
+
+            </RelativeLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:fontFamily="@font/fig_tree_medium"
+                android:text="Open"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10sdp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llAppUninstall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_16sdp"
+                    android:layout_height="@dimen/_16sdp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_uninstall" />
+
+            </RelativeLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:fontFamily="@font/fig_tree_medium"
+                android:text="Uninstall"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10sdp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

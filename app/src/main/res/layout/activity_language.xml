@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llTitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:gravity="center_vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_weight="1"
+            android:fontFamily="@font/avigea"
+            android:text="@string/app_language"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/_20sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvNext"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:background="@drawable/custom_button_round"
+            android:fontFamily="@font/fig_tree_medium"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/next"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llHeader"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:gravity="center_vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivBack"
+            android:layout_width="@dimen/_26sdp"
+            android:layout_height="@dimen/_26sdp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:background="@drawable/custom_black_border"
+            android:padding="@dimen/_5sdp"
+            android:rotation="180"
+            android:src="@drawable/ic_arrow" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvSubTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:fontFamily="@font/fig_tree_semibold"
+            android:text="@string/app_language"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvDone"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_26sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:background="@drawable/custom_button_round"
+            android:fontFamily="@font/fig_tree_medium"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/done"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:layout_weight="1" />
+
+    <RelativeLayout
+        android:id="@+id/rlAdView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rlBannerAdView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/divider" />
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/slBannerShimmer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <include layout="@layout/adaptive_banner_ad_shimmer" />
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+            <LinearLayout
+                android:id="@+id/llBannerAd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNativeAdView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_252sdp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/divider" />
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/slNativeShimmer"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_250sdp"
+                android:layout_centerInParent="true">
+
+                <include layout="@layout/native_large_ad_shimmer" />
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+            <FrameLayout
+                android:id="@+id/flNativeAd"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_250sdp"
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="quiz_color_border_stroke">@dimen/_1sdp</dimen>
+</resources>

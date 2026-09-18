@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    android:overScrollMode="never"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_12sdp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvGreeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fig_tree_semibold"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp" />
+
+        <include
+            android:id="@+id/weatherCard"
+            layout="@layout/view_weather_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvMostUsedApps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:fontFamily="@font/fig_tree_medium"
+            android:text="Most Used Apps"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            tools:ignore="HardcodedText" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvSuggestedFolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            app:cardBackgroundColor="#B3F3F3F3"
+            app:cardCornerRadius="@dimen/_16sdp"
+            app:cardElevation="0dp">
+
+            <GridLayout
+                android:id="@+id/gvSuggestedApps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alignmentMode="alignBounds"
+                android:columnCount="5"
+                android:padding="@dimen/_4sdp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvNativeAdView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_16sdp"
+            app:cardElevation="@dimen/_1sdp">
+
+            <RelativeLayout
+                android:id="@+id/rlNativeAdView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_146sdp">
+
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/slNativeShimmer"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_146sdp"
+                    android:layout_centerInParent="true">
+
+                    <include layout="@layout/native_medium_ad_shimmer" />
+
+                </com.facebook.shimmer.ShimmerFrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/flNativeAd"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_146sdp"
+                    android:layout_centerInParent="true"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

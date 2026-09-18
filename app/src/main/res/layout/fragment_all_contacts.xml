@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_36sdp"
+        android:background="@drawable/custom_search_bg"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/_12sdp"
+        android:paddingEnd="@dimen/_12sdp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_16sdp"
+            android:layout_height="@dimen/_16sdp"
+            android:src="@drawable/ic_search" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etSearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:background="@null"
+            android:fontFamily="@font/fig_tree_medium"
+            android:hint="@string/search_contact"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:maxLength="50"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textCursorDrawable="@drawable/custom_cursor"
+            android:textSize="@dimen/_12sdp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_6sdp">
+
+        <ProgressBar
+            android:id="@+id/pbDataLoad"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_centerInParent="true"
+            android:indeterminateTint="@color/primary"
+            android:indeterminateTintMode="src_in" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvAllContacts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvNoSearchResults"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/fig_tree_medium"
+            android:text="@string/no_data_found"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/_12sdp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>

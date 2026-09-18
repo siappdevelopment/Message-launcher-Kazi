@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_popup_bg"
+    android:padding="@dimen/_10sdp">
+
+    <ListView
+        android:id="@+id/lvSerialize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="0dp"
+        android:scrollbars="none" />
+
+</LinearLayout>

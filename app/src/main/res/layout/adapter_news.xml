@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_12sdp"
+    android:layout_marginEnd="@dimen/_12sdp"
+    android:layout_marginBottom="@dimen/_18sdp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvAppIcon1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/divider"
+        app:cardCornerRadius="@dimen/_12sdp"
+        app:cardElevation="@dimen/_1sdp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivNewsImage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_180sdp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvNewsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:fontFamily="@font/fig_tree_semibold"
+        android:singleLine="true"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvNewsDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:fontFamily="@font/fig_tree_medium"
+        android:maxLines="2"
+        android:text="@string/app_name"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/_10sdp" />
+
+    <LinearLayout
+        android:id="@+id/llReadMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fig_tree_medium"
+            android:maxLines="2"
+            android:text="@string/read_more"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/_10sdp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_12sdp"
+            android:layout_height="@dimen/_12sdp"
+            android:layout_marginStart="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:src="@drawable/ic_arrow"
+            android:tint="@color/primary" />
+
+    </LinearLayout>
+
+</LinearLayout>

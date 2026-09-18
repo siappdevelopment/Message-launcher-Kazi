@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude
+            domain="sharedpref"
+            path="appLanguageSelected.xml" />
+        <exclude
+            domain="sharedpref"
+            path="languageFlowCompleted.xml" />
+        <exclude
+            domain="sharedpref"
+            path="collectionCompleted.xml" />
+        <exclude
+            domain="sharedpref"
+            path="introCompleted.xml" />
+        <exclude
+            domain="sharedpref"
+            path="defaultHomeFlowCompleted.xml" />
+        <exclude
+            domain="sharedpref"
+            path="defaultSmsFlowCompleted.xml" />
+        <exclude
+            domain="sharedpref"
+            path="show_screen_flow_cache.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude
+            domain="sharedpref"
+            path="appLanguageSelected.xml" />
+        <exclude
+            domain="sharedpref"
+            path="languageFlowCompleted.xml" />
+        <exclude
+            domain="sharedpref"
+            path="collectionCompleted.xml" />
+        <exclude
+            domain="sharedpref"
+            path="introCompleted.xml" />
+        <exclude
+            domain="sharedpref"
+            path="defaultHomeFlowCompleted.xml" />
+        <exclude
+            domain="sharedpref"
+            path="defaultSmsFlowCompleted.xml" />
+        <exclude
+            domain="sharedpref"
+            path="show_screen_flow_cache.xml" />
+    </device-transfer>
+</data-extraction-rules>

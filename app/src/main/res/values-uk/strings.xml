@@ -1,0 +1,211 @@
+﻿<resources>
+    <string name="app_name">Messages</string>
+    <string name="app_name_launcher"># Messages</string>
+    <string name="one_inbox_for_every_conversation">One Inbox For Every Conversation</string>
+
+    // Language Screen
+    <string name="done">Готово</string>
+    <string name="next">Далі</string>
+
+    // Collection / Data consent screen
+    <string name="collection_title">Коротка інформація про ваші дані</string>
+    <string name="collection_intro_1">Ми використовуємо обмежену інформацію про пристрій і додаток, щоб забезпечити швидку, безпечну та надійну роботу Messages, показувати рекламу, яка допомагає підтримувати додаток безкоштовним, і надсилати вам важливі сповіщення.</string>
+    <string name="collection_intro_2">Ваші повідомлення, контакти та особисті розмови не збираються для аналітики чи реклами та залишаються на вашому пристрої.</string>
+    <string name="collection_what_we_use">Які дані ми використовуємо і чому:</string>
+    <string name="collection_bullet_1">• Інформацію про використання додатка — наприклад, які екрани ви відкриваєте та якими функціями користуєтеся — для покращення продуктивності та зручності використання</string>
+    <string name="collection_bullet_2">• Ідентифікатори пристрою та додатка — для збереження ваших налаштувань, підвищення стабільності додатка та підтримки сповіщень</string>
+    <string name="collection_bullet_3">• Приблизне місцезнаходження на основі вашої мережі — для аналізу тенденцій використання та надання функцій, актуальних для вашого регіону</string>
+    <string name="collection_bullet_4">• Рекламні ідентифікатори — для показу та оцінки ефективності реклами, яка допомагає підтримувати додаток безкоштовним</string>
+    <string name="collection_footer">Натискаючи «Погодитися та продовжити», ви погоджуєтеся з нашими Умовами використання та підтверджуєте, що ознайомилися з нашою Політикою конфіденційності. Ми збираємо лише інформацію, описану вище, щоб покращувати додаток, надавати основні функції та підтримувати рекламу. Ваші особисті повідомлення та розмови залишаються приватними.</string>
+    <string name="collection_agree_checkbox">Я погоджуюся на цей збір даних</string>
+    <string name="collection_agree_continue">Погодитися та продовжити</string>
+    <string name="collection_agree_toast">Будь ласка, погодьтеся на збір даних, щоб продовжити.</string>
+    <string name="terms">Умови</string>
+
+    // Default SMS Screen
+    <string name="set_default_sms">Встановити SMS за замовчуванням</string>
+    <string name="set_default_sms_desc">Зробіть цей додаток вашим стандартним SMS-додатком, щоб усі повідомлення були впорядковані, захищені та зручні в керуванні.</string>
+    <string name="set_as_default_sms">Встановити як стандартний SMS</string>
+
+    // Default App Screen
+    <string name="set_default_app">Встановити додаток за замовчуванням</string>
+    <string name="set_default_app_desc">Зробіть цей додаток стандартним засобом запуску головного екрана, щоб користуватися швидшим, охайнішим і більш персоналізованим головним екраном.</string>
+    <string name="set_as_default_app">Встановити як додаток за замовчуванням</string>
+
+    // Intro Screen
+    <string name="intro_1_title">Розумні повідомлення</string>
+    <string name="intro_1_description">Ефективно керуйте розмовами завдяки впорядкованому, безпечному та миттєвому обміну повідомленнями.</string>
+    <string name="intro_2_title">Чат у реальному часі</string>
+    <string name="intro_2_description">Підключайтеся миттєво через швидкі, надійні та безперебійні розмови в реальному часі щодня.</string>
+    <string name="intro_3_title">Керування контактами</string>
+    <string name="intro_3_description">Легко впорядковуйте контакти для швидшої комунікації та кращої доступності в будь-який час.</string>
+    <string name="intro_4_title">Чат в архіві</string>
+    <string name="intro_4_description">Безпечно зберігайте важливі розмови для швидкого доступу, коли вони знадобляться пізніше.</string>
+
+    // Permission Dialog
+    <string name="please_allow_permissions_from_app_settings">Надайте дозволи в налаштуваннях додатка</string>
+    <string name="open_settings">Відкрити налаштування</string>
+
+    // Main Screen
+    <string name="messages">Повідомлення</string>
+    <string name="contacts">Контакти</string>
+    <string name="settings">Налаштування</string>
+
+    // Messages Screen
+    <string name="overlay_permission_required">Потрібен дозвіл накладання</string>
+    <string name="overlay_permission_description">Цьому додатку потрібен дозвіл накладання, щоб показувати спливаючі вікна повідомлень.</string>
+    <string name="permission_required">Потрібний дозвіл</string>
+    <string name="permission_message_description">Дозвіл на повідомлення потрібен для доступу до ваших повідомлень і швидкого надсилання.</string>
+    <string name="permission_contact_description">Дозвіл на контакти потрібен для доступу до збережених контактів і швидкого дзвінка.</string>
+    <string name="your_conversation_will_appear_here">Ваша розмова з\'явиться тут</string>
+    <string name="allow">Дозволити</string>
+    <string name="your_contacts_will_appear_here">Ваші контакти з\'являться тут</string>
+    <string name="search_message">Пошук повідомлень</string>
+    <string name="all">Усі</string>
+    <string name="unread">Непрочитані</string>
+    <string name="personal">Особисті</string>
+    <string name="transaction">Транзакції</string>
+    <string name="otp">OTP</string>
+    <string name="offer">Пропозиції</string>
+    <string name="blocked">Заблоковані</string>
+    <string name="to_move_this_conversation_out_of_blocking_and_get_messages_again_unblock">Щоб вивести цю розмову з \'Блокування\' та знову отримувати повідомлення, розблокуйте</string>
+    <string name="sender_does_not_support_replies">Відправник не підтримує відповіді</string>
+    <string name="this_conversation_blocked_by_you">Цю розмову заблоковано вами</string>
+    <string name="enter_message">Введіть повідомлення</string>
+    <string name="today">Сьогодні</string>
+    <string name="yesterday">Вчора</string>
+    <string name="send_failed">Не вдалося надіслати повідомлення</string>
+    <string name="send_sms_permission_required">Для надсилання повідомлень потрібен дозвіл SMS</string>
+
+    // Menu
+    <string name="mark_as_all_read">Позначити все як прочитане</string>
+    <string name="add_to_contact">Додати до контактів</string>
+    <string name="archived">В архіві</string>
+    <string name="unarchived">Вилучено з архіву</string>
+    <string name="block">Заблокувати</string>
+    <string name="unblock">Розблокувати</string>
+    <string name="recycle_bin">Кошик</string>
+    <string name="restore_from_bin">Відновити з кошика</string>
+    <string name="change_langauge">Змінити мову</string>
+
+    // Contacts Screen
+    <string name="search_contact">Пошук контактів</string>
+
+    // Setting Screen
+    <string name="app_language">Мова додатка</string>
+    <string name="system_default">Системна за замовчуванням</string>
+    <string name="delay_sending">Відкладене надсилання</string>
+    <string name="no_delay">Без затримки</string>
+    <string name="signatures">Підписи</string>
+    <string name="add_your_signature">Додайте свій підпис</string>
+    <string name="launcher_settings">Налаштування запуску</string>
+    <string name="customize_your_layout_and_icons">Налаштуйте макет і значки</string>
+    <string name="about_messages">Про Messages</string>
+    <string name="invite_friends">Запросити друзів</string>
+    <string name="rate_us">Оцініть нас</string>
+
+    // Delay Dialog
+    <string name="_3_sec_delay">Затримка 3 сек</string>
+    <string name="_5_sec_delay">Затримка 5 сек</string>
+    <string name="_10_sec_delay">Затримка 10 сек</string>
+    <string name="cancel">Скасувати</string>
+    <string name="okay">OK</string>
+
+    // Signature Dialog
+    <string name="delete">Видалити</string>
+    <string name="dash">-</string>
+    <string name="save">Зберегти</string>
+
+    // Launcher Settings Screen
+    <string name="serialize">Сортувати</string>
+    <string name="by_name_asc_a_to_z">За назвою за зростанням (А–Я)</string>
+    <string name="by_name_desc_z_to_a">За назвою за спаданням (Я–А)</string>
+    <string name="by_installed_date">За датою встановлення</string>
+
+    // App Page Screen
+    <string name="preview">Попередній перегляд</string>
+    <string name="label_visibility">Видимість мітки</string>
+    <string name="hide_app_name">Приховати назву додатка</string>
+    <string name="app_icon_size">Розмір значка додатка</string>
+    <string name="app_label_size">Розмір мітки додатка</string>
+    <string name="_10">10</string>
+
+    // About Messages Screen
+    <string name="version">Версія</string>
+    <string name="privacy_policy">Політика конфіденційності</string>
+    <string name="terms_conditions">Умови використання</string>
+
+    // Recycle Bin Dialog
+    <string name="move_to_bin">Перемістити до кошика</string>
+    <string name="are_you_sure_you_want_to_move_to_bin_this_message">Ви впевнені, що хочете перемістити це повідомлення до кошика?</string>
+
+    // Block Dialog
+    <string name="are_you_sure_you_want_to_block_this_message">Ви впевнені, що хочете заблокувати це повідомлення?</string>
+
+    // Delete Dialog
+    <string name="delete_conversation">Видалити розмову</string>
+    <string name="are_you_sure_you_want_to_delete_permanently_this_message">Ви впевнені, що хочете остаточно видалити це повідомлення?</string>
+
+    // Toast Messages
+    <string name="toast_archived">В архіві</string>
+    <string name="toast_unarchived">Вилучено з архіву</string>
+    <string name="toast_blocked">Заблоковано</string>
+    <string name="toast_unblocked">Розблоковано</string>
+    <string name="toast_moved_to_recycle_bin">Переміщено до кошика</string>
+    <string name="toast_restored_from_bin">Відновлено з кошика</string>
+    <string name="toast_conversation_deleted">Розмову видалено</string>
+    <string name="toast_pinned">Закріплено зверху</string>
+    <string name="toast_unpinned">Відкріплено</string>
+
+    // Other in App
+    <string name="selected">Вибрано</string>
+    <string name="no_archived_messages">Немає архівних повідомлень</string>
+    <string name="no_block_messages">Немає заблокованих повідомлень</string>
+    <string name="no_data_found">Дані не знайдено</string>
+    <string name="recycle_bin_empty">Кошик порожній</string>
+
+    // Backup Activity
+    <string name="backup_and_restore">Резервне копіювання та відновлення</string>
+    <string name="backup_and_restore_message_easily">Легко створюйте резервні копії та відновлюйте повідомлення</string>
+    <string name="backup_location">Розташування резервної копії</string>
+    <string name="set_folder">Вибрати папку</string>
+    <string name="restore">Відновити</string>
+    <string name="select_a_backup">Виберіть резервну копію</string>
+    <string name="currently_only_sms_is_supported_by_backup_and_restore_mms_support_and_scheduled_backups_will_be_coming_soon">Наразі для резервного копіювання та відновлення підтримуються лише SMS. Підтримка MMS і заплановані резервні копії з\'являться незабаром!</string>
+    <string name="backup_now">Створити резервну копію</string>
+    <string name="backup_backing_up">Створення резервної копії повідомлень</string>
+    <string name="backup_restoring">Відновлення з резервної копії</string>
+    <string name="backup_parsing">Аналіз резервної копії…</string>
+    <string name="backup_saving">Збереження резервної копії…</string>
+    <string name="backup_syncing">Синхронізація повідомлень…</string>
+    <string name="backup_finished">Готово!</string>
+    <string name="backup_progress">%1$d/%2$d повідомлень</string>
+    <string name="backup_message_count">%1$d повідомлень</string>
+    <string name="backup_restore_dialog_title">Резервні копії</string>
+    <string name="backup_restore_dialog_empty">Резервних копій не знайдено</string>
+    <string name="backup_restore_confirm_title">Відновити з резервної копії</string>
+    <string name="backup_restore_confirm_message">Ви впевнені, що хочете відновити повідомлення з цієї резервної копії?</string>
+    <string name="backup_error_title">Помилка</string>
+    <string name="backup_error_read">Не вдалося прочитати файл резервної копії</string>
+    <string name="backup_select_location_first">Спочатку виберіть розташування резервної копії</string>
+    <string name="backup_permission_required">Для резервного копіювання та відновлення потрібен дозвіл SMS</string>
+    <string name="backup_default_app_required">Установіть цей додаток як SMS за замовчуванням, щоб відновити повідомлення</string>
+    <string name="backup_stop_restore_title">Зупинити відновлення?</string>
+    <string name="backup_stop_restore_message">Вже відновлені повідомлення залишаться на вашому пристрої</string>
+    <string name="stop">Зупинити</string>
+
+    // Other out App
+    <string name="search">Search</string>
+    <string name="open">Open</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="trending_news">Trending News</string>
+    <string name="read_more">Read More</string>
+    <string name="loading_ads">Loading Ads…</string>
+    <string name="this_action_may_contain_ads">This action may contain Ads</string>
+
+    <string name="markrting_converter1">gclid</string>
+    <string name="utm_source_apps_facebook_com">utm_source=apps.facebook.com</string>
+    <string name="utm_source_apps_instagram_com">utm_source=apps.instagram.com</string>
+    <string name="utm_source_marketing">utm_source=marketing</string>
+
+</resources>

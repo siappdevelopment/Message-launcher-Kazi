@@ -1,0 +1,211 @@
+<resources>
+    <string name="app_name">Messages</string>
+    <string name="app_name_launcher"># Messages</string>
+    <string name="one_inbox_for_every_conversation">One Inbox For Every Conversation</string>
+
+    // Language Screen
+    <string name="done">Klaar</string>
+    <string name="next">Volgende</string>
+
+    // Collection / Data consent screen
+    <string name="collection_title">Een korte opmerking over je gegevens</string>
+    <string name="collection_intro_1">We gebruiken beperkte apparaat- en appgegevens om Messages snel, veilig en betrouwbaar te houden, advertenties te tonen die helpen de app gratis te houden en je belangrijke meldingen te sturen.</string>
+    <string name="collection_intro_2">Je berichten, contacten en persoonlijke gesprekken worden niet verzameld voor analyse of advertenties en blijven op je apparaat.</string>
+    <string name="collection_what_we_use">Wat we gebruiken en waarom:</string>
+    <string name="collection_bullet_1">• Informatie over appgebruik – zoals de schermen die je opent en de functies die je gebruikt – om de prestaties en gebruikerservaring te verbeteren</string>
+    <string name="collection_bullet_2">• Apparaat- en app-id\'s – om je voorkeuren op te slaan, de stabiliteit van de app te verbeteren en meldingen te ondersteunen</string>
+    <string name="collection_bullet_3">• Algemene locatie op basis van je netwerk – om gebruikstrends te begrijpen en regio-specifieke functies te bieden</string>
+    <string name="collection_bullet_4">• Advertentie-ID\'s – om advertenties te tonen en te meten die helpen de app gratis te houden</string>
+    <string name="collection_footer">Door op Akkoord &amp; Doorgaan te tikken, ga je akkoord met onze Servicevoorwaarden en erken je ons Privacybeleid. We verzamelen alleen de hierboven beschreven informatie om de app te verbeteren, essentiële functies te bieden en advertenties te ondersteunen. Je persoonlijke berichten en gesprekken blijven privé.</string>
+    <string name="collection_agree_checkbox">Ik ga akkoord met deze gegevensverzameling</string>
+    <string name="collection_agree_continue">Akkoord &amp; Doorgaan</string>
+    <string name="collection_agree_toast">Ga akkoord met de gegevensverzameling om door te gaan.</string>
+    <string name="terms">Voorwaarden</string>
+
+    // Default SMS Screen
+    <string name="set_default_sms">Standaard SMS instellen</string>
+    <string name="set_default_sms_desc">Stel deze app in als je standaard SMS-app om al je berichten georganiseerd, veilig en eenvoudig te beheren te houden.</string>
+    <string name="set_as_default_sms">Instellen als standaard SMS</string>
+
+    // Default App Screen
+    <string name="set_default_app">Standaardapp instellen</string>
+    <string name="set_default_app_desc">Stel deze app in als je standaard startschermlauncher voor een snellere, overzichtelijkere en persoonlijkere startschermervaring.</string>
+    <string name="set_as_default_app">Instellen als standaardapp</string>
+
+    // Intro Screen
+    <string name="intro_1_title">Slim messaging</string>
+    <string name="intro_1_description">Beheer gesprekken efficiënt met een georganiseerde, veilige en directe berichtenervaring.</string>
+    <string name="intro_2_title">Realtime chat</string>
+    <string name="intro_2_description">Maak direct verbinding via snelle, betrouwbare en soepele realtime gesprekken elke dag.</string>
+    <string name="intro_3_title">Contactbeheer</string>
+    <string name="intro_3_description">Organiseer contacten moeiteloos voor snellere communicatie en betere toegankelijkheid op elk moment.</string>
+    <string name="intro_4_title">Chat gearchiveerd</string>
+    <string name="intro_4_description">Bewaar belangrijke gesprekken veilig voor snelle toegang wanneer je ze later nodig hebt.</string>
+
+    // Permission Dialog
+    <string name="please_allow_permissions_from_app_settings">Sta machtigingen toe via de app-instellingen</string>
+    <string name="open_settings">Instellingen openen</string>
+
+    // Main Screen
+    <string name="messages">Berichten</string>
+    <string name="contacts">Contacten</string>
+    <string name="settings">Instellingen</string>
+
+    // Messages Screen
+    <string name="overlay_permission_required">Overlay-machtiging vereist</string>
+    <string name="overlay_permission_description">Deze app heeft een overlay-machtiging nodig om pop-upberichtvensters te tonen.</string>
+    <string name="permission_required">Machtiging vereist</string>
+    <string name="permission_message_description">Machtiging voor berichten is vereist om je berichten te openen en snelle berichten te versturen.</string>
+    <string name="permission_contact_description">Machtiging voor contacten is vereist om je opgeslagen contacten te openen en snel te bellen.</string>
+    <string name="your_conversation_will_appear_here">Je gesprek verschijnt hier</string>
+    <string name="allow">Toestaan</string>
+    <string name="your_contacts_will_appear_here">Je contacten verschijnen hier</string>
+    <string name="search_message">Berichten zoeken</string>
+    <string name="all">Alles</string>
+    <string name="unread">Ongelezen</string>
+    <string name="personal">Persoonlijk</string>
+    <string name="transaction">Transactie</string>
+    <string name="otp">OTP</string>
+    <string name="offer">Aanbieding</string>
+    <string name="blocked">Geblokkeerd</string>
+    <string name="to_move_this_conversation_out_of_blocking_and_get_messages_again_unblock">Om dit gesprek uit \'Blokkeren\' te halen en weer berichten te ontvangen, deblokkeer</string>
+    <string name="sender_does_not_support_replies">Afzender ondersteunt geen antwoorden</string>
+    <string name="this_conversation_blocked_by_you">Dit gesprek is door jou geblokkeerd</string>
+    <string name="enter_message">Bericht invoeren</string>
+    <string name="today">Vandaag</string>
+    <string name="yesterday">Gisteren</string>
+    <string name="send_failed">Bericht verzenden mislukt</string>
+    <string name="send_sms_permission_required">SMS-machtiging is vereist om berichten te versturen</string>
+
+    // Menu
+    <string name="mark_as_all_read">Alles als gelezen markeren</string>
+    <string name="add_to_contact">Toevoegen aan contacten</string>
+    <string name="archived">Gearchiveerd</string>
+    <string name="unarchived">Uit archief gehaald</string>
+    <string name="block">Blokkeren</string>
+    <string name="unblock">Deblokkeren</string>
+    <string name="recycle_bin">Prullenbak</string>
+    <string name="restore_from_bin">Herstellen uit prullenbak</string>
+    <string name="change_langauge">Taal wijzigen</string>
+
+    // Contacts Screen
+    <string name="search_contact">Contacten zoeken</string>
+
+    // Setting Screen
+    <string name="app_language">App-taal</string>
+    <string name="system_default">Systeemstandaard</string>
+    <string name="delay_sending">Vertraagd verzenden</string>
+    <string name="no_delay">Geen vertraging</string>
+    <string name="signatures">Handtekeningen</string>
+    <string name="add_your_signature">Voeg je handtekening toe</string>
+    <string name="launcher_settings">Launcher-instellingen</string>
+    <string name="customize_your_layout_and_icons">Pas je lay-out en pictogrammen aan</string>
+    <string name="about_messages">Over Messages</string>
+    <string name="invite_friends">Vrienden uitnodigen</string>
+    <string name="rate_us">Beoordeel ons</string>
+
+    // Delay Dialog
+    <string name="_3_sec_delay">3 sec. vertraging</string>
+    <string name="_5_sec_delay">5 sec. vertraging</string>
+    <string name="_10_sec_delay">10 sec. vertraging</string>
+    <string name="cancel">Annuleren</string>
+    <string name="okay">OK</string>
+
+    // Signature Dialog
+    <string name="delete">Verwijderen</string>
+    <string name="dash">-</string>
+    <string name="save">Opslaan</string>
+
+    // Launcher Settings Screen
+    <string name="serialize">Sorteren</string>
+    <string name="by_name_asc_a_to_z">Op naam ASC (A tot Z)</string>
+    <string name="by_name_desc_z_to_a">Op naam DESC (Z tot A)</string>
+    <string name="by_installed_date">Op installatiedatum</string>
+
+    // App Page Screen
+    <string name="preview">Voorbeeld</string>
+    <string name="label_visibility">Labelzichtbaarheid</string>
+    <string name="hide_app_name">App-naam verbergen</string>
+    <string name="app_icon_size">App-pictogramgrootte</string>
+    <string name="app_label_size">App-labelgrootte</string>
+    <string name="_10">10</string>
+
+    // About Messages Screen
+    <string name="version">Versie</string>
+    <string name="privacy_policy">Privacybeleid</string>
+    <string name="terms_conditions">Algemene voorwaarden</string>
+
+    // Recycle Bin Dialog
+    <string name="move_to_bin">Naar prullenbak verplaatsen</string>
+    <string name="are_you_sure_you_want_to_move_to_bin_this_message">Weet je zeker dat je dit bericht naar de prullenbak wilt verplaatsen?</string>
+
+    // Block Dialog
+    <string name="are_you_sure_you_want_to_block_this_message">Weet je zeker dat je dit bericht wilt blokkeren?</string>
+
+    // Delete Dialog
+    <string name="delete_conversation">Gesprek verwijderen</string>
+    <string name="are_you_sure_you_want_to_delete_permanently_this_message">Weet je zeker dat je dit bericht permanent wilt verwijderen?</string>
+
+    // Toast Messages
+    <string name="toast_archived">Gearchiveerd</string>
+    <string name="toast_unarchived">Uit archief gehaald</string>
+    <string name="toast_blocked">Geblokkeerd</string>
+    <string name="toast_unblocked">Gedeblokkeerd</string>
+    <string name="toast_moved_to_recycle_bin">Verplaatst naar prullenbak</string>
+    <string name="toast_restored_from_bin">Hersteld uit prullenbak</string>
+    <string name="toast_conversation_deleted">Gesprek verwijderd</string>
+    <string name="toast_pinned">Vastgezet bovenaan</string>
+    <string name="toast_unpinned">Losgemaakt</string>
+
+    // Other in App
+    <string name="selected">Geselecteerd</string>
+    <string name="no_archived_messages">Geen gearchiveerde berichten</string>
+    <string name="no_block_messages">Geen geblokkeerde berichten</string>
+    <string name="no_data_found">Geen gegevens gevonden</string>
+    <string name="recycle_bin_empty">Prullenbak is leeg</string>
+
+    // Backup Activity
+    <string name="backup_and_restore">Back-up en herstel</string>
+    <string name="backup_and_restore_message_easily">Maak eenvoudig een back-up en herstel berichten</string>
+    <string name="backup_location">Back-uplocatie</string>
+    <string name="set_folder">Map instellen</string>
+    <string name="restore">Herstellen</string>
+    <string name="select_a_backup">Selecteer een back-up</string>
+    <string name="currently_only_sms_is_supported_by_backup_and_restore_mms_support_and_scheduled_backups_will_be_coming_soon">Momenteel wordt alleen SMS ondersteund voor back-up en herstel. MMS-ondersteuning en geplande back-ups komen binnenkort!</string>
+    <string name="backup_now">Nu back-uppen</string>
+    <string name="backup_backing_up">Berichten back-uppen</string>
+    <string name="backup_restoring">Herstellen vanaf back-up</string>
+    <string name="backup_parsing">Back-up analyseren…</string>
+    <string name="backup_saving">Back-up opslaan…</string>
+    <string name="backup_syncing">Berichten synchroniseren…</string>
+    <string name="backup_finished">Klaar!</string>
+    <string name="backup_progress">%1$d/%2$d berichten</string>
+    <string name="backup_message_count">%1$d berichten</string>
+    <string name="backup_restore_dialog_title">Back-ups</string>
+    <string name="backup_restore_dialog_empty">Geen back-ups gevonden</string>
+    <string name="backup_restore_confirm_title">Herstellen vanaf back-up</string>
+    <string name="backup_restore_confirm_message">Weet je zeker dat je je berichten vanaf deze back-up wilt herstellen?</string>
+    <string name="backup_error_title">Fout</string>
+    <string name="backup_error_read">Back-upbestand kon niet worden gelezen</string>
+    <string name="backup_select_location_first">Selecteer eerst een back-uplocatie</string>
+    <string name="backup_permission_required">SMS-machtiging is vereist voor back-up en herstel</string>
+    <string name="backup_default_app_required">Stel deze app in als de standaard SMS-app om berichten te herstellen</string>
+    <string name="backup_stop_restore_title">Herstel stoppen?</string>
+    <string name="backup_stop_restore_message">Berichten die al zijn hersteld, blijven op je apparaat staan</string>
+    <string name="stop">Stoppen</string>
+
+    // Other out App
+    <string name="search">Search</string>
+    <string name="open">Open</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="trending_news">Trending News</string>
+    <string name="read_more">Read More</string>
+    <string name="loading_ads">Loading Ads…</string>
+    <string name="this_action_may_contain_ads">This action may contain Ads</string>
+
+    <string name="markrting_converter1">gclid</string>
+    <string name="utm_source_apps_facebook_com">utm_source=apps.facebook.com</string>
+    <string name="utm_source_apps_instagram_com">utm_source=apps.instagram.com</string>
+    <string name="utm_source_marketing">utm_source=marketing</string>
+
+</resources>

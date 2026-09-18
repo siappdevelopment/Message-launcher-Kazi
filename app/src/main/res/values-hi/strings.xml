@@ -1,0 +1,211 @@
+﻿<resources>
+    <string name="app_name">Messages</string>
+    <string name="app_name_launcher"># Messages</string>
+    <string name="one_inbox_for_every_conversation">One Inbox For Every Conversation</string>
+
+    // Language Screen
+    <string name="done">हो गया</string>
+    <string name="next">अगला</string>
+
+    // Collection / Data consent screen
+    <string name="collection_title">आपके डेटा के बारे में एक संक्षिप्त जानकारी</string>
+    <string name="collection_intro_1">हम Messages को तेज़, सुरक्षित और विश्वसनीय बनाए रखने, ऐप को निःशुल्क बनाए रखने में मदद करने वाले विज्ञापन दिखाने और आपको महत्वपूर्ण सूचनाएँ भेजने के लिए सीमित डिवाइस और ऐप जानकारी का उपयोग करते हैं।</string>
+    <string name="collection_intro_2">आपके संदेश, संपर्क और व्यक्तिगत बातचीत विश्लेषण या विज्ञापन के लिए एकत्र नहीं किए जाते हैं और आपके डिवाइस पर ही सुरक्षित रहते हैं।</string>
+    <string name="collection_what_we_use">हम क्या उपयोग करते हैं और क्यों:</string>
+    <string name="collection_bullet_1">• ऐप उपयोग की जानकारी – जैसे आप कौन-सी स्क्रीन खोलते हैं और कौन-सी सुविधाओं का उपयोग करते हैं – प्रदर्शन और उपयोगकर्ता अनुभव को बेहतर बनाने के लिए</string>
+    <string name="collection_bullet_2">• डिवाइस और ऐप पहचानकर्ता – आपकी प्राथमिकताओं को सहेजने, ऐप की स्थिरता में सुधार करने और सूचनाओं का समर्थन करने के लिए</string>
+    <string name="collection_bullet_3">• आपके नेटवर्क पर आधारित सामान्य स्थान – उपयोग के रुझानों को समझने और आपके क्षेत्र के अनुसार सुविधाएँ प्रदान करने के लिए</string>
+    <string name="collection_bullet_4">• विज्ञापन पहचानकर्ता – ऐसे विज्ञापन दिखाने और मापने के लिए जो ऐप को निःशुल्क बनाए रखने में मदद करते हैं</string>
+    <string name="collection_footer">"सहमत हूँ और जारी रखें" पर टैप करके, आप हमारी सेवा की शर्तों से सहमत होते हैं और हमारी गोपनीयता नीति को स्वीकार करते हैं। हम केवल ऊपर वर्णित जानकारी एकत्र करते हैं ताकि ऐप को बेहतर बनाया जा सके, आवश्यक सुविधाएँ प्रदान की जा सकें और विज्ञापनों का समर्थन किया जा सके। आपके व्यक्तिगत संदेश और बातचीत पूरी तरह निजी रहते हैं।</string>
+    <string name="collection_agree_checkbox">मैं इस डेटा संग्रह के लिए सहमत हूँ</string>
+    <string name="collection_agree_continue">सहमत हूँ और जारी रखें</string>
+    <string name="collection_agree_toast">कृपया आगे बढ़ने के लिए डेटा संग्रह से सहमत हों।</string>
+    <string name="terms">शर्तें</string>
+
+    // Default SMS Screen
+    <string name="set_default_sms">डिफ़ॉल्ट SMS सेट करें</string>
+    <string name="set_default_sms_desc">इस ऐप को अपने डिफ़ॉल्ट SMS ऐप के रूप में सेट करें ताकि आपके सभी संदेश व्यवस्थित, सुरक्षित और आसानी से प्रबंधित किए जा सकें।</string>
+    <string name="set_as_default_sms">डिफ़ॉल्ट SMS के रूप में सेट करें</string>
+
+    // Default App Screen
+    <string name="set_default_app">डिफ़ॉल्ट ऐप सेट करें</string>
+    <string name="set_default_app_desc">तेज़, साफ़ और अधिक व्यक्तिगत होम स्क्रीन अनुभव का आनंद लेने के लिए इस ऐप को अपने डिफ़ॉल्ट होम लॉन्चर के रूप में सेट करें।</string>
+    <string name="set_as_default_app">डिफ़ॉल्ट ऐप के रूप में सेट करें</string>
+
+    // Intro Screen
+    <string name="intro_1_title">स्मार्ट मैसेजिंग</string>
+    <string name="intro_1_description">व्यवस्थित, सुरक्षित और त्वरित मैसेजिंग अनुभव के साथ बातचीत को कुशलतापूर्वक प्रबंधित करें।</string>
+    <string name="intro_2_title">रियल-टाइम चैट</string>
+    <string name="intro_2_description">तेज़, विश्वसनीय और निर्बाध रियल-टाइम बातचीत के माध्यम से हर दिन तुरंत जुड़ें।</string>
+    <string name="intro_3_title">संपर्क प्रबंधन</string>
+    <string name="intro_3_description">तेज़ संचार और बेहतर पहुँच के लिए संपर्कों को आसानी से व्यवस्थित करें।</string>
+    <string name="intro_4_title">चैट आर्काइव</string>
+    <string name="intro_4_description">ज़रूरत पड़ने पर तुरंत पहुँच के लिए महत्वपूर्ण बातचीत सुरक्षित रूप से सहेजें।</string>
+
+    // Permission Dialog
+    <string name="please_allow_permissions_from_app_settings">कृपया ऐप सेटिंग से अनुमतियाँ दें</string>
+    <string name="open_settings">सेटिंग खोलें</string>
+
+    // Main Screen
+    <string name="messages">संदेश</string>
+    <string name="contacts">संपर्क</string>
+    <string name="settings">सेटिंग्स</string>
+
+    // Messages Screen
+    <string name="overlay_permission_required">ओवरले अनुमति आवश्यक</string>
+    <string name="overlay_permission_description">पॉपअप संदेश विंडो दिखाने के लिए इस ऐप को ओवरले अनुमति की आवश्यकता है।</string>
+    <string name="permission_required">आवश्यक अनुमति</string>
+    <string name="permission_message_description">आपके संदेशों तक पहुँचने और त्वरित संदेश भेजने के लिए संदेश अनुमति आवश्यक है।</string>
+    <string name="permission_contact_description">आपके सहेजे गए संपर्कों तक पहुँचने और त्वरित कॉल करने के लिए संपर्क अनुमति आवश्यक है।</string>
+    <string name="your_conversation_will_appear_here">आपकी बातचीत यहाँ दिखाई देगी</string>
+    <string name="allow">अनुमति दें</string>
+    <string name="your_contacts_will_appear_here">आपके संपर्क यहाँ दिखाई देंगे</string>
+    <string name="search_message">संदेश खोजें</string>
+    <string name="all">सभी</string>
+    <string name="unread">अपठित</string>
+    <string name="personal">निजी</string>
+    <string name="transaction">लेन-देन</string>
+    <string name="otp">OTP</string>
+    <string name="offer">ऑफ़र</string>
+    <string name="blocked">ब्लॉक किए गए</string>
+    <string name="to_move_this_conversation_out_of_blocking_and_get_messages_again_unblock">इस बातचीत को \'ब्लॉक\' से बाहर निकालने और दोबारा संदेश प्राप्त करने के लिए, अनब्लॉक करें</string>
+    <string name="sender_does_not_support_replies">प्रेषक उत्तरों का समर्थन नहीं करता</string>
+    <string name="this_conversation_blocked_by_you">यह बातचीत आपके द्वारा ब्लॉक की गई है</string>
+    <string name="enter_message">संदेश लिखें</string>
+    <string name="today">आज</string>
+    <string name="yesterday">कल</string>
+    <string name="send_failed">संदेश भेजा नहीं जा सका</string>
+    <string name="send_sms_permission_required">संदेश भेजने के लिए SMS अनुमति आवश्यक है</string>
+
+    // Menu
+    <string name="mark_as_all_read">सभी को पढ़ा हुआ चिह्नित करें</string>
+    <string name="add_to_contact">संपर्क में जोड़ें</string>
+    <string name="archived">संग्रहीत</string>
+    <string name="unarchived">संग्रह से हटाया गया</string>
+    <string name="block">ब्लॉक करें</string>
+    <string name="unblock">अनब्लॉक करें</string>
+    <string name="recycle_bin">रीसायकल बिन</string>
+    <string name="restore_from_bin">बिन से पुनर्स्थापित करें</string>
+    <string name="change_langauge">भाषा बदलें</string>
+
+    // Contacts Screen
+    <string name="search_contact">संपर्क खोजें</string>
+
+    // Setting Screen
+    <string name="app_language">ऐप भाषा</string>
+    <string name="system_default">सिस्टम डिफ़ॉल्ट</string>
+    <string name="delay_sending">भेजने में विलंब</string>
+    <string name="no_delay">कोई विलंब नहीं</string>
+    <string name="signatures">हस्ताक्षर</string>
+    <string name="add_your_signature">अपना हस्ताक्षर जोड़ें</string>
+    <string name="launcher_settings">लॉन्चर सेटिंग्स</string>
+    <string name="customize_your_layout_and_icons">अपने लेआउट और आइकन को अनुकूलित करें</string>
+    <string name="about_messages">Messages के बारे में</string>
+    <string name="invite_friends">मित्रों को आमंत्रित करें</string>
+    <string name="rate_us">हमें रेटिंग दें</string>
+
+    // Delay Dialog
+    <string name="_3_sec_delay">3 सेकंड का विलंब</string>
+    <string name="_5_sec_delay">5 सेकंड का विलंब</string>
+    <string name="_10_sec_delay">10 सेकंड का विलंब</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="okay">ठीक है</string>
+
+    // Signature Dialog
+    <string name="delete">हटाएं</string>
+    <string name="dash">-</string>
+    <string name="save">सहेजें</string>
+
+    // Launcher Settings Screen
+    <string name="serialize">क्रमबद्ध करें</string>
+    <string name="by_name_asc_a_to_z">नाम के अनुसार ASC (A से Z)</string>
+    <string name="by_name_desc_z_to_a">नाम के अनुसार DESC (Z से A)</string>
+    <string name="by_installed_date">इंस्टॉल तिथि के अनुसार</string>
+
+    // App Page Screen
+    <string name="preview">पूर्वावलोकन</string>
+    <string name="label_visibility">लेबल दृश्यता</string>
+    <string name="hide_app_name">ऐप का नाम छुपाएं</string>
+    <string name="app_icon_size">ऐप आइकन का आकार</string>
+    <string name="app_label_size">ऐप लेबल का आकार</string>
+    <string name="_10">10</string>
+
+    // About Messages Screen
+    <string name="version">संस्करण</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="terms_conditions">नियम एवं शर्तें</string>
+
+    // Recycle Bin Dialog
+    <string name="move_to_bin">बिन में भेजें</string>
+    <string name="are_you_sure_you_want_to_move_to_bin_this_message">क्या आप वाकई इस संदेश को बिन में भेजना चाहते हैं?</string>
+
+    // Block Dialog
+    <string name="are_you_sure_you_want_to_block_this_message">क्या आप वाकई इस संदेश को ब्लॉक करना चाहते हैं?</string>
+
+    // Delete Dialog
+    <string name="delete_conversation">बातचीत हटाएं</string>
+    <string name="are_you_sure_you_want_to_delete_permanently_this_message">क्या आप वाकई इस संदेश को स्थायी रूप से हटाना चाहते हैं?</string>
+
+    // Toast Messages
+    <string name="toast_archived">संग्रहीत</string>
+    <string name="toast_unarchived">संग्रह से हटाया गया</string>
+    <string name="toast_blocked">ब्लॉक किया गया</string>
+    <string name="toast_unblocked">अनब्लॉक किया गया</string>
+    <string name="toast_moved_to_recycle_bin">रीसायकल बिन में ले जाया गया</string>
+    <string name="toast_restored_from_bin">बिन से पुनर्स्थापित किया गया</string>
+    <string name="toast_conversation_deleted">बातचीत हटा दी गई</string>
+    <string name="toast_pinned">शीर्ष पर पिन किया गया</string>
+    <string name="toast_unpinned">अनपिन किया गया</string>
+
+    // Other in App
+    <string name="selected">चयनित</string>
+    <string name="no_archived_messages">कोई संग्रहीत संदेश नहीं</string>
+    <string name="no_block_messages">कोई ब्लॉक किए गए संदेश नहीं</string>
+    <string name="no_data_found">कोई डेटा नहीं मिला</string>
+    <string name="recycle_bin_empty">रीसायकल बिन खाली है</string>
+
+    // Backup Activity
+    <string name="backup_and_restore">बैकअप और पुनर्स्थापना</string>
+    <string name="backup_and_restore_message_easily">संदेशों का आसानी से बैकअप लें और पुनर्स्थापित करें</string>
+    <string name="backup_location">बैकअप स्थान</string>
+    <string name="set_folder">फ़ोल्डर सेट करें</string>
+    <string name="restore">पुनर्स्थापित करें</string>
+    <string name="select_a_backup">एक बैकअप चुनें</string>
+    <string name="currently_only_sms_is_supported_by_backup_and_restore_mms_support_and_scheduled_backups_will_be_coming_soon">वर्तमान में, बैकअप और पुनर्स्थापना के लिए केवल SMS समर्थित है। MMS समर्थन और निर्धारित बैकअप जल्द ही उपलब्ध होंगे!</string>
+    <string name="backup_now">अभी बैकअप लें</string>
+    <string name="backup_backing_up">संदेशों का बैकअप लिया जा रहा है</string>
+    <string name="backup_restoring">बैकअप से पुनर्स्थापित किया जा रहा है</string>
+    <string name="backup_parsing">बैकअप का विश्लेषण किया जा रहा है…</string>
+    <string name="backup_saving">बैकअप सहेजा जा रहा है…</string>
+    <string name="backup_syncing">संदेश सिंक किए जा रहे हैं…</string>
+    <string name="backup_finished">पूर्ण!</string>
+    <string name="backup_progress">%1$d/%2$d संदेश</string>
+    <string name="backup_message_count">%1$d संदेश</string>
+    <string name="backup_restore_dialog_title">बैकअप</string>
+    <string name="backup_restore_dialog_empty">कोई बैकअप नहीं मिला</string>
+    <string name="backup_restore_confirm_title">बैकअप से पुनर्स्थापित करें</string>
+    <string name="backup_restore_confirm_message">क्या आप वाकई इस बैकअप से अपने संदेश पुनर्स्थापित करना चाहते हैं?</string>
+    <string name="backup_error_title">त्रुटि</string>
+    <string name="backup_error_read">बैकअप फ़ाइल पढ़ी नहीं जा सकी</string>
+    <string name="backup_select_location_first">कृपया पहले बैकअप स्थान चुनें</string>
+    <string name="backup_permission_required">बैकअप और पुनर्स्थापना के लिए SMS अनुमति आवश्यक है</string>
+    <string name="backup_default_app_required">संदेश पुनर्स्थापित करने के लिए कृपया इस ऐप को डिफ़ॉल्ट SMS ऐप के रूप में सेट करें</string>
+    <string name="backup_stop_restore_title">पुनर्स्थापना रोकें?</string>
+    <string name="backup_stop_restore_message">जो संदेश पहले ही पुनर्स्थापित किए जा चुके हैं, वे आपके डिवाइस पर बने रहेंगे</string>
+    <string name="stop">रोकें</string>
+
+    // Other out App
+    <string name="search">Search</string>
+    <string name="open">Open</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="trending_news">Trending News</string>
+    <string name="read_more">Read More</string>
+    <string name="loading_ads">Loading Ads…</string>
+    <string name="this_action_may_contain_ads">This action may contain Ads</string>
+
+    <string name="markrting_converter1">gclid</string>
+    <string name="utm_source_apps_facebook_com">utm_source=apps.facebook.com</string>
+    <string name="utm_source_apps_instagram_com">utm_source=apps.instagram.com</string>
+    <string name="utm_source_marketing">utm_source=marketing</string>
+
+</resources>

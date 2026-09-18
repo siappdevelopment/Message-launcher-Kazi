@@ -1,0 +1,211 @@
+﻿<resources>
+    <string name="app_name">Messages</string>
+    <string name="app_name_launcher"># Messages</string>
+    <string name="one_inbox_for_every_conversation">One Inbox For Every Conversation</string>
+
+    // Language Screen
+    <string name="done">Gata</string>
+    <string name="next">Înainte</string>
+
+    // Collection / Data consent screen
+    <string name="collection_title">O scurtă notă despre datele dvs.</string>
+    <string name="collection_intro_1">Folosim informații limitate despre dispozitiv și aplicație pentru a menține Messages rapidă, sigură și fiabilă, pentru a afișa reclame care ajută la păstrarea aplicației gratuite și pentru a vă trimite notificări importante.</string>
+    <string name="collection_intro_2">Mesajele, contactele și conversațiile dvs. personale nu sunt colectate pentru analiză sau publicitate și rămân pe dispozitivul dvs.</string>
+    <string name="collection_what_we_use">Ce folosim și de ce:</string>
+    <string name="collection_bullet_1">• Informații despre utilizarea aplicației – cum ar fi ecranele pe care le deschideți și funcțiile pe care le utilizați – pentru a îmbunătăți performanța și experiența utilizatorului</string>
+    <string name="collection_bullet_2">• Identificatori ai dispozitivului și ai aplicației – pentru a salva preferințele dvs., a îmbunătăți stabilitatea aplicației și a susține notificările</string>
+    <string name="collection_bullet_3">• Locația generală bazată pe rețeaua dvs. – pentru a înțelege tendințele de utilizare și a oferi funcții relevante pentru regiunea dvs.</string>
+    <string name="collection_bullet_4">• Identificatori de publicitate – pentru a afișa și măsura reclamele care ajută la menținerea aplicației gratuite</string>
+    <string name="collection_footer">Prin atingerea butonului Sunt de acord și continuă, acceptați Termenii noștri de utilizare și confirmați că ați luat cunoștință de Politica noastră de confidențialitate. Colectăm doar informațiile descrise mai sus pentru a îmbunătăți aplicația, a oferi funcții esențiale și a susține publicitatea. Mesajele și conversațiile dvs. personale rămân private.</string>
+    <string name="collection_agree_checkbox">Sunt de acord cu această colectare de date</string>
+    <string name="collection_agree_continue">Sunt de acord și continuă</string>
+    <string name="collection_agree_toast">Vă rugăm să acceptați colectarea datelor pentru a continua.</string>
+    <string name="terms">Termeni</string>
+
+    // Default SMS Screen
+    <string name="set_default_sms">Setați SMS-ul implicit</string>
+    <string name="set_default_sms_desc">Setați această aplicație ca aplicație SMS implicită pentru a vă păstra toate mesajele organizate, în siguranță și ușor de gestionat.</string>
+    <string name="set_as_default_sms">Setați ca SMS implicit</string>
+
+    // Default App Screen
+    <string name="set_default_app">Setați aplicația implicită</string>
+    <string name="set_default_app_desc">Setați această aplicație ca lansator implicit al ecranului de pornire pentru o experiență mai rapidă, mai curată și mai personalizată.</string>
+    <string name="set_as_default_app">Setați ca aplicație implicită</string>
+
+    // Intro Screen
+    <string name="intro_1_title">Mesagerie inteligentă</string>
+    <string name="intro_1_description">Gestionează conversațiile eficient cu o experiență de mesagerie organizată, sigură și instantanee.</string>
+    <string name="intro_2_title">Chat în timp real</string>
+    <string name="intro_2_description">Conectează-te instantaneu prin conversații rapide, fiabile și fluide în timp real în fiecare zi.</string>
+    <string name="intro_3_title">Gestionarea contactelor</string>
+    <string name="intro_3_description">Organizează contactele fără efort pentru o comunicare mai rapidă și o accesibilitate mai bună oricând.</string>
+    <string name="intro_4_title">Chat arhivat</string>
+    <string name="intro_4_description">Stochează în siguranță conversațiile importante pentru acces rapid ori de câte ori ai nevoie mai târziu.</string>
+
+    // Permission Dialog
+    <string name="please_allow_permissions_from_app_settings">Permiteți permisiunile din setările aplicației</string>
+    <string name="open_settings">Deschide setările</string>
+
+    // Main Screen
+    <string name="messages">Mesaje</string>
+    <string name="contacts">Contacte</string>
+    <string name="settings">Setări</string>
+
+    // Messages Screen
+    <string name="overlay_permission_required">Permisiune de suprapunere necesară</string>
+    <string name="overlay_permission_description">Această aplicație are nevoie de permisiunea de suprapunere pentru a afișa ferestre pop-up de mesaje.</string>
+    <string name="permission_required">Permisiune necesară</string>
+    <string name="permission_message_description">Permisiunea pentru mesaje este necesară pentru a accesa mesajele și a trimite mesaje rapide.</string>
+    <string name="permission_contact_description">Permisiunea pentru contacte este necesară pentru a accesa contactele salvate și a apela rapid.</string>
+    <string name="your_conversation_will_appear_here">Conversația ta va apărea aici</string>
+    <string name="allow">Permite</string>
+    <string name="your_contacts_will_appear_here">Contactele tale vor apărea aici</string>
+    <string name="search_message">Caută mesaje</string>
+    <string name="all">Toate</string>
+    <string name="unread">Necitite</string>
+    <string name="personal">Personale</string>
+    <string name="transaction">Tranzacție</string>
+    <string name="otp">OTP</string>
+    <string name="offer">Ofertă</string>
+    <string name="blocked">Blocate</string>
+    <string name="to_move_this_conversation_out_of_blocking_and_get_messages_again_unblock">Pentru a muta această conversație din \'Blocare\' și a primi din nou mesaje, deblochează</string>
+    <string name="sender_does_not_support_replies">Expeditorul nu acceptă răspunsuri</string>
+    <string name="this_conversation_blocked_by_you">Această conversație a fost blocată de tine</string>
+    <string name="enter_message">Introdu mesajul</string>
+    <string name="today">Azi</string>
+    <string name="yesterday">Ieri</string>
+    <string name="send_failed">Trimiterea mesajului a eșuat</string>
+    <string name="send_sms_permission_required">Permisiunea SMS este necesară pentru a trimite mesaje</string>
+
+    // Menu
+    <string name="mark_as_all_read">Marchează totul ca citit</string>
+    <string name="add_to_contact">Adaugă la contacte</string>
+    <string name="archived">Arhivat</string>
+    <string name="unarchived">Eliminat din arhivă</string>
+    <string name="block">Blochează</string>
+    <string name="unblock">Deblochează</string>
+    <string name="recycle_bin">Coș de reciclare</string>
+    <string name="restore_from_bin">Restaurează din coș</string>
+    <string name="change_langauge">Schimbă limba</string>
+
+    // Contacts Screen
+    <string name="search_contact">Caută contacte</string>
+
+    // Setting Screen
+    <string name="app_language">Limba aplicației</string>
+    <string name="system_default">Implicit sistem</string>
+    <string name="delay_sending">Trimitere întârziată</string>
+    <string name="no_delay">Fără întârziere</string>
+    <string name="signatures">Semnături</string>
+    <string name="add_your_signature">Adaugă-ți semnătura</string>
+    <string name="launcher_settings">Setări launcher</string>
+    <string name="customize_your_layout_and_icons">Personalizează aspectul și pictogramele</string>
+    <string name="about_messages">Despre Messages</string>
+    <string name="invite_friends">Invită prieteni</string>
+    <string name="rate_us">Evaluează-ne</string>
+
+    // Delay Dialog
+    <string name="_3_sec_delay">Întârziere de 3 sec</string>
+    <string name="_5_sec_delay">Întârziere de 5 sec</string>
+    <string name="_10_sec_delay">Întârziere de 10 sec</string>
+    <string name="cancel">Anulează</string>
+    <string name="okay">OK</string>
+
+    // Signature Dialog
+    <string name="delete">Șterge</string>
+    <string name="dash">-</string>
+    <string name="save">Salvează</string>
+
+    // Launcher Settings Screen
+    <string name="serialize">Sortează</string>
+    <string name="by_name_asc_a_to_z">După nume ASC (A la Z)</string>
+    <string name="by_name_desc_z_to_a">După nume DESC (Z la A)</string>
+    <string name="by_installed_date">După data instalării</string>
+
+    // App Page Screen
+    <string name="preview">Previzualizare</string>
+    <string name="label_visibility">Vizibilitatea etichetei</string>
+    <string name="hide_app_name">Ascunde numele aplicației</string>
+    <string name="app_icon_size">Dimensiunea pictogramei aplicației</string>
+    <string name="app_label_size">Dimensiunea etichetei aplicației</string>
+    <string name="_10">10</string>
+
+    // About Messages Screen
+    <string name="version">Versiune</string>
+    <string name="privacy_policy">Politica de confidențialitate</string>
+    <string name="terms_conditions">Termeni și condiții</string>
+
+    // Recycle Bin Dialog
+    <string name="move_to_bin">Mută în coș</string>
+    <string name="are_you_sure_you_want_to_move_to_bin_this_message">Sigur vrei să muți acest mesaj în coș?</string>
+
+    // Block Dialog
+    <string name="are_you_sure_you_want_to_block_this_message">Sigur vrei să blochezi acest mesaj?</string>
+
+    // Delete Dialog
+    <string name="delete_conversation">Șterge conversația</string>
+    <string name="are_you_sure_you_want_to_delete_permanently_this_message">Sigur vrei să ștergi definitiv acest mesaj?</string>
+
+    // Toast Messages
+    <string name="toast_archived">Arhivat</string>
+    <string name="toast_unarchived">Eliminat din arhivă</string>
+    <string name="toast_blocked">Blocat</string>
+    <string name="toast_unblocked">Deblocat</string>
+    <string name="toast_moved_to_recycle_bin">Mutat în coșul de reciclare</string>
+    <string name="toast_restored_from_bin">Restaurat din coș</string>
+    <string name="toast_conversation_deleted">Conversație ștearsă</string>
+    <string name="toast_pinned">Fixat în partea de sus</string>
+    <string name="toast_unpinned">Anulat fixarea</string>
+
+    // Other in App
+    <string name="selected">Selectat</string>
+    <string name="no_archived_messages">Niciun mesaj arhivat</string>
+    <string name="no_block_messages">Niciun mesaj blocat</string>
+    <string name="no_data_found">Nu s-au găsit date</string>
+    <string name="recycle_bin_empty">Coșul de reciclare este gol</string>
+
+    // Backup Activity
+    <string name="backup_and_restore">Backup și restaurare</string>
+    <string name="backup_and_restore_message_easily">Fă backup și restaurează mesajele cu ușurință</string>
+    <string name="backup_location">Locația backupului</string>
+    <string name="set_folder">Setează folderul</string>
+    <string name="restore">Restaurează</string>
+    <string name="select_a_backup">Selectează un backup</string>
+    <string name="currently_only_sms_is_supported_by_backup_and_restore_mms_support_and_scheduled_backups_will_be_coming_soon">Momentan, doar SMS-urile sunt acceptate pentru backup și restaurare. Suportul MMS și backupurile programate vor veni în curând!</string>
+    <string name="backup_now">Fă backup acum</string>
+    <string name="backup_backing_up">Se face backup la mesaje</string>
+    <string name="backup_restoring">Se restaurează din backup</string>
+    <string name="backup_parsing">Se analizează backupul…</string>
+    <string name="backup_saving">Se salvează backupul…</string>
+    <string name="backup_syncing">Se sincronizează mesajele…</string>
+    <string name="backup_finished">Finalizat!</string>
+    <string name="backup_progress">%1$d/%2$d mesaje</string>
+    <string name="backup_message_count">%1$d mesaje</string>
+    <string name="backup_restore_dialog_title">Backupuri</string>
+    <string name="backup_restore_dialog_empty">Nu s-au găsit backupuri</string>
+    <string name="backup_restore_confirm_title">Restaurează din backup</string>
+    <string name="backup_restore_confirm_message">Sigur vrei să îți restaurezi mesajele din acest backup?</string>
+    <string name="backup_error_title">Eroare</string>
+    <string name="backup_error_read">Nu s-a putut citi fișierul de backup</string>
+    <string name="backup_select_location_first">Selectează mai întâi o locație pentru backup</string>
+    <string name="backup_permission_required">Permisiunea SMS este necesară pentru backup și restaurare</string>
+    <string name="backup_default_app_required">Setează această aplicație ca aplicație SMS implicită pentru a restaura mesajele</string>
+    <string name="backup_stop_restore_title">Oprești restaurarea?</string>
+    <string name="backup_stop_restore_message">Mesajele deja restaurate vor rămâne pe dispozitiv</string>
+    <string name="stop">Oprește</string>
+
+    // Other out App
+    <string name="search">Search</string>
+    <string name="open">Open</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="trending_news">Trending News</string>
+    <string name="read_more">Read More</string>
+    <string name="loading_ads">Loading Ads…</string>
+    <string name="this_action_may_contain_ads">This action may contain Ads</string>
+
+    <string name="markrting_converter1">gclid</string>
+    <string name="utm_source_apps_facebook_com">utm_source=apps.facebook.com</string>
+    <string name="utm_source_apps_instagram_com">utm_source=apps.instagram.com</string>
+    <string name="utm_source_marketing">utm_source=marketing</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/_12sdp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fig_tree_semibold"
+        android:text="@string/backup_restore_dialog_title"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDialogFolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:fontFamily="@font/fig_tree_medium"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/_10sdp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvBackups"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:maxHeight="@dimen/_250sdp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvEmptyBackups"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:fontFamily="@font/fig_tree_medium"
+        android:gravity="center"
+        android:text="@string/backup_restore_dialog_empty"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/_12sdp"
+        android:visibility="gone" />
+
+</LinearLayout>

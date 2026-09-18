@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_12sdp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_32sdp"
+            app:cardBackgroundColor="#1A4188F2"
+            app:cardCornerRadius="@dimen/_100sdp"
+            app:cardElevation="0dp">
+
+            <RelativeLayout
+                android:layout_width="@dimen/_32sdp"
+                android:layout_height="@dimen/_32sdp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivImage"
+                    android:layout_width="@dimen/_32sdp"
+                    android:layout_height="@dimen/_32sdp"
+                    android:layout_centerInParent="true" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/fig_tree_semibold"
+                    android:textColor="@color/primary"
+                    android:textSize="@dimen/_16sdp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:fontFamily="@font/fig_tree_semibold"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llExpandView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_42sdp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fig_tree_medium"
+            android:text="@string/app_name"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/_10sdp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_8sdp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivCall"
+                android:layout_width="@dimen/_28sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:src="@drawable/ic_call_round" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivMessage"
+                android:layout_width="@dimen/_28sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:src="@drawable/ic_message_round" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivDividerLine"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:background="@color/divider" />
+
+</LinearLayout>

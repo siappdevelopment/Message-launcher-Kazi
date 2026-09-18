@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#4188F2</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#151515</color>
+    <color name="gray">#7E858E</color>
+
+    <color name="red">#E90000</color>
+    <color name="divider">#F2F4F6</color>
+    <color name="shimmer">#DBDBDB</color>
+
+    <color name="quiz_rating_star_filled">#FFC107</color>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/_4sdp"
+    android:paddingVertical="@dimen/_8sdp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivAppIcon"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:scaleType="fitCenter"
+        tools:src="@drawable/img_app_icon" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:fontFamily="@font/fig_tree_medium"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_9sdp" />
+
+</LinearLayout>

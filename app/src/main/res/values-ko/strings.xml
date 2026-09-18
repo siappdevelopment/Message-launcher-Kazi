@@ -1,0 +1,211 @@
+﻿<resources>
+    <string name="app_name">Messages</string>
+    <string name="app_name_launcher"># Messages</string>
+    <string name="one_inbox_for_every_conversation">One Inbox For Every Conversation</string>
+
+    // Language Screen
+    <string name="done">완료</string>
+    <string name="next">다음</string>
+
+    // Collection / Data consent screen
+    <string name="collection_title">데이터에 대한 간단한 안내</string>
+    <string name="collection_intro_1">Messages를 빠르고 안전하며 안정적으로 유지하고, 앱을 무료로 제공하기 위한 광고를 표시하며, 중요한 알림을 보내기 위해 제한된 기기 및 앱 정보를 사용합니다.</string>
+    <string name="collection_intro_2">회원님의 메시지, 연락처 및 개인 대화는 분석이나 광고 목적으로 수집되지 않으며 기기에 그대로 유지됩니다.</string>
+    <string name="collection_what_we_use">수집 및 이용 목적:</string>
+    <string name="collection_bullet_1">• 앱 사용 정보(열어본 화면 및 사용한 기능 등) – 성능과 사용자 경험을 개선하기 위해</string>
+    <string name="collection_bullet_2">• 기기 및 앱 식별자 – 환경설정을 저장하고 앱 안정성을 향상하며 알림을 지원하기 위해</string>
+    <string name="collection_bullet_3">• 네트워크를 기반으로 한 일반적인 위치 정보 – 사용 추세를 파악하고 지역에 적합한 기능을 제공하기 위해</string>
+    <string name="collection_bullet_4">• 광고 식별자 – 앱을 무료로 유지하기 위한 광고를 표시하고 성과를 측정하기 위해</string>
+    <string name="collection_footer">"동의하고 계속"을 탭하면 서비스 이용약관 및 개인정보처리방침에 동의하는 것으로 간주됩니다. 앱 개선, 필수 기능 제공 및 광고 지원을 위해 위에 설명된 정보만 수집합니다. 회원님의 개인 메시지와 대화는 항상 비공개로 유지됩니다.</string>
+    <string name="collection_agree_checkbox">이 데이터 수집에 동의합니다</string>
+    <string name="collection_agree_continue">동의하고 계속</string>
+    <string name="collection_agree_toast">계속하려면 데이터 수집에 동의해 주세요.</string>
+    <string name="terms">이용약관</string>
+
+    // Default SMS Screen
+    <string name="set_default_sms">기본 SMS 앱 설정</string>
+    <string name="set_default_sms_desc">이 앱을 기본 SMS 앱으로 설정하여 모든 메시지를 체계적이고 안전하게, 그리고 쉽게 관리하세요.</string>
+    <string name="set_as_default_sms">기본 SMS 앱으로 설정</string>
+
+    // Default App Screen
+    <string name="set_default_app">기본 앱 설정</string>
+    <string name="set_default_app_desc">이 앱을 기본 홈 런처로 설정하여 더 빠르고 깔끔하며 개인화된 홈 화면을 경험해 보세요.</string>
+    <string name="set_as_default_app">기본 앱으로 설정</string>
+
+    // Intro Screen
+    <string name="intro_1_title">스마트 메시징</string>
+    <string name="intro_1_description">체계적이고 안전하며 즉각적인 메시징 경험으로 대화를 효율적으로 관리하세요.</string>
+    <string name="intro_2_title">실시간 채팅</string>
+    <string name="intro_2_description">매일 빠르고 안정적이며 원활한 실시간 대화를 통해 즉시 연결하세요.</string>
+    <string name="intro_3_title">연락처 관리</string>
+    <string name="intro_3_description">더 빠른 소통과 향상된 접근성을 위해 언제든지 연락처를 손쉽게 정리하세요.</string>
+    <string name="intro_4_title">채팅 보관</string>
+    <string name="intro_4_description">중요한 대화를 안전하게 저장하여 나중에 필요할 때 빠르게 액세스하세요.</string>
+
+    // Permission Dialog
+    <string name="please_allow_permissions_from_app_settings">앱 설정에서 권한을 허용해 주세요</string>
+    <string name="open_settings">설정 열기</string>
+
+    // Main Screen
+    <string name="messages">메시지</string>
+    <string name="contacts">연락처</string>
+    <string name="settings">설정</string>
+
+    // Messages Screen
+    <string name="overlay_permission_required">오버레이 권한 필요</string>
+    <string name="overlay_permission_description">팝업 메시지 창을 표시하려면 이 앱에 오버레이 권한이 필요합니다.</string>
+    <string name="permission_required">필요한 권한</string>
+    <string name="permission_message_description">메시지에 액세스하고 빠른 메시지를 보내려면 메시지 권한이 필요합니다.</string>
+    <string name="permission_contact_description">저장된 연락처에 액세스하고 빠르게 전화하려면 연락처 권한이 필요합니다.</string>
+    <string name="your_conversation_will_appear_here">대화가 여기에 표시됩니다</string>
+    <string name="allow">허용</string>
+    <string name="your_contacts_will_appear_here">연락처가 여기에 표시됩니다</string>
+    <string name="search_message">메시지 검색</string>
+    <string name="all">전체</string>
+    <string name="unread">읽지 않음</string>
+    <string name="personal">개인</string>
+    <string name="transaction">거래</string>
+    <string name="otp">OTP</string>
+    <string name="offer">혜택</string>
+    <string name="blocked">차단됨</string>
+    <string name="to_move_this_conversation_out_of_blocking_and_get_messages_again_unblock">이 대화를 \'차단\'에서 제거하고 다시 메시지를 받으려면 차단을 해제하세요</string>
+    <string name="sender_does_not_support_replies">발신자가 답장을 지원하지 않습니다</string>
+    <string name="this_conversation_blocked_by_you">이 대화는 회원님이 차단했습니다</string>
+    <string name="enter_message">메시지 입력</string>
+    <string name="today">오늘</string>
+    <string name="yesterday">어제</string>
+    <string name="send_failed">메시지 전송에 실패했습니다</string>
+    <string name="send_sms_permission_required">메시지를 보내려면 SMS 권한이 필요합니다</string>
+
+    // Menu
+    <string name="mark_as_all_read">모두 읽음으로 표시</string>
+    <string name="add_to_contact">연락처에 추가</string>
+    <string name="archived">보관됨</string>
+    <string name="unarchived">보관 해제됨</string>
+    <string name="block">차단</string>
+    <string name="unblock">차단 해제</string>
+    <string name="recycle_bin">휴지통</string>
+    <string name="restore_from_bin">휴지통에서 복원</string>
+    <string name="change_langauge">언어 변경</string>
+
+    // Contacts Screen
+    <string name="search_contact">연락처 검색</string>
+
+    // Setting Screen
+    <string name="app_language">앱 언어</string>
+    <string name="system_default">시스템 기본값</string>
+    <string name="delay_sending">지연 전송</string>
+    <string name="no_delay">지연 없음</string>
+    <string name="signatures">서명</string>
+    <string name="add_your_signature">서명 추가</string>
+    <string name="launcher_settings">런처 설정</string>
+    <string name="customize_your_layout_and_icons">레이아웃 및 아이콘 사용자 지정</string>
+    <string name="about_messages">Messages 정보</string>
+    <string name="invite_friends">친구 초대</string>
+    <string name="rate_us">평가하기</string>
+
+    // Delay Dialog
+    <string name="_3_sec_delay">3초 지연</string>
+    <string name="_5_sec_delay">5초 지연</string>
+    <string name="_10_sec_delay">10초 지연</string>
+    <string name="cancel">취소</string>
+    <string name="okay">확인</string>
+
+    // Signature Dialog
+    <string name="delete">삭제</string>
+    <string name="dash">-</string>
+    <string name="save">저장</string>
+
+    // Launcher Settings Screen
+    <string name="serialize">정렬</string>
+    <string name="by_name_asc_a_to_z">이름 오름차순 (A to Z)</string>
+    <string name="by_name_desc_z_to_a">이름 내림차순 (Z to A)</string>
+    <string name="by_installed_date">설치 날짜순</string>
+
+    // App Page Screen
+    <string name="preview">미리보기</string>
+    <string name="label_visibility">라벨 표시</string>
+    <string name="hide_app_name">앱 이름 숨기기</string>
+    <string name="app_icon_size">앱 아이콘 크기</string>
+    <string name="app_label_size">앱 라벨 크기</string>
+    <string name="_10">10</string>
+
+    // About Messages Screen
+    <string name="version">버전</string>
+    <string name="privacy_policy">개인정보 처리방침</string>
+    <string name="terms_conditions">이용약관</string>
+
+    // Recycle Bin Dialog
+    <string name="move_to_bin">휴지통으로 이동</string>
+    <string name="are_you_sure_you_want_to_move_to_bin_this_message">이 메시지를 휴지통으로 이동하시겠습니까?</string>
+
+    // Block Dialog
+    <string name="are_you_sure_you_want_to_block_this_message">이 메시지를 차단하시겠습니까?</string>
+
+    // Delete Dialog
+    <string name="delete_conversation">대화 삭제</string>
+    <string name="are_you_sure_you_want_to_delete_permanently_this_message">이 메시지를 영구적으로 삭제하시겠습니까?</string>
+
+    // Toast Messages
+    <string name="toast_archived">보관됨</string>
+    <string name="toast_unarchived">보관 해제됨</string>
+    <string name="toast_blocked">차단됨</string>
+    <string name="toast_unblocked">차단 해제됨</string>
+    <string name="toast_moved_to_recycle_bin">휴지통으로 이동됨</string>
+    <string name="toast_restored_from_bin">휴지통에서 복원됨</string>
+    <string name="toast_conversation_deleted">대화가 삭제됨</string>
+    <string name="toast_pinned">상단에 고정됨</string>
+    <string name="toast_unpinned">고정 해제됨</string>
+
+    // Other in App
+    <string name="selected">선택됨</string>
+    <string name="no_archived_messages">보관된 메시지 없음</string>
+    <string name="no_block_messages">차단된 메시지 없음</string>
+    <string name="no_data_found">데이터를 찾을 수 없음</string>
+    <string name="recycle_bin_empty">휴지통이 비어 있음</string>
+
+    // Backup Activity
+    <string name="backup_and_restore">백업 및 복원</string>
+    <string name="backup_and_restore_message_easily">메시지를 쉽게 백업하고 복원하세요</string>
+    <string name="backup_location">백업 위치</string>
+    <string name="set_folder">폴더 설정</string>
+    <string name="restore">복원</string>
+    <string name="select_a_backup">백업 선택</string>
+    <string name="currently_only_sms_is_supported_by_backup_and_restore_mms_support_and_scheduled_backups_will_be_coming_soon">현재 백업 및 복원은 SMS만 지원됩니다. MMS 지원 및 예약 백업은 곧 제공됩니다!</string>
+    <string name="backup_now">지금 백업</string>
+    <string name="backup_backing_up">메시지 백업 중</string>
+    <string name="backup_restoring">백업에서 복원 중</string>
+    <string name="backup_parsing">백업 분석 중…</string>
+    <string name="backup_saving">백업 저장 중…</string>
+    <string name="backup_syncing">메시지 동기화 중…</string>
+    <string name="backup_finished">완료!</string>
+    <string name="backup_progress">%1$d/%2$d개 메시지</string>
+    <string name="backup_message_count">%1$d개 메시지</string>
+    <string name="backup_restore_dialog_title">백업</string>
+    <string name="backup_restore_dialog_empty">백업을 찾을 수 없음</string>
+    <string name="backup_restore_confirm_title">백업에서 복원</string>
+    <string name="backup_restore_confirm_message">이 백업에서 메시지를 복원하시겠습니까?</string>
+    <string name="backup_error_title">오류</string>
+    <string name="backup_error_read">백업 파일을 읽을 수 없습니다</string>
+    <string name="backup_select_location_first">먼저 백업 위치를 선택하세요</string>
+    <string name="backup_permission_required">백업 및 복원에는 SMS 권한이 필요합니다</string>
+    <string name="backup_default_app_required">메시지를 복원하려면 이 앱을 기본 SMS 앱으로 설정하세요</string>
+    <string name="backup_stop_restore_title">복원을 중지할까요?</string>
+    <string name="backup_stop_restore_message">이미 복원된 메시지는 기기에 그대로 유지됩니다</string>
+    <string name="stop">중지</string>
+
+    // Other out App
+    <string name="search">Search</string>
+    <string name="open">Open</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="trending_news">Trending News</string>
+    <string name="read_more">Read More</string>
+    <string name="loading_ads">Loading Ads…</string>
+    <string name="this_action_may_contain_ads">This action may contain Ads</string>
+
+    <string name="markrting_converter1">gclid</string>
+    <string name="utm_source_apps_facebook_com">utm_source=apps.facebook.com</string>
+    <string name="utm_source_apps_instagram_com">utm_source=apps.instagram.com</string>
+    <string name="utm_source_marketing">utm_source=marketing</string>
+
+</resources>

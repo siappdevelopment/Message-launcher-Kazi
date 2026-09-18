@@ -1,0 +1,211 @@
+﻿<resources>
+    <string name="app_name">Messages</string>
+    <string name="app_name_launcher"># Messages</string>
+    <string name="one_inbox_for_every_conversation">One Inbox For Every Conversation</string>
+
+    // Language Screen
+    <string name="done">Xong</string>
+    <string name="next">Tiếp</string>
+
+    // Collection / Data consent screen
+    <string name="collection_title">Một lưu ý ngắn về dữ liệu của bạn</string>
+    <string name="collection_intro_1">Chúng tôi sử dụng một lượng giới hạn thông tin về thiết bị và ứng dụng để giúp Messages hoạt động nhanh, an toàn và ổn định, hiển thị quảng cáo giúp ứng dụng luôn miễn phí và gửi cho bạn các thông báo quan trọng.</string>
+    <string name="collection_intro_2">Tin nhắn, danh bạ và các cuộc trò chuyện cá nhân của bạn không được thu thập cho mục đích phân tích hoặc quảng cáo và vẫn được lưu trên thiết bị của bạn.</string>
+    <string name="collection_what_we_use">Chúng tôi sử dụng những gì và vì sao:</string>
+    <string name="collection_bullet_1">• Thông tin sử dụng ứng dụng – như các màn hình bạn mở và các tính năng bạn sử dụng – để cải thiện hiệu suất và trải nghiệm người dùng</string>
+    <string name="collection_bullet_2">• Mã định danh thiết bị và ứng dụng – để lưu tùy chọn của bạn, cải thiện độ ổn định của ứng dụng và hỗ trợ thông báo</string>
+    <string name="collection_bullet_3">• Vị trí gần đúng dựa trên mạng của bạn – để hiểu xu hướng sử dụng và cung cấp các tính năng phù hợp với khu vực của bạn</string>
+    <string name="collection_bullet_4">• Mã định danh quảng cáo – để hiển thị và đo lường quảng cáo giúp duy trì ứng dụng miễn phí</string>
+    <string name="collection_footer">Bằng cách nhấn vào "Đồng ý &amp; Tiếp tục", bạn đồng ý với Điều khoản dịch vụ và xác nhận Chính sách quyền riêng tư của chúng tôi. Chúng tôi chỉ thu thập những thông tin được mô tả ở trên để cải thiện ứng dụng, cung cấp các tính năng cần thiết và hỗ trợ quảng cáo. Tin nhắn và các cuộc trò chuyện cá nhân của bạn luôn được giữ riêng tư.</string>
+    <string name="collection_agree_checkbox">Tôi đồng ý với việc thu thập dữ liệu này</string>
+    <string name="collection_agree_continue">Đồng ý &amp; Tiếp tục</string>
+    <string name="collection_agree_toast">Vui lòng đồng ý với việc thu thập dữ liệu để tiếp tục.</string>
+    <string name="terms">Điều khoản</string>
+
+    // Default SMS Screen
+    <string name="set_default_sms">Đặt làm ứng dụng SMS mặc định</string>
+    <string name="set_default_sms_desc">Đặt ứng dụng này làm ứng dụng SMS mặc định để tất cả tin nhắn của bạn luôn được sắp xếp, bảo mật và dễ dàng quản lý.</string>
+    <string name="set_as_default_sms">Đặt làm SMS mặc định</string>
+
+    // Default App Screen
+    <string name="set_default_app">Đặt làm ứng dụng mặc định</string>
+    <string name="set_default_app_desc">Đặt ứng dụng này làm trình khởi chạy màn hình chính mặc định để có trải nghiệm màn hình chính nhanh hơn, gọn gàng hơn và được cá nhân hóa.</string>
+    <string name="set_as_default_app">Đặt làm ứng dụng mặc định</string>
+
+    // Intro Screen
+    <string name="intro_1_title">Nhắn tin thông minh</string>
+    <string name="intro_1_description">Quản lý cuộc trò chuyện hiệu quả với trải nghiệm nhắn tin được tổ chức, an toàn và tức thì.</string>
+    <string name="intro_2_title">Trò chuyện theo thời gian thực</string>
+    <string name="intro_2_description">Kết nối ngay lập tức qua các cuộc trò chuyện theo thời gian thực nhanh chóng, đáng tin cậy và mượt mà mỗi ngày.</string>
+    <string name="intro_3_title">Quản lý danh bạ</string>
+    <string name="intro_3_description">Tổ chức danh bạ dễ dàng để giao tiếp nhanh hơn và truy cập tốt hơn bất cứ lúc nào.</string>
+    <string name="intro_4_title">Trò chuyện đã lưu trữ</string>
+    <string name="intro_4_description">Lưu trữ an toàn các cuộc trò chuyện quan trọng để truy cập nhanh khi cần sau này.</string>
+
+    // Permission Dialog
+    <string name="please_allow_permissions_from_app_settings">Vui lòng cho phép quyền từ cài đặt ứng dụng</string>
+    <string name="open_settings">Mở cài đặt</string>
+
+    // Main Screen
+    <string name="messages">Tin nhắn</string>
+    <string name="contacts">Danh bạ</string>
+    <string name="settings">Cài đặt</string>
+
+    // Messages Screen
+    <string name="overlay_permission_required">Cần quyền phủ lớp</string>
+    <string name="overlay_permission_description">Ứng dụng này cần quyền phủ lớp để hiển thị cửa sổ tin nhắn bật lên.</string>
+    <string name="permission_required">Quyền bắt buộc</string>
+    <string name="permission_message_description">Cần quyền tin nhắn để truy cập tin nhắn và gửi tin nhắn nhanh.</string>
+    <string name="permission_contact_description">Cần quyền danh bạ để truy cập danh bạ đã lưu và gọi nhanh.</string>
+    <string name="your_conversation_will_appear_here">Cuộc trò chuyện của bạn sẽ xuất hiện ở đây</string>
+    <string name="allow">Cho phép</string>
+    <string name="your_contacts_will_appear_here">Danh bạ của bạn sẽ xuất hiện ở đây</string>
+    <string name="search_message">Tìm tin nhắn</string>
+    <string name="all">Tất cả</string>
+    <string name="unread">Chưa đọc</string>
+    <string name="personal">Cá nhân</string>
+    <string name="transaction">Giao dịch</string>
+    <string name="otp">OTP</string>
+    <string name="offer">Ưu đãi</string>
+    <string name="blocked">Đã chặn</string>
+    <string name="to_move_this_conversation_out_of_blocking_and_get_messages_again_unblock">Để chuyển cuộc trò chuyện này ra khỏi \'Chặn\' và nhận lại tin nhắn, hãy bỏ chặn</string>
+    <string name="sender_does_not_support_replies">Người gửi không hỗ trợ trả lời</string>
+    <string name="this_conversation_blocked_by_you">Cuộc trò chuyện này đã bị bạn chặn</string>
+    <string name="enter_message">Nhập tin nhắn</string>
+    <string name="today">Hôm nay</string>
+    <string name="yesterday">Hôm qua</string>
+    <string name="send_failed">Gửi tin nhắn thất bại</string>
+    <string name="send_sms_permission_required">Cần quyền SMS để gửi tin nhắn</string>
+
+    // Menu
+    <string name="mark_as_all_read">Đánh dấu tất cả là đã đọc</string>
+    <string name="add_to_contact">Thêm vào danh bạ</string>
+    <string name="archived">Đã lưu trữ</string>
+    <string name="unarchived">Đã bỏ lưu trữ</string>
+    <string name="block">Chặn</string>
+    <string name="unblock">Bỏ chặn</string>
+    <string name="recycle_bin">Thùng rác</string>
+    <string name="restore_from_bin">Khôi phục từ thùng rác</string>
+    <string name="change_langauge">Đổi ngôn ngữ</string>
+
+    // Contacts Screen
+    <string name="search_contact">Tìm danh bạ</string>
+
+    // Setting Screen
+    <string name="app_language">Ngôn ngữ ứng dụng</string>
+    <string name="system_default">Mặc định hệ thống</string>
+    <string name="delay_sending">Gửi trễ</string>
+    <string name="no_delay">Không trễ</string>
+    <string name="signatures">Chữ ký</string>
+    <string name="add_your_signature">Thêm chữ ký của bạn</string>
+    <string name="launcher_settings">Cài đặt trình khởi chạy</string>
+    <string name="customize_your_layout_and_icons">Tùy chỉnh bố cục và biểu tượng</string>
+    <string name="about_messages">Giới thiệu về Messages</string>
+    <string name="invite_friends">Mời bạn bè</string>
+    <string name="rate_us">Đánh giá chúng tôi</string>
+
+    // Delay Dialog
+    <string name="_3_sec_delay">Trễ 3 giây</string>
+    <string name="_5_sec_delay">Trễ 5 giây</string>
+    <string name="_10_sec_delay">Trễ 10 giây</string>
+    <string name="cancel">Hủy</string>
+    <string name="okay">OK</string>
+
+    // Signature Dialog
+    <string name="delete">Xóa</string>
+    <string name="dash">-</string>
+    <string name="save">Lưu</string>
+
+    // Launcher Settings Screen
+    <string name="serialize">Sắp xếp</string>
+    <string name="by_name_asc_a_to_z">Theo tên tăng dần (A đến Z)</string>
+    <string name="by_name_desc_z_to_a">Theo tên giảm dần (Z đến A)</string>
+    <string name="by_installed_date">Theo ngày cài đặt</string>
+
+    // App Page Screen
+    <string name="preview">Xem trước</string>
+    <string name="label_visibility">Hiển thị nhãn</string>
+    <string name="hide_app_name">Ẩn tên ứng dụng</string>
+    <string name="app_icon_size">Kích thước biểu tượng ứng dụng</string>
+    <string name="app_label_size">Kích thước nhãn ứng dụng</string>
+    <string name="_10">10</string>
+
+    // About Messages Screen
+    <string name="version">Phiên bản</string>
+    <string name="privacy_policy">Chính sách quyền riêng tư</string>
+    <string name="terms_conditions">Điều khoản và điều kiện</string>
+
+    // Recycle Bin Dialog
+    <string name="move_to_bin">Chuyển vào thùng rác</string>
+    <string name="are_you_sure_you_want_to_move_to_bin_this_message">Bạn có chắc muốn chuyển tin nhắn này vào thùng rác không?</string>
+
+    // Block Dialog
+    <string name="are_you_sure_you_want_to_block_this_message">Bạn có chắc muốn chặn tin nhắn này không?</string>
+
+    // Delete Dialog
+    <string name="delete_conversation">Xóa cuộc trò chuyện</string>
+    <string name="are_you_sure_you_want_to_delete_permanently_this_message">Bạn có chắc muốn xóa vĩnh viễn tin nhắn này không?</string>
+
+    // Toast Messages
+    <string name="toast_archived">Đã lưu trữ</string>
+    <string name="toast_unarchived">Đã bỏ lưu trữ</string>
+    <string name="toast_blocked">Đã chặn</string>
+    <string name="toast_unblocked">Đã bỏ chặn</string>
+    <string name="toast_moved_to_recycle_bin">Đã chuyển vào thùng rác</string>
+    <string name="toast_restored_from_bin">Đã khôi phục từ thùng rác</string>
+    <string name="toast_conversation_deleted">Đã xóa cuộc trò chuyện</string>
+    <string name="toast_pinned">Đã ghim lên đầu</string>
+    <string name="toast_unpinned">Đã bỏ ghim</string>
+
+    // Other in App
+    <string name="selected">Đã chọn</string>
+    <string name="no_archived_messages">Không có tin nhắn đã lưu trữ</string>
+    <string name="no_block_messages">Không có tin nhắn bị chặn</string>
+    <string name="no_data_found">Không tìm thấy dữ liệu</string>
+    <string name="recycle_bin_empty">Thùng rác trống</string>
+
+    // Backup Activity
+    <string name="backup_and_restore">Sao lưu và khôi phục</string>
+    <string name="backup_and_restore_message_easily">Sao lưu và khôi phục tin nhắn dễ dàng</string>
+    <string name="backup_location">Vị trí sao lưu</string>
+    <string name="set_folder">Đặt thư mục</string>
+    <string name="restore">Khôi phục</string>
+    <string name="select_a_backup">Chọn bản sao lưu</string>
+    <string name="currently_only_sms_is_supported_by_backup_and_restore_mms_support_and_scheduled_backups_will_be_coming_soon">Hiện tại chỉ hỗ trợ SMS cho sao lưu và khôi phục. Hỗ trợ MMS và sao lưu theo lịch sẽ sớm có mặt!</string>
+    <string name="backup_now">Sao lưu ngay</string>
+    <string name="backup_backing_up">Đang sao lưu tin nhắn</string>
+    <string name="backup_restoring">Đang khôi phục từ bản sao lưu</string>
+    <string name="backup_parsing">Đang phân tích bản sao lưu…</string>
+    <string name="backup_saving">Đang lưu bản sao lưu…</string>
+    <string name="backup_syncing">Đang đồng bộ tin nhắn…</string>
+    <string name="backup_finished">Hoàn tất!</string>
+    <string name="backup_progress">%1$d/%2$d tin nhắn</string>
+    <string name="backup_message_count">%1$d tin nhắn</string>
+    <string name="backup_restore_dialog_title">Bản sao lưu</string>
+    <string name="backup_restore_dialog_empty">Không tìm thấy bản sao lưu</string>
+    <string name="backup_restore_confirm_title">Khôi phục từ bản sao lưu</string>
+    <string name="backup_restore_confirm_message">Bạn có chắc muốn khôi phục tin nhắn từ bản sao lưu này không?</string>
+    <string name="backup_error_title">Lỗi</string>
+    <string name="backup_error_read">Không thể đọc tệp sao lưu</string>
+    <string name="backup_select_location_first">Vui lòng chọn vị trí sao lưu trước</string>
+    <string name="backup_permission_required">Cần quyền SMS để sao lưu và khôi phục</string>
+    <string name="backup_default_app_required">Vui lòng đặt ứng dụng này làm ứng dụng SMS mặc định để khôi phục tin nhắn</string>
+    <string name="backup_stop_restore_title">Dừng khôi phục?</string>
+    <string name="backup_stop_restore_message">Các tin nhắn đã được khôi phục sẽ vẫn còn trên thiết bị của bạn</string>
+    <string name="stop">Dừng</string>
+
+    // Other out App
+    <string name="search">Search</string>
+    <string name="open">Open</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="trending_news">Trending News</string>
+    <string name="read_more">Read More</string>
+    <string name="loading_ads">Loading Ads…</string>
+    <string name="this_action_may_contain_ads">This action may contain Ads</string>
+
+    <string name="markrting_converter1">gclid</string>
+    <string name="utm_source_apps_facebook_com">utm_source=apps.facebook.com</string>
+    <string name="utm_source_apps_instagram_com">utm_source=apps.instagram.com</string>
+    <string name="utm_source_marketing">utm_source=marketing</string>
+
+</resources>

@@ -1,0 +1,211 @@
+﻿<resources>
+    <string name="app_name">Messages</string>
+    <string name="app_name_launcher"># Messages</string>
+    <string name="one_inbox_for_every_conversation">One Inbox For Every Conversation</string>
+
+    // Language Screen
+    <string name="done">完了</string>
+    <string name="next">次へ</string>
+
+    // Collection / Data consent screen
+    <string name="collection_title">データに関するご案内</string>
+    <string name="collection_intro_1">Messages を高速・安全・安定してご利用いただくため、また無料で提供し続けるための広告表示や重要なお知らせの送信のために、限られた端末情報とアプリ情報を利用します。</string>
+    <string name="collection_intro_2">お客様のメッセージ、連絡先、個人的な会話は、分析や広告目的で収集されることはなく、お使いの端末内に保持されます。</string>
+    <string name="collection_what_we_use">利用する情報とその目的:</string>
+    <string name="collection_bullet_1">• アプリの利用情報（開いた画面や利用した機能など）– パフォーマンスとユーザー体験を向上させるため</string>
+    <string name="collection_bullet_2">• 端末およびアプリの識別子 – 設定の保存、アプリの安定性向上、通知機能の提供のため</string>
+    <string name="collection_bullet_3">• ネットワークに基づく大まかな位置情報 – 利用状況の傾向を把握し、地域に適した機能を提供するため</string>
+    <string name="collection_bullet_4">• 広告識別子 – アプリを無料で提供し続けるための広告表示および効果測定のため</string>
+    <string name="collection_footer">「同意して続行」をタップすると、利用規約およびプライバシーポリシーに同意したものとみなされます。当社は、アプリの改善、必要な機能の提供、および広告のサポートのために、上記の情報のみを収集します。お客様の個人的なメッセージや会話は常にプライベートのままです。</string>
+    <string name="collection_agree_checkbox">このデータ収集に同意します</string>
+    <string name="collection_agree_continue">同意して続行</string>
+    <string name="collection_agree_toast">続行するには、データ収集に同意してください。</string>
+    <string name="terms">利用規約</string>
+
+    // Default SMS Screen
+    <string name="set_default_sms">デフォルトのSMSに設定</string>
+    <string name="set_default_sms_desc">このアプリをデフォルトのSMSアプリに設定すると、すべてのメッセージを整理し、安全かつ簡単に管理できます。</string>
+    <string name="set_as_default_sms">デフォルトのSMSに設定</string>
+
+    // Default App Screen
+    <string name="set_default_app">デフォルトアプリに設定</string>
+    <string name="set_default_app_desc">このアプリをデフォルトのホームランチャーに設定して、より高速で、すっきりとした、パーソナライズされたホーム画面をお楽しみください。</string>
+    <string name="set_as_default_app">デフォルトアプリに設定</string>
+
+    // Intro Screen
+    <string name="intro_1_title">スマートメッセージ</string>
+    <string name="intro_1_description">整理され、安全で、すぐに使えるメッセージ体験で会話を効率的に管理できます。</string>
+    <string name="intro_2_title">リアルタイムチャット</string>
+    <string name="intro_2_description">毎日、高速で信頼性が高くスムーズなリアルタイムの会話ですぐにつながれます。</string>
+    <string name="intro_3_title">連絡先管理</string>
+    <string name="intro_3_description">連絡先を簡単に整理して、より速いコミュニケーションとより良いアクセス性を実現します。</string>
+    <string name="intro_4_title">チャットのアーカイブ</string>
+    <string name="intro_4_description">重要な会話を安全に保存し、後で必要なときにすぐアクセスできます。</string>
+
+    // Permission Dialog
+    <string name="please_allow_permissions_from_app_settings">アプリの設定から権限を許可してください</string>
+    <string name="open_settings">設定を開く</string>
+
+    // Main Screen
+    <string name="messages">メッセージ</string>
+    <string name="contacts">連絡先</string>
+    <string name="settings">設定</string>
+
+    // Messages Screen
+    <string name="overlay_permission_required">オーバーレイ権限が必要です</string>
+    <string name="overlay_permission_description">ポップアップメッセージウィンドウを表示するには、このアプリにオーバーレイ権限が必要です。</string>
+    <string name="permission_required">必要な権限</string>
+    <string name="permission_message_description">メッセージへのアクセスとクイックメッセージの送信には、メッセージ権限が必要です。</string>
+    <string name="permission_contact_description">保存した連絡先へのアクセスとクイック通話には、連絡先権限が必要です。</string>
+    <string name="your_conversation_will_appear_here">会話はここに表示されます</string>
+    <string name="allow">許可</string>
+    <string name="your_contacts_will_appear_here">連絡先はここに表示されます</string>
+    <string name="search_message">メッセージを検索</string>
+    <string name="all">すべて</string>
+    <string name="unread">未読</string>
+    <string name="personal">個人</string>
+    <string name="transaction">取引</string>
+    <string name="otp">OTP</string>
+    <string name="offer">お得情報</string>
+    <string name="blocked">ブロック済み</string>
+    <string name="to_move_this_conversation_out_of_blocking_and_get_messages_again_unblock">この会話を\'ブロック\'から外して再びメッセージを受け取るには、ブロックを解除してください</string>
+    <string name="sender_does_not_support_replies">送信者は返信に対応していません</string>
+    <string name="this_conversation_blocked_by_you">この会話はあなたによってブロックされています</string>
+    <string name="enter_message">メッセージを入力</string>
+    <string name="today">今日</string>
+    <string name="yesterday">昨日</string>
+    <string name="send_failed">メッセージの送信に失敗しました</string>
+    <string name="send_sms_permission_required">メッセージの送信にはSMS権限が必要です</string>
+
+    // Menu
+    <string name="mark_as_all_read">すべて既読にする</string>
+    <string name="add_to_contact">連絡先に追加</string>
+    <string name="archived">アーカイブ済み</string>
+    <string name="unarchived">アーカイブ解除</string>
+    <string name="block">ブロック</string>
+    <string name="unblock">ブロック解除</string>
+    <string name="recycle_bin">ゴミ箱</string>
+    <string name="restore_from_bin">ゴミ箱から復元</string>
+    <string name="change_langauge">言語を変更</string>
+
+    // Contacts Screen
+    <string name="search_contact">連絡先を検索</string>
+
+    // Setting Screen
+    <string name="app_language">アプリの言語</string>
+    <string name="system_default">システムのデフォルト</string>
+    <string name="delay_sending">送信の遅延</string>
+    <string name="no_delay">遅延なし</string>
+    <string name="signatures">署名</string>
+    <string name="add_your_signature">署名を追加</string>
+    <string name="launcher_settings">ランチャー設定</string>
+    <string name="customize_your_layout_and_icons">レイアウトとアイコンをカスタマイズ</string>
+    <string name="about_messages">Messagesについて</string>
+    <string name="invite_friends">友達を招待</string>
+    <string name="rate_us">評価する</string>
+
+    // Delay Dialog
+    <string name="_3_sec_delay">3秒の遅延</string>
+    <string name="_5_sec_delay">5秒の遅延</string>
+    <string name="_10_sec_delay">10秒の遅延</string>
+    <string name="cancel">キャンセル</string>
+    <string name="okay">OK</string>
+
+    // Signature Dialog
+    <string name="delete">削除</string>
+    <string name="dash">-</string>
+    <string name="save">保存</string>
+
+    // Launcher Settings Screen
+    <string name="serialize">並べ替え</string>
+    <string name="by_name_asc_a_to_z">名前の昇順（AからZ）</string>
+    <string name="by_name_desc_z_to_a">名前の降順（ZからA）</string>
+    <string name="by_installed_date">インストール日順</string>
+
+    // App Page Screen
+    <string name="preview">プレビュー</string>
+    <string name="label_visibility">ラベルの表示</string>
+    <string name="hide_app_name">アプリ名を非表示</string>
+    <string name="app_icon_size">アプリアイコンのサイズ</string>
+    <string name="app_label_size">アプリラベルのサイズ</string>
+    <string name="_10">10</string>
+
+    // About Messages Screen
+    <string name="version">バージョン</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
+    <string name="terms_conditions">利用規約</string>
+
+    // Recycle Bin Dialog
+    <string name="move_to_bin">ゴミ箱に移動</string>
+    <string name="are_you_sure_you_want_to_move_to_bin_this_message">このメッセージをゴミ箱に移動しますか？</string>
+
+    // Block Dialog
+    <string name="are_you_sure_you_want_to_block_this_message">このメッセージをブロックしますか？</string>
+
+    // Delete Dialog
+    <string name="delete_conversation">会話を削除</string>
+    <string name="are_you_sure_you_want_to_delete_permanently_this_message">このメッセージを完全に削除しますか？</string>
+
+    // Toast Messages
+    <string name="toast_archived">アーカイブしました</string>
+    <string name="toast_unarchived">アーカイブを解除しました</string>
+    <string name="toast_blocked">ブロックしました</string>
+    <string name="toast_unblocked">ブロックを解除しました</string>
+    <string name="toast_moved_to_recycle_bin">ゴミ箱に移動しました</string>
+    <string name="toast_restored_from_bin">ゴミ箱から復元しました</string>
+    <string name="toast_conversation_deleted">会話を削除しました</string>
+    <string name="toast_pinned">上部にピン留めしました</string>
+    <string name="toast_unpinned">ピン留めを解除しました</string>
+
+    // Other in App
+    <string name="selected">選択済み</string>
+    <string name="no_archived_messages">アーカイブされたメッセージはありません</string>
+    <string name="no_block_messages">ブロックされたメッセージはありません</string>
+    <string name="no_data_found">データが見つかりません</string>
+    <string name="recycle_bin_empty">ゴミ箱は空です</string>
+
+    // Backup Activity
+    <string name="backup_and_restore">バックアップと復元</string>
+    <string name="backup_and_restore_message_easily">メッセージを簡単にバックアップおよび復元</string>
+    <string name="backup_location">バックアップの場所</string>
+    <string name="set_folder">フォルダを設定</string>
+    <string name="restore">復元</string>
+    <string name="select_a_backup">バックアップを選択</string>
+    <string name="currently_only_sms_is_supported_by_backup_and_restore_mms_support_and_scheduled_backups_will_be_coming_soon">現在、バックアップと復元ではSMSのみがサポートされています。MMSのサポートとスケジュールバックアップは近日公開予定です！</string>
+    <string name="backup_now">今すぐバックアップ</string>
+    <string name="backup_backing_up">メッセージをバックアップ中</string>
+    <string name="backup_restoring">バックアップから復元中</string>
+    <string name="backup_parsing">バックアップを解析中…</string>
+    <string name="backup_saving">バックアップを保存中…</string>
+    <string name="backup_syncing">メッセージを同期中…</string>
+    <string name="backup_finished">完了！</string>
+    <string name="backup_progress">%1$d/%2$d 件のメッセージ</string>
+    <string name="backup_message_count">%1$d 件のメッセージ</string>
+    <string name="backup_restore_dialog_title">バックアップ</string>
+    <string name="backup_restore_dialog_empty">バックアップが見つかりません</string>
+    <string name="backup_restore_confirm_title">バックアップから復元</string>
+    <string name="backup_restore_confirm_message">このバックアップからメッセージを復元しますか？</string>
+    <string name="backup_error_title">エラー</string>
+    <string name="backup_error_read">バックアップファイルを読み取れませんでした</string>
+    <string name="backup_select_location_first">先にバックアップの場所を選択してください</string>
+    <string name="backup_permission_required">バックアップと復元にはSMS権限が必要です</string>
+    <string name="backup_default_app_required">メッセージを復元するには、このアプリをデフォルトのSMSアプリに設定してください</string>
+    <string name="backup_stop_restore_title">復元を停止しますか？</string>
+    <string name="backup_stop_restore_message">すでに復元されたメッセージは端末に残ります</string>
+    <string name="stop">停止</string>
+
+    // Other out App
+    <string name="search">Search</string>
+    <string name="open">Open</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="trending_news">Trending News</string>
+    <string name="read_more">Read More</string>
+    <string name="loading_ads">Loading Ads…</string>
+    <string name="this_action_may_contain_ads">This action may contain Ads</string>
+
+    <string name="markrting_converter1">gclid</string>
+    <string name="utm_source_apps_facebook_com">utm_source=apps.facebook.com</string>
+    <string name="utm_source_apps_instagram_com">utm_source=apps.instagram.com</string>
+    <string name="utm_source_marketing">utm_source=marketing</string>
+
+</resources>

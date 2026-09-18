@@ -1,0 +1,211 @@
+﻿<resources>
+    <string name="app_name">Messages</string>
+    <string name="app_name_launcher"># Messages</string>
+    <string name="one_inbox_for_every_conversation">One Inbox For Every Conversation</string>
+
+    // Language Screen
+    <string name="done">Klar</string>
+    <string name="next">Nästa</string>
+
+    // Collection / Data consent screen
+    <string name="collection_title">En kort information om dina data</string>
+    <string name="collection_intro_1">Vi använder begränsad enhets- och appinformation för att hålla Messages snabb, säker och tillförlitlig, visa annonser som hjälper till att hålla appen gratis och skicka viktiga aviseringar till dig.</string>
+    <string name="collection_intro_2">Dina meddelanden, kontakter och personliga konversationer samlas inte in för analys eller annonsering och finns kvar på din enhet.</string>
+    <string name="collection_what_we_use">Vad vi använder och varför:</string>
+    <string name="collection_bullet_1">• Information om hur appen används – till exempel vilka skärmar du öppnar och vilka funktioner du använder – för att förbättra prestanda och användarupplevelse</string>
+    <string name="collection_bullet_2">• Enhets- och appidentifierare – för att spara dina inställningar, förbättra appens stabilitet och stödja aviseringar</string>
+    <string name="collection_bullet_3">• Ungefärlig plats baserad på ditt nätverk – för att förstå användningstrender och erbjuda funktioner som är relevanta för din region</string>
+    <string name="collection_bullet_4">• Annonsidentifierare – för att visa och mäta annonser som hjälper till att hålla appen gratis</string>
+    <string name="collection_footer">Genom att trycka på Godkänn och fortsätt godkänner du våra användarvillkor och bekräftar att du har tagit del av vår integritetspolicy. Vi samlar endast in den information som beskrivs ovan för att förbättra appen, tillhandahålla viktiga funktioner och stödja annonsering. Dina personliga meddelanden och konversationer förblir privata.</string>
+    <string name="collection_agree_checkbox">Jag godkänner denna datainsamling</string>
+    <string name="collection_agree_continue">Godkänn och fortsätt</string>
+    <string name="collection_agree_toast">Godkänn datainsamlingen för att fortsätta.</string>
+    <string name="terms">Villkor</string>
+
+    // Default SMS Screen
+    <string name="set_default_sms">Ange standard-SMS</string>
+    <string name="set_default_sms_desc">Ange den här appen som din standard-SMS-app för att hålla alla dina meddelanden organiserade, säkra och enkla att hantera.</string>
+    <string name="set_as_default_sms">Ange som standard-SMS</string>
+
+    // Default App Screen
+    <string name="set_default_app">Ange standardapp</string>
+    <string name="set_default_app_desc">Ange den här appen som din standardstartskärm för en snabbare, renare och mer personlig upplevelse.</string>
+    <string name="set_as_default_app">Ange som standardapp</string>
+
+    // Intro Screen
+    <string name="intro_1_title">Smart meddelandehantering</string>
+    <string name="intro_1_description">Hantera konversationer effektivt med en organiserad, säker och omedelbar meddelandeupplevelse.</string>
+    <string name="intro_2_title">Chatt i realtid</string>
+    <string name="intro_2_description">Anslut direkt via snabba, pålitliga och smidiga konversationer i realtid varje dag.</string>
+    <string name="intro_3_title">Kontakthantering</string>
+    <string name="intro_3_description">Organisera kontakter enkelt för snabbare kommunikation och bättre tillgänglighet när som helst.</string>
+    <string name="intro_4_title">Chatt arkiverad</string>
+    <string name="intro_4_description">Lagra viktiga konversationer säkert för snabb åtkomst när du behöver dem senare.</string>
+
+    // Permission Dialog
+    <string name="please_allow_permissions_from_app_settings">Tillåt behörigheter från appinställningarna</string>
+    <string name="open_settings">Öppna inställningar</string>
+
+    // Main Screen
+    <string name="messages">Meddelanden</string>
+    <string name="contacts">Kontakter</string>
+    <string name="settings">Inställningar</string>
+
+    // Messages Screen
+    <string name="overlay_permission_required">Behörighet för överlägg krävs</string>
+    <string name="overlay_permission_description">Den här appen behöver behörighet för överlägg för att visa popup-meddelandefönster.</string>
+    <string name="permission_required">Behörighet krävs</string>
+    <string name="permission_message_description">Behörighet för meddelanden krävs för att komma åt dina meddelanden och skicka snabba meddelanden.</string>
+    <string name="permission_contact_description">Behörighet för kontakter krävs för att komma åt dina sparade kontakter och ringa snabbt.</string>
+    <string name="your_conversation_will_appear_here">Din konversation visas här</string>
+    <string name="allow">Tillåt</string>
+    <string name="your_contacts_will_appear_here">Dina kontakter visas här</string>
+    <string name="search_message">Sök meddelanden</string>
+    <string name="all">Alla</string>
+    <string name="unread">Olästa</string>
+    <string name="personal">Personligt</string>
+    <string name="transaction">Transaktion</string>
+    <string name="otp">OTP</string>
+    <string name="offer">Erbjudande</string>
+    <string name="blocked">Blockerade</string>
+    <string name="to_move_this_conversation_out_of_blocking_and_get_messages_again_unblock">För att flytta den här konversationen ut ur \'Blockering\' och få meddelanden igen, avblockera</string>
+    <string name="sender_does_not_support_replies">Avsändaren stöder inte svar</string>
+    <string name="this_conversation_blocked_by_you">Den här konversationen har blockerats av dig</string>
+    <string name="enter_message">Skriv meddelande</string>
+    <string name="today">Idag</string>
+    <string name="yesterday">Igår</string>
+    <string name="send_failed">Meddelandet kunde inte skickas</string>
+    <string name="send_sms_permission_required">SMS-behörighet krävs för att skicka meddelanden</string>
+
+    // Menu
+    <string name="mark_as_all_read">Markera alla som lästa</string>
+    <string name="add_to_contact">Lägg till i kontakter</string>
+    <string name="archived">Arkiverat</string>
+    <string name="unarchived">Borttaget från arkiv</string>
+    <string name="block">Blockera</string>
+    <string name="unblock">Avblockera</string>
+    <string name="recycle_bin">Papperskorg</string>
+    <string name="restore_from_bin">Återställ från papperskorgen</string>
+    <string name="change_langauge">Byt språk</string>
+
+    // Contacts Screen
+    <string name="search_contact">Sök kontakter</string>
+
+    // Setting Screen
+    <string name="app_language">Appspråk</string>
+    <string name="system_default">Systemstandard</string>
+    <string name="delay_sending">Fördröjd sändning</string>
+    <string name="no_delay">Ingen fördröjning</string>
+    <string name="signatures">Signaturer</string>
+    <string name="add_your_signature">Lägg till din signatur</string>
+    <string name="launcher_settings">Launcher-inställningar</string>
+    <string name="customize_your_layout_and_icons">Anpassa layout och ikoner</string>
+    <string name="about_messages">Om Messages</string>
+    <string name="invite_friends">Bjud in vänner</string>
+    <string name="rate_us">Betygsätt oss</string>
+
+    // Delay Dialog
+    <string name="_3_sec_delay">3 sek. fördröjning</string>
+    <string name="_5_sec_delay">5 sek. fördröjning</string>
+    <string name="_10_sec_delay">10 sek. fördröjning</string>
+    <string name="cancel">Avbryt</string>
+    <string name="okay">OK</string>
+
+    // Signature Dialog
+    <string name="delete">Radera</string>
+    <string name="dash">-</string>
+    <string name="save">Spara</string>
+
+    // Launcher Settings Screen
+    <string name="serialize">Sortera</string>
+    <string name="by_name_asc_a_to_z">Efter namn stigande (A till Ö)</string>
+    <string name="by_name_desc_z_to_a">Efter namn fallande (Ö till A)</string>
+    <string name="by_installed_date">Efter installationsdatum</string>
+
+    // App Page Screen
+    <string name="preview">Förhandsgranskning</string>
+    <string name="label_visibility">Etikettens synlighet</string>
+    <string name="hide_app_name">Dölj appnamn</string>
+    <string name="app_icon_size">Appikonens storlek</string>
+    <string name="app_label_size">Appetikettens storlek</string>
+    <string name="_10">10</string>
+
+    // About Messages Screen
+    <string name="version">Version</string>
+    <string name="privacy_policy">Integritetspolicy</string>
+    <string name="terms_conditions">Villkor</string>
+
+    // Recycle Bin Dialog
+    <string name="move_to_bin">Flytta till papperskorgen</string>
+    <string name="are_you_sure_you_want_to_move_to_bin_this_message">Är du säker på att du vill flytta det här meddelandet till papperskorgen?</string>
+
+    // Block Dialog
+    <string name="are_you_sure_you_want_to_block_this_message">Är du säker på att du vill blockera det här meddelandet?</string>
+
+    // Delete Dialog
+    <string name="delete_conversation">Radera konversation</string>
+    <string name="are_you_sure_you_want_to_delete_permanently_this_message">Är du säker på att du vill radera det här meddelandet permanent?</string>
+
+    // Toast Messages
+    <string name="toast_archived">Arkiverat</string>
+    <string name="toast_unarchived">Borttaget från arkiv</string>
+    <string name="toast_blocked">Blockerat</string>
+    <string name="toast_unblocked">Avblockerat</string>
+    <string name="toast_moved_to_recycle_bin">Flyttat till papperskorgen</string>
+    <string name="toast_restored_from_bin">Återställt från papperskorgen</string>
+    <string name="toast_conversation_deleted">Konversation raderad</string>
+    <string name="toast_pinned">Fäst högst upp</string>
+    <string name="toast_unpinned">Lossad</string>
+
+    // Other in App
+    <string name="selected">Valt</string>
+    <string name="no_archived_messages">Inga arkiverade meddelanden</string>
+    <string name="no_block_messages">Inga blockerade meddelanden</string>
+    <string name="no_data_found">Ingen data hittades</string>
+    <string name="recycle_bin_empty">Papperskorgen är tom</string>
+
+    // Backup Activity
+    <string name="backup_and_restore">Säkerhetskopiering och återställning</string>
+    <string name="backup_and_restore_message_easily">Säkerhetskopiera och återställ meddelanden enkelt</string>
+    <string name="backup_location">Plats för säkerhetskopia</string>
+    <string name="set_folder">Ange mapp</string>
+    <string name="restore">Återställ</string>
+    <string name="select_a_backup">Välj en säkerhetskopia</string>
+    <string name="currently_only_sms_is_supported_by_backup_and_restore_mms_support_and_scheduled_backups_will_be_coming_soon">För närvarande stöds endast SMS för säkerhetskopiering och återställning. Stöd för MMS och schemalagda säkerhetskopior kommer snart!</string>
+    <string name="backup_now">Säkerhetskopiera nu</string>
+    <string name="backup_backing_up">Säkerhetskopierar meddelanden</string>
+    <string name="backup_restoring">Återställer från säkerhetskopia</string>
+    <string name="backup_parsing">Analyserar säkerhetskopia…</string>
+    <string name="backup_saving">Sparar säkerhetskopia…</string>
+    <string name="backup_syncing">Synkroniserar meddelanden…</string>
+    <string name="backup_finished">Klart!</string>
+    <string name="backup_progress">%1$d/%2$d meddelanden</string>
+    <string name="backup_message_count">%1$d meddelanden</string>
+    <string name="backup_restore_dialog_title">Säkerhetskopior</string>
+    <string name="backup_restore_dialog_empty">Inga säkerhetskopior hittades</string>
+    <string name="backup_restore_confirm_title">Återställ från säkerhetskopia</string>
+    <string name="backup_restore_confirm_message">Är du säker på att du vill återställa dina meddelanden från den här säkerhetskopian?</string>
+    <string name="backup_error_title">Fel</string>
+    <string name="backup_error_read">Kunde inte läsa säkerhetskopiefilen</string>
+    <string name="backup_select_location_first">Välj först en plats för säkerhetskopian</string>
+    <string name="backup_permission_required">SMS-behörighet krävs för säkerhetskopiering och återställning</string>
+    <string name="backup_default_app_required">Ange den här appen som standard-SMS-app för att återställa meddelanden</string>
+    <string name="backup_stop_restore_title">Stoppa återställning?</string>
+    <string name="backup_stop_restore_message">Meddelanden som redan har återställts finns kvar på din enhet</string>
+    <string name="stop">Stoppa</string>
+
+    // Other out App
+    <string name="search">Search</string>
+    <string name="open">Open</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="trending_news">Trending News</string>
+    <string name="read_more">Read More</string>
+    <string name="loading_ads">Loading Ads…</string>
+    <string name="this_action_may_contain_ads">This action may contain Ads</string>
+
+    <string name="markrting_converter1">gclid</string>
+    <string name="utm_source_apps_facebook_com">utm_source=apps.facebook.com</string>
+    <string name="utm_source_apps_instagram_com">utm_source=apps.instagram.com</string>
+    <string name="utm_source_marketing">utm_source=marketing</string>
+
+</resources>

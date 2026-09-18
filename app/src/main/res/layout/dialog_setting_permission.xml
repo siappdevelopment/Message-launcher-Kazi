@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_dialog_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/_16sdp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fig_tree_semibold"
+        android:text="@string/permission_required"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13sdp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:fontFamily="@font/fig_tree_medium"
+        android:text="@string/please_allow_permissions_from_app_settings"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/_11sdp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvCancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_36sdp"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="@color/divider"
+            android:fontFamily="@font/fig_tree_medium"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/_12sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvOpenSettings"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_36sdp"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:fontFamily="@font/fig_tree_medium"
+            android:gravity="center"
+            android:text="@string/open_settings"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+
+    </LinearLayout>
+
+</LinearLayout>

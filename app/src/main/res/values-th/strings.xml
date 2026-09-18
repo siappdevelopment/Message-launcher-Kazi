@@ -1,0 +1,211 @@
+﻿<resources>
+    <string name="app_name">Messages</string>
+    <string name="app_name_launcher"># Messages</string>
+    <string name="one_inbox_for_every_conversation">One Inbox For Every Conversation</string>
+
+    // Language Screen
+    <string name="done">เสร็จสิ้น</string>
+    <string name="next">ถัดไป</string>
+
+    // Collection / Data consent screen
+    <string name="collection_title">ข้อมูลสั้น ๆ เกี่ยวกับข้อมูลของคุณ</string>
+    <string name="collection_intro_1">เราใช้ข้อมูลอุปกรณ์และข้อมูลแอปในขอบเขตที่จำเป็นเพื่อให้ Messages ทำงานได้อย่างรวดเร็ว ปลอดภัย และเชื่อถือได้ แสดงโฆษณาที่ช่วยให้แอปใช้งานได้ฟรี และส่งการแจ้งเตือนที่สำคัญให้กับคุณ</string>
+    <string name="collection_intro_2">ข้อความ รายชื่อผู้ติดต่อ และการสนทนาส่วนตัวของคุณจะไม่ถูกรวบรวมเพื่อการวิเคราะห์หรือการโฆษณา และยังคงอยู่ในอุปกรณ์ของคุณ</string>
+    <string name="collection_what_we_use">เราใช้ข้อมูลอะไร และเพื่ออะไร:</string>
+    <string name="collection_bullet_1">• ข้อมูลการใช้งานแอป เช่น หน้าจอที่คุณเปิดและฟีเจอร์ที่คุณใช้งาน เพื่อปรับปรุงประสิทธิภาพและประสบการณ์การใช้งาน</string>
+    <string name="collection_bullet_2">• ตัวระบุอุปกรณ์และแอป เพื่อบันทึกการตั้งค่าของคุณ ปรับปรุงความเสถียรของแอป และรองรับการแจ้งเตือน</string>
+    <string name="collection_bullet_3">• ตำแหน่งโดยประมาณตามเครือข่ายของคุณ เพื่อทำความเข้าใจแนวโน้มการใช้งานและมอบฟีเจอร์ที่เหมาะสมกับภูมิภาคของคุณ</string>
+    <string name="collection_bullet_4">• ตัวระบุโฆษณา เพื่อแสดงและวัดผลโฆษณาที่ช่วยให้แอปยังคงใช้งานได้ฟรี</string>
+    <string name="collection_footer">เมื่อแตะ "ยอมรับและดำเนินการต่อ" คุณยอมรับข้อกำหนดในการให้บริการและรับทราบนโยบายความเป็นส่วนตัวของเรา เราจะรวบรวมเฉพาะข้อมูลที่อธิบายไว้ข้างต้นเพื่อปรับปรุงแอป มอบฟีเจอร์ที่จำเป็น และสนับสนุนการโฆษณา ข้อความและการสนทนาส่วนตัวของคุณจะยังคงเป็นส่วนตัว</string>
+    <string name="collection_agree_checkbox">ฉันยินยอมให้มีการเก็บรวบรวมข้อมูลนี้</string>
+    <string name="collection_agree_continue">ยอมรับและดำเนินการต่อ</string>
+    <string name="collection_agree_toast">โปรดยินยอมให้มีการเก็บรวบรวมข้อมูลเพื่อดำเนินการต่อ</string>
+    <string name="terms">ข้อกำหนด</string>
+
+    // Default SMS Screen
+    <string name="set_default_sms">ตั้งค่า SMS เริ่มต้น</string>
+    <string name="set_default_sms_desc">ตั้งค่าแอปนี้เป็นแอป SMS เริ่มต้น เพื่อให้ข้อความทั้งหมดของคุณเป็นระเบียบ ปลอดภัย และจัดการได้ง่าย</string>
+    <string name="set_as_default_sms">ตั้งเป็นแอป SMS เริ่มต้น</string>
+
+    // Default App Screen
+    <string name="set_default_app">ตั้งค่าแอปเริ่มต้น</string>
+    <string name="set_default_app_desc">ตั้งค่าแอปนี้เป็นตัวเปิดหน้าจอหลักเริ่มต้น เพื่อสัมผัสประสบการณ์หน้าจอหลักที่รวดเร็ว เรียบง่าย และปรับแต่งได้ตามต้องการ</string>
+    <string name="set_as_default_app">ตั้งเป็นแอปเริ่มต้น</string>
+
+    // Intro Screen
+    <string name="intro_1_title">ข้อความอัจฉริยะ</string>
+    <string name="intro_1_description">จัดการการสนทนาได้อย่างมีประสิทธิภาพด้วยประสบการณ์ส่งข้อความที่จัดระเบียบ ปลอดภัย และทันที</string>
+    <string name="intro_2_title">แชทแบบเรียลไทม์</string>
+    <string name="intro_2_description">เชื่อมต่อได้ทันทีผ่านการสนทนาแบบเรียลไทม์ที่รวดเร็ว เชื่อถือได้ และราบรื่นทุกวัน</string>
+    <string name="intro_3_title">การจัดการรายชื่อติดต่อ</string>
+    <string name="intro_3_description">จัดระเบียบรายชื่อติดต่อได้อย่างง่ายดายเพื่อการสื่อสารที่เร็วขึ้นและการเข้าถึงที่ดีขึ้นทุกเมื่อ</string>
+    <string name="intro_4_title">แชทที่เก็บถาวร</string>
+    <string name="intro_4_description">จัดเก็บการสนทนาสำคัญอย่างปลอดภัยเพื่อเข้าถึงได้อย่างรวดเร็วเมื่อต้องการในภายหลัง</string>
+
+    // Permission Dialog
+    <string name="please_allow_permissions_from_app_settings">โปรดอนุญาตสิทธิ์จากตั้งค่าแอป</string>
+    <string name="open_settings">เปิดการตั้งค่า</string>
+
+    // Main Screen
+    <string name="messages">ข้อความ</string>
+    <string name="contacts">รายชื่อติดต่อ</string>
+    <string name="settings">การตั้งค่า</string>
+
+    // Messages Screen
+    <string name="overlay_permission_required">ต้องมีสิทธิ์แสดงทับ</string>
+    <string name="overlay_permission_description">แอปนี้ต้องมีสิทธิ์แสดงทับเพื่อแสดงหน้าต่างข้อความป๊อปอัป</string>
+    <string name="permission_required">สิทธิ์ที่จำเป็น</string>
+    <string name="permission_message_description">ต้องมีสิทธิ์ข้อความเพื่อเข้าถึงข้อความของคุณและส่งข้อความด่วน</string>
+    <string name="permission_contact_description">ต้องมีสิทธิ์รายชื่อติดต่อเพื่อเข้าถึงรายชื่อที่บันทึกไว้และโทรด่วน</string>
+    <string name="your_conversation_will_appear_here">การสนทนาของคุณจะปรากฏที่นี่</string>
+    <string name="allow">อนุญาต</string>
+    <string name="your_contacts_will_appear_here">รายชื่อติดต่อของคุณจะปรากฏที่นี่</string>
+    <string name="search_message">ค้นหาข้อความ</string>
+    <string name="all">ทั้งหมด</string>
+    <string name="unread">ยังไม่อ่าน</string>
+    <string name="personal">ส่วนตัว</string>
+    <string name="transaction">ธุรกรรม</string>
+    <string name="otp">OTP</string>
+    <string name="offer">ข้อเสนอ</string>
+    <string name="blocked">ถูกบล็อก</string>
+    <string name="to_move_this_conversation_out_of_blocking_and_get_messages_again_unblock">หากต้องการย้ายการสนทนานี้ออกจาก \'การบล็อก\' และรับข้อความอีกครั้ง ให้ยกเลิกการบล็อก</string>
+    <string name="sender_does_not_support_replies">ผู้ส่งไม่รองรับการตอบกลับ</string>
+    <string name="this_conversation_blocked_by_you">คุณได้บล็อกการสนทนานี้</string>
+    <string name="enter_message">พิมพ์ข้อความ</string>
+    <string name="today">วันนี้</string>
+    <string name="yesterday">เมื่อวาน</string>
+    <string name="send_failed">ส่งข้อความไม่สำเร็จ</string>
+    <string name="send_sms_permission_required">ต้องมีสิทธิ์ SMS เพื่อส่งข้อความ</string>
+
+    // Menu
+    <string name="mark_as_all_read">ทำเครื่องหมายทั้งหมดว่าอ่านแล้ว</string>
+    <string name="add_to_contact">เพิ่มในรายชื่อติดต่อ</string>
+    <string name="archived">เก็บถาวรแล้ว</string>
+    <string name="unarchived">นำออกจากที่เก็บถาวรแล้ว</string>
+    <string name="block">บล็อก</string>
+    <string name="unblock">ยกเลิกการบล็อก</string>
+    <string name="recycle_bin">ถังรีไซเคิล</string>
+    <string name="restore_from_bin">กู้คืนจากถังรีไซเคิล</string>
+    <string name="change_langauge">เปลี่ยนภาษา</string>
+
+    // Contacts Screen
+    <string name="search_contact">ค้นหารายชื่อติดต่อ</string>
+
+    // Setting Screen
+    <string name="app_language">ภาษาของแอป</string>
+    <string name="system_default">ค่าเริ่มต้นของระบบ</string>
+    <string name="delay_sending">ส่งแบบหน่วงเวลา</string>
+    <string name="no_delay">ไม่หน่วงเวลา</string>
+    <string name="signatures">ลายเซ็น</string>
+    <string name="add_your_signature">เพิ่มลายเซ็นของคุณ</string>
+    <string name="launcher_settings">การตั้งค่าตัวเปิดแอป</string>
+    <string name="customize_your_layout_and_icons">ปรับแต่งเลย์เอาต์และไอคอน</string>
+    <string name="about_messages">เกี่ยวกับ Messages</string>
+    <string name="invite_friends">เชิญเพื่อน</string>
+    <string name="rate_us">ให้คะแนนเรา</string>
+
+    // Delay Dialog
+    <string name="_3_sec_delay">หน่วงเวลา 3 วินาที</string>
+    <string name="_5_sec_delay">หน่วงเวลา 5 วินาที</string>
+    <string name="_10_sec_delay">หน่วงเวลา 10 วินาที</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="okay">ตกลง</string>
+
+    // Signature Dialog
+    <string name="delete">ลบ</string>
+    <string name="dash">-</string>
+    <string name="save">บันทึก</string>
+
+    // Launcher Settings Screen
+    <string name="serialize">จัดเรียง</string>
+    <string name="by_name_asc_a_to_z">ตามชื่อ จากน้อยไปมาก (A ถึง Z)</string>
+    <string name="by_name_desc_z_to_a">ตามชื่อ จากมากไปน้อย (Z ถึง A)</string>
+    <string name="by_installed_date">ตามวันที่ติดตั้ง</string>
+
+    // App Page Screen
+    <string name="preview">ดูตัวอย่าง</string>
+    <string name="label_visibility">การแสดงป้ายชื่อ</string>
+    <string name="hide_app_name">ซ่อนชื่อแอป</string>
+    <string name="app_icon_size">ขนาดไอคอนแอป</string>
+    <string name="app_label_size">ขนาดป้ายชื่อแอป</string>
+    <string name="_10">10</string>
+
+    // About Messages Screen
+    <string name="version">เวอร์ชัน</string>
+    <string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="terms_conditions">ข้อกำหนดและเงื่อนไข</string>
+
+    // Recycle Bin Dialog
+    <string name="move_to_bin">ย้ายไปถังรีไซเคิล</string>
+    <string name="are_you_sure_you_want_to_move_to_bin_this_message">คุณแน่ใจหรือไม่ว่าต้องการย้ายข้อความนี้ไปยังถังรีไซเคิล?</string>
+
+    // Block Dialog
+    <string name="are_you_sure_you_want_to_block_this_message">คุณแน่ใจหรือไม่ว่าต้องการบล็อกข้อความนี้?</string>
+
+    // Delete Dialog
+    <string name="delete_conversation">ลบการสนทนา</string>
+    <string name="are_you_sure_you_want_to_delete_permanently_this_message">คุณแน่ใจหรือไม่ว่าต้องการลบข้อความนี้อย่างถาวร?</string>
+
+    // Toast Messages
+    <string name="toast_archived">เก็บถาวรแล้ว</string>
+    <string name="toast_unarchived">นำออกจากที่เก็บถาวรแล้ว</string>
+    <string name="toast_blocked">บล็อกแล้ว</string>
+    <string name="toast_unblocked">ยกเลิกการบล็อกแล้ว</string>
+    <string name="toast_moved_to_recycle_bin">ย้ายไปถังรีไซเคิลแล้ว</string>
+    <string name="toast_restored_from_bin">กู้คืนจากถังรีไซเคิลแล้ว</string>
+    <string name="toast_conversation_deleted">ลบการสนทนาแล้ว</string>
+    <string name="toast_pinned">ปักหมุดไว้ด้านบนแล้ว</string>
+    <string name="toast_unpinned">เลิกปักหมุดแล้ว</string>
+
+    // Other in App
+    <string name="selected">เลือกแล้ว</string>
+    <string name="no_archived_messages">ไม่มีข้อความที่เก็บถาวร</string>
+    <string name="no_block_messages">ไม่มีข้อความที่ถูกบล็อก</string>
+    <string name="no_data_found">ไม่พบข้อมูล</string>
+    <string name="recycle_bin_empty">ถังรีไซเคิลว่างเปล่า</string>
+
+    // Backup Activity
+    <string name="backup_and_restore">สำรองและกู้คืน</string>
+    <string name="backup_and_restore_message_easily">สำรองและกู้คืนข้อความได้อย่างง่ายดาย</string>
+    <string name="backup_location">ตำแหน่งการสำรองข้อมูล</string>
+    <string name="set_folder">ตั้งค่าโฟลเดอร์</string>
+    <string name="restore">กู้คืน</string>
+    <string name="select_a_backup">เลือกข้อมูลสำรอง</string>
+    <string name="currently_only_sms_is_supported_by_backup_and_restore_mms_support_and_scheduled_backups_will_be_coming_soon">ขณะนี้รองรับเฉพาะ SMS สำหรับการสำรองและกู้คืน การรองรับ MMS และการสำรองตามกำหนดเวลาจะมาเร็วๆ นี้!</string>
+    <string name="backup_now">สำรองข้อมูลตอนนี้</string>
+    <string name="backup_backing_up">กำลังสำรองข้อความ</string>
+    <string name="backup_restoring">กำลังกู้คืนจากข้อมูลสำรอง</string>
+    <string name="backup_parsing">กำลังวิเคราะห์ข้อมูลสำรอง…</string>
+    <string name="backup_saving">กำลังบันทึกข้อมูลสำรอง…</string>
+    <string name="backup_syncing">กำลังซิงค์ข้อความ…</string>
+    <string name="backup_finished">เสร็จสิ้น!</string>
+    <string name="backup_progress">%1$d/%2$d ข้อความ</string>
+    <string name="backup_message_count">%1$d ข้อความ</string>
+    <string name="backup_restore_dialog_title">ข้อมูลสำรอง</string>
+    <string name="backup_restore_dialog_empty">ไม่พบข้อมูลสำรอง</string>
+    <string name="backup_restore_confirm_title">กู้คืนจากข้อมูลสำรอง</string>
+    <string name="backup_restore_confirm_message">คุณแน่ใจหรือไม่ว่าต้องการกู้คืนข้อความจากข้อมูลสำรองนี้?</string>
+    <string name="backup_error_title">ข้อผิดพลาด</string>
+    <string name="backup_error_read">ไม่สามารถอ่านไฟล์ข้อมูลสำรองได้</string>
+    <string name="backup_select_location_first">โปรดเลือกตำแหน่งการสำรองข้อมูลก่อน</string>
+    <string name="backup_permission_required">ต้องมีสิทธิ์ SMS สำหรับการสำรองและกู้คืน</string>
+    <string name="backup_default_app_required">โปรดตั้งแอปนี้เป็นแอป SMS เริ่มต้นเพื่อกู้คืนข้อความ</string>
+    <string name="backup_stop_restore_title">หยุดการกู้คืนหรือไม่?</string>
+    <string name="backup_stop_restore_message">ข้อความที่กู้คืนแล้วจะยังคงอยู่บนอุปกรณ์ของคุณ</string>
+    <string name="stop">หยุด</string>
+
+    // Other out App
+    <string name="search">Search</string>
+    <string name="open">Open</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="trending_news">Trending News</string>
+    <string name="read_more">Read More</string>
+    <string name="loading_ads">Loading Ads…</string>
+    <string name="this_action_may_contain_ads">This action may contain Ads</string>
+
+    <string name="markrting_converter1">gclid</string>
+    <string name="utm_source_apps_facebook_com">utm_source=apps.facebook.com</string>
+    <string name="utm_source_apps_instagram_com">utm_source=apps.instagram.com</string>
+    <string name="utm_source_marketing">utm_source=marketing</string>
+
+</resources>

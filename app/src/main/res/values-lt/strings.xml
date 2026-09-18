@@ -1,0 +1,211 @@
+﻿<resources>
+    <string name="app_name">Messages</string>
+    <string name="app_name_launcher"># Messages</string>
+    <string name="one_inbox_for_every_conversation">One Inbox For Every Conversation</string>
+
+    // Language Screen
+    <string name="done">Atlikta</string>
+    <string name="next">Toliau</string>
+
+    // Collection / Data consent screen
+    <string name="collection_title">Trumpa pastaba apie jūsų duomenis</string>
+    <string name="collection_intro_1">Naudojame ribotą įrenginio ir programėlės informaciją, kad „Messages“ veiktų greitai, saugiai ir patikimai, rodytume skelbimus, padedančius išlaikyti programėlę nemokamą, ir siųstume jums svarbius pranešimus.</string>
+    <string name="collection_intro_2">Jūsų žinutės, kontaktai ir asmeniniai pokalbiai nėra renkami analizės ar reklamos tikslais ir lieka jūsų įrenginyje.</string>
+    <string name="collection_what_we_use">Ką naudojame ir kodėl:</string>
+    <string name="collection_bullet_1">• Programėlės naudojimo informacija – pvz., kokius ekranus atidarote ir kokiomis funkcijomis naudojatės – siekiant pagerinti našumą ir naudotojo patirtį</string>
+    <string name="collection_bullet_2">• Įrenginio ir programėlės identifikatoriai – jūsų nuostatoms išsaugoti, programėlės stabilumui gerinti ir pranešimams palaikyti</string>
+    <string name="collection_bullet_3">• Apytikslė vieta pagal jūsų tinklą – naudojimo tendencijoms suprasti ir regionui pritaikytoms funkcijoms teikti</string>
+    <string name="collection_bullet_4">• Reklamos identifikatoriai – reklamoms rodyti ir jų veiksmingumui matuoti, kad programėlė išliktų nemokama</string>
+    <string name="collection_footer">Bakstelėdami „Sutinku ir tęsti“ sutinkate su mūsų Paslaugų teikimo sąlygomis ir patvirtinate, kad susipažinote su mūsų Privatumo politika. Renkame tik aukščiau aprašytą informaciją, kad pagerintume programėlę, teiktume svarbiausias funkcijas ir palaikytume reklamą. Jūsų asmeninės žinutės ir pokalbiai išlieka privatūs.</string>
+    <string name="collection_agree_checkbox">Sutinku su šiuo duomenų rinkimu</string>
+    <string name="collection_agree_continue">Sutinku ir tęsti</string>
+    <string name="collection_agree_toast">Norėdami tęsti, sutikite su duomenų rinkimu.</string>
+    <string name="terms">Sąlygos</string>
+
+    // Default SMS Screen
+    <string name="set_default_sms">Nustatyti numatytąją SMS programėlę</string>
+    <string name="set_default_sms_desc">Nustatykite šią programėlę kaip numatytąją SMS programėlę, kad visos jūsų žinutės būtų tvarkingos, saugios ir lengvai valdomos.</string>
+    <string name="set_as_default_sms">Nustatyti kaip numatytąją SMS programėlę</string>
+
+    // Default App Screen
+    <string name="set_default_app">Nustatyti numatytąją programėlę</string>
+    <string name="set_default_app_desc">Nustatykite šią programėlę kaip numatytąją pagrindinio ekrano paleidyklę ir mėgaukitės greitesniu, švaresniu bei labiau suasmenintu pagrindiniu ekranu.</string>
+    <string name="set_as_default_app">Nustatyti kaip numatytąją programėlę</string>
+
+    // Intro Screen
+    <string name="intro_1_title">Išmanioji žinučių siuntimo paslauga</string>
+    <string name="intro_1_description">Efektyviai tvarkykite pokalbius su organizuota, saugia ir momentine žinučių patirtimi.</string>
+    <string name="intro_2_title">Pokalbis realiuoju laiku</string>
+    <string name="intro_2_description">Prisijunkite akimirksniu per greitus, patikimus ir sklandžius realaus laiko pokalbius kasdien.</string>
+    <string name="intro_3_title">Kontaktų valdymas</string>
+    <string name="intro_3_description">Lengvai tvarkykite kontaktus greitesnei komunikacijai ir geresniam pasiekiamumui bet kada.</string>
+    <string name="intro_4_title">Pokalbis archyvuotas</string>
+    <string name="intro_4_description">Saugiai saugokite svarbius pokalbius greitam pasiekimui, kai prireiks vėliau.</string>
+
+    // Permission Dialog
+    <string name="please_allow_permissions_from_app_settings">Leiskite leidimus programos nustatymuose</string>
+    <string name="open_settings">Atidaryti nustatymus</string>
+
+    // Main Screen
+    <string name="messages">Žinutės</string>
+    <string name="contacts">Kontaktai</string>
+    <string name="settings">Nustatymai</string>
+
+    // Messages Screen
+    <string name="overlay_permission_required">Reikalingas perdangos leidimas</string>
+    <string name="overlay_permission_description">Šiai programai reikia perdangos leidimo, kad būtų rodomi iššokantys žinučių langai.</string>
+    <string name="permission_required">Reikalingas leidimas</string>
+    <string name="permission_message_description">Žinučių leidimas reikalingas norint pasiekti jūsų žinutes ir siųsti greitąsias žinutes.</string>
+    <string name="permission_contact_description">Kontaktų leidimas reikalingas norint pasiekti išsaugotus kontaktus ir greitai skambinti.</string>
+    <string name="your_conversation_will_appear_here">Jūsų pokalbis bus rodomas čia</string>
+    <string name="allow">Leisti</string>
+    <string name="your_contacts_will_appear_here">Jūsų kontaktai bus rodomi čia</string>
+    <string name="search_message">Ieškoti žinučių</string>
+    <string name="all">Visi</string>
+    <string name="unread">Neskaityti</string>
+    <string name="personal">Asmeniniai</string>
+    <string name="transaction">Operacija</string>
+    <string name="otp">OTP</string>
+    <string name="offer">Pasiūlymas</string>
+    <string name="blocked">Užblokuoti</string>
+    <string name="to_move_this_conversation_out_of_blocking_and_get_messages_again_unblock">Norėdami perkelti šį pokalbį iš \'Blokavimo\' ir vėl gauti žinutes, atblokuokite</string>
+    <string name="sender_does_not_support_replies">Siuntėjas nepalaiko atsakymų</string>
+    <string name="this_conversation_blocked_by_you">Šį pokalbį užblokavote jūs</string>
+    <string name="enter_message">Įveskite žinutę</string>
+    <string name="today">Šiandien</string>
+    <string name="yesterday">Vakar</string>
+    <string name="send_failed">Nepavyko išsiųsti žinutės</string>
+    <string name="send_sms_permission_required">SMS leidimas reikalingas žinutėms siųsti</string>
+
+    // Menu
+    <string name="mark_as_all_read">Pažymėti viską kaip skaitytą</string>
+    <string name="add_to_contact">Pridėti prie kontaktų</string>
+    <string name="archived">Archyvuota</string>
+    <string name="unarchived">Pašalinta iš archyvo</string>
+    <string name="block">Blokuoti</string>
+    <string name="unblock">Atblokuoti</string>
+    <string name="recycle_bin">Šiukšliadėžė</string>
+    <string name="restore_from_bin">Atkurti iš šiukšliadėžės</string>
+    <string name="change_langauge">Keisti kalbą</string>
+
+    // Contacts Screen
+    <string name="search_contact">Ieškoti kontaktų</string>
+
+    // Setting Screen
+    <string name="app_language">Programos kalba</string>
+    <string name="system_default">Sistemos numatytoji</string>
+    <string name="delay_sending">Atidėtas siuntimas</string>
+    <string name="no_delay">Be delsos</string>
+    <string name="signatures">Parašai</string>
+    <string name="add_your_signature">Pridėkite savo parašą</string>
+    <string name="launcher_settings">Paleidimo priemonės nustatymai</string>
+    <string name="customize_your_layout_and_icons">Tinkinkite išdėstymą ir piktogramas</string>
+    <string name="about_messages">Apie Messages</string>
+    <string name="invite_friends">Pakviesti draugus</string>
+    <string name="rate_us">Įvertinkite mus</string>
+
+    // Delay Dialog
+    <string name="_3_sec_delay">3 sek. delsa</string>
+    <string name="_5_sec_delay">5 sek. delsa</string>
+    <string name="_10_sec_delay">10 sek. delsa</string>
+    <string name="cancel">Atšaukti</string>
+    <string name="okay">Gerai</string>
+
+    // Signature Dialog
+    <string name="delete">Ištrinti</string>
+    <string name="dash">-</string>
+    <string name="save">Išsaugoti</string>
+
+    // Launcher Settings Screen
+    <string name="serialize">Rūšiuoti</string>
+    <string name="by_name_asc_a_to_z">Pagal pavadinimą ASC (A–Z)</string>
+    <string name="by_name_desc_z_to_a">Pagal pavadinimą DESC (Z–A)</string>
+    <string name="by_installed_date">Pagal diegimo datą</string>
+
+    // App Page Screen
+    <string name="preview">Peržiūra</string>
+    <string name="label_visibility">Etiketės matomumas</string>
+    <string name="hide_app_name">Slėpti programos pavadinimą</string>
+    <string name="app_icon_size">Programos piktogramos dydis</string>
+    <string name="app_label_size">Programos etiketės dydis</string>
+    <string name="_10">10</string>
+
+    // About Messages Screen
+    <string name="version">Versija</string>
+    <string name="privacy_policy">Privatumo politika</string>
+    <string name="terms_conditions">Sąlygos ir nuostatos</string>
+
+    // Recycle Bin Dialog
+    <string name="move_to_bin">Perkelti į šiukšliadėžę</string>
+    <string name="are_you_sure_you_want_to_move_to_bin_this_message">Ar tikrai norite perkelti šią žinutę į šiukšliadėžę?</string>
+
+    // Block Dialog
+    <string name="are_you_sure_you_want_to_block_this_message">Ar tikrai norite užblokuoti šią žinutę?</string>
+
+    // Delete Dialog
+    <string name="delete_conversation">Ištrinti pokalbį</string>
+    <string name="are_you_sure_you_want_to_delete_permanently_this_message">Ar tikrai norite visam laikui ištrinti šią žinutę?</string>
+
+    // Toast Messages
+    <string name="toast_archived">Archyvuota</string>
+    <string name="toast_unarchived">Pašalinta iš archyvo</string>
+    <string name="toast_blocked">Užblokuota</string>
+    <string name="toast_unblocked">Atblokuota</string>
+    <string name="toast_moved_to_recycle_bin">Perkelta į šiukšliadėžę</string>
+    <string name="toast_restored_from_bin">Atkurta iš šiukšliadėžės</string>
+    <string name="toast_conversation_deleted">Pokalbis ištrintas</string>
+    <string name="toast_pinned">Prisegta viršuje</string>
+    <string name="toast_unpinned">Atsegta</string>
+
+    // Other in App
+    <string name="selected">Pasirinkta</string>
+    <string name="no_archived_messages">Nėra archyvuotų žinučių</string>
+    <string name="no_block_messages">Nėra užblokuotų žinučių</string>
+    <string name="no_data_found">Duomenų nerasta</string>
+    <string name="recycle_bin_empty">Šiukšliadėžė tuščia</string>
+
+    // Backup Activity
+    <string name="backup_and_restore">Atsarginė kopija ir atkūrimas</string>
+    <string name="backup_and_restore_message_easily">Lengvai sukurkite atsarginę kopiją ir atkurkite žinutes</string>
+    <string name="backup_location">Atsarginės kopijos vieta</string>
+    <string name="set_folder">Nustatyti aplanką</string>
+    <string name="restore">Atkurti</string>
+    <string name="select_a_backup">Pasirinkite atsarginę kopiją</string>
+    <string name="currently_only_sms_is_supported_by_backup_and_restore_mms_support_and_scheduled_backups_will_be_coming_soon">Šiuo metu atsarginei kopijai ir atkūrimui palaikomi tik SMS. MMS palaikymas ir planuotos atsarginės kopijos netrukus pasirodys!</string>
+    <string name="backup_now">Kurti atsarginę kopiją dabar</string>
+    <string name="backup_backing_up">Kuriama žinučių atsarginė kopija</string>
+    <string name="backup_restoring">Atkuriama iš atsarginės kopijos</string>
+    <string name="backup_parsing">Analizuojama atsarginė kopija…</string>
+    <string name="backup_saving">Išsaugoma atsarginė kopija…</string>
+    <string name="backup_syncing">Sinchronizuojamos žinutės…</string>
+    <string name="backup_finished">Baigta!</string>
+    <string name="backup_progress">%1$d/%2$d žinučių</string>
+    <string name="backup_message_count">%1$d žinučių</string>
+    <string name="backup_restore_dialog_title">Atsarginės kopijos</string>
+    <string name="backup_restore_dialog_empty">Atsarginių kopijų nerasta</string>
+    <string name="backup_restore_confirm_title">Atkurti iš atsarginės kopijos</string>
+    <string name="backup_restore_confirm_message">Ar tikrai norite atkurti savo žinutes iš šios atsarginės kopijos?</string>
+    <string name="backup_error_title">Klaida</string>
+    <string name="backup_error_read">Nepavyko nuskaityti atsarginės kopijos failo</string>
+    <string name="backup_select_location_first">Pirmiausia pasirinkite atsarginės kopijos vietą</string>
+    <string name="backup_permission_required">SMS leidimas reikalingas atsarginei kopijai ir atkūrimui</string>
+    <string name="backup_default_app_required">Nustatykite šią programą kaip numatytąją SMS programą, kad atkurtumėte žinutes</string>
+    <string name="backup_stop_restore_title">Sustabdyti atkūrimą?</string>
+    <string name="backup_stop_restore_message">Jau atkurtos žinutės liks jūsų įrenginyje</string>
+    <string name="stop">Stabdyti</string>
+
+    // Other out App
+    <string name="search">Search</string>
+    <string name="open">Open</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="trending_news">Trending News</string>
+    <string name="read_more">Read More</string>
+    <string name="loading_ads">Loading Ads…</string>
+    <string name="this_action_may_contain_ads">This action may contain Ads</string>
+
+    <string name="markrting_converter1">gclid</string>
+    <string name="utm_source_apps_facebook_com">utm_source=apps.facebook.com</string>
+    <string name="utm_source_apps_instagram_com">utm_source=apps.instagram.com</string>
+    <string name="utm_source_marketing">utm_source=marketing</string>
+
+</resources>

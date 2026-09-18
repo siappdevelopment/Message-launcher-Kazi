@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:gravity="center_vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivBack"
+            android:layout_width="@dimen/_26sdp"
+            android:layout_height="@dimen/_26sdp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:background="@drawable/custom_black_border"
+            android:padding="@dimen/_5sdp"
+            android:rotation="180"
+            android:src="@drawable/ic_arrow" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:fontFamily="@font/fig_tree_semibold"
+            android:text="@string/about_messages"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:src="@drawable/img_app_icon" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/avigea"
+            android:text="@string/app_name"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/_20sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:fontFamily="@font/fig_tree_medium"
+            android:text="@string/app_name"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/_12sdp" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvPrivacyPolicy"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/custom_button_light"
+        android:fontFamily="@font/fig_tree_medium"
+        android:gravity="center"
+        android:text="@string/privacy_policy"
+        android:textColor="@color/primary"
+        android:textSize="@dimen/_12sdp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvTermsConditions"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/custom_button_light"
+        android:fontFamily="@font/fig_tree_medium"
+        android:gravity="center"
+        android:text="@string/terms_conditions"
+        android:textColor="@color/primary"
+        android:textSize="@dimen/_12sdp" />
+
+</LinearLayout>

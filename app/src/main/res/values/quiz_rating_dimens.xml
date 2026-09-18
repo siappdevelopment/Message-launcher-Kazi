@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="quiz_rating_star_size">20dp</dimen>
+    <dimen name="quiz_rating_star_gap">4dp</dimen>
+    <dimen name="quiz_rating_star_offset_1">24dp</dimen>
+    <dimen name="quiz_rating_star_offset_2">48dp</dimen>
+    <dimen name="quiz_rating_star_offset_3">72dp</dimen>
+    <dimen name="quiz_rating_star_offset_4">96dp</dimen>
+    <dimen name="quiz_rating_bar_width">116dp</dimen>
+</resources>

@@ -1,0 +1,211 @@
+﻿<resources>
+    <string name="app_name">Messages</string>
+    <string name="app_name_launcher"># Messages</string>
+    <string name="one_inbox_for_every_conversation">One Inbox For Every Conversation</string>
+
+    // Language Screen
+    <string name="done">Valmis</string>
+    <string name="next">Seuraava</string>
+
+    // Collection / Data consent screen
+    <string name="collection_title">Lyhyt huomautus tiedoistasi</string>
+    <string name="collection_intro_1">Käytämme rajallisia laite- ja sovellustietoja pitääksemme Messages-sovelluksen nopeana, turvallisena ja luotettavana, näyttääksemme mainoksia, jotka auttavat pitämään sovelluksen maksuttomana, sekä lähettääksemme sinulle tärkeitä ilmoituksia.</string>
+    <string name="collection_intro_2">Viestejäsi, yhteystietojasi ja henkilökohtaisia keskustelujasi ei kerätä analytiikkaa tai mainontaa varten, vaan ne pysyvät laitteellasi.</string>
+    <string name="collection_what_we_use">Mitä käytämme ja miksi:</string>
+    <string name="collection_bullet_1">• Sovelluksen käyttötiedot – kuten avaamasi näytöt ja käyttämäsi ominaisuudet – suorituskyvyn ja käyttökokemuksen parantamiseksi</string>
+    <string name="collection_bullet_2">• Laitteen ja sovelluksen tunnisteet – asetustesi tallentamiseen, sovelluksen vakauden parantamiseen ja ilmoitusten tukemiseen</string>
+    <string name="collection_bullet_3">• Verkkosi perusteella määritetty yleinen sijainti – käyttötapojen ymmärtämiseen ja alueellesi sopivien ominaisuuksien tarjoamiseen</string>
+    <string name="collection_bullet_4">• Mainostunnisteet – sovelluksen maksuttomana pitämistä tukevien mainosten näyttämiseen ja mittaamiseen</string>
+    <string name="collection_footer">Napauttamalla Hyväksy ja jatka hyväksyt käyttöehtomme ja vahvistat tietosuojakäytäntömme. Keräämme vain yllä kuvatut tiedot sovelluksen parantamiseksi, olennaisten ominaisuuksien tarjoamiseksi ja mainonnan tukemiseksi. Henkilökohtaiset viestisi ja keskustelusi pysyvät yksityisinä.</string>
+    <string name="collection_agree_checkbox">Hyväksyn tämän tietojen keräämisen</string>
+    <string name="collection_agree_continue">Hyväksy ja jatka</string>
+    <string name="collection_agree_toast">Hyväksy tietojen kerääminen jatkaaksesi.</string>
+    <string name="terms">Käyttöehdot</string>
+
+    // Default SMS Screen
+    <string name="set_default_sms">Aseta oletusviestisovellus</string>
+    <string name="set_default_sms_desc">Aseta tämä sovellus oletusviestisovellukseksesi, jotta kaikki viestisi pysyvät järjestyksessä, turvassa ja helposti hallittavissa.</string>
+    <string name="set_as_default_sms">Aseta oletusviestisovellukseksi</string>
+
+    // Default App Screen
+    <string name="set_default_app">Aseta oletussovellus</string>
+    <string name="set_default_app_desc">Aseta tämä sovellus oletuskotinäytön käynnistysohjelmaksi ja nauti nopeammasta, siistimmästä ja henkilökohtaisemmasta kotinäyttökokemuksesta.</string>
+    <string name="set_as_default_app">Aseta oletussovellukseksi</string>
+
+    // Intro Screen
+    <string name="intro_1_title">Älykäs viestintä</string>
+    <string name="intro_1_description">Hallitse keskusteluja tehokkaasti järjestelmällisellä, turvallisella ja välittömällä viestikokemuksella.</string>
+    <string name="intro_2_title">Reaaliaikainen chat</string>
+    <string name="intro_2_description">Yhdistä heti nopeiden, luotettavien ja saumattomien reaaliaikaisten keskustelujen kautta joka päivä.</string>
+    <string name="intro_3_title">Yhteystietojen hallinta</string>
+    <string name="intro_3_description">Järjestä yhteystiedot vaivattomasti nopeampaa viestintää ja parempaa saavutettavuutta varten milloin tahansa.</string>
+    <string name="intro_4_title">Chat arkistoitu</string>
+    <string name="intro_4_description">Tallenna tärkeät keskustelut turvallisesti pikaista käyttöä varten myöhemmin tarvittaessa.</string>
+
+    // Permission Dialog
+    <string name="please_allow_permissions_from_app_settings">Salli käyttöoikeudet sovelluksen asetuksista</string>
+    <string name="open_settings">Avaa asetukset</string>
+
+    // Main Screen
+    <string name="messages">Viestit</string>
+    <string name="contacts">Yhteystiedot</string>
+    <string name="settings">Asetukset</string>
+
+    // Messages Screen
+    <string name="overlay_permission_required">Peittokuvan käyttöoikeus vaaditaan</string>
+    <string name="overlay_permission_description">Tämä sovellus tarvitsee peittokuvan käyttöoikeuden näyttääkseen ponnahdusikkunaviestejä.</string>
+    <string name="permission_required">Käyttöoikeus vaaditaan</string>
+    <string name="permission_message_description">Viestien käyttöoikeus tarvitaan viestien käyttämiseen ja pikaisten viestien lähettämiseen.</string>
+    <string name="permission_contact_description">Yhteystietojen käyttöoikeus tarvitaan tallennettujen yhteystietojen käyttämiseen ja pikaiseen soittamiseen.</string>
+    <string name="your_conversation_will_appear_here">Keskustelusi näkyy täällä</string>
+    <string name="allow">Salli</string>
+    <string name="your_contacts_will_appear_here">Yhteystietosi näkyvät täällä</string>
+    <string name="search_message">Hae viestejä</string>
+    <string name="all">Kaikki</string>
+    <string name="unread">Lukemattomat</string>
+    <string name="personal">Henkilökohtainen</string>
+    <string name="transaction">Tapahtuma</string>
+    <string name="otp">OTP</string>
+    <string name="offer">Tarjous</string>
+    <string name="blocked">Estetyt</string>
+    <string name="to_move_this_conversation_out_of_blocking_and_get_messages_again_unblock">Siirrä tämä keskustelu pois \'Estosta\' ja vastaanota viestejä uudelleen poistamalla esto</string>
+    <string name="sender_does_not_support_replies">Lähettäjä ei tue vastauksia</string>
+    <string name="this_conversation_blocked_by_you">Olet estänyt tämän keskustelun</string>
+    <string name="enter_message">Kirjoita viesti</string>
+    <string name="today">Tänään</string>
+    <string name="yesterday">Eilen</string>
+    <string name="send_failed">Viestin lähettäminen epäonnistui</string>
+    <string name="send_sms_permission_required">SMS-käyttöoikeus tarvitaan viestien lähettämiseen</string>
+
+    // Menu
+    <string name="mark_as_all_read">Merkitse kaikki luetuiksi</string>
+    <string name="add_to_contact">Lisää yhteystietoihin</string>
+    <string name="archived">Arkistoitu</string>
+    <string name="unarchived">Poistettu arkistosta</string>
+    <string name="block">Estä</string>
+    <string name="unblock">Poista esto</string>
+    <string name="recycle_bin">Roskakori</string>
+    <string name="restore_from_bin">Palauta roskakorista</string>
+    <string name="change_langauge">Vaihda kieli</string>
+
+    // Contacts Screen
+    <string name="search_contact">Hae yhteystietoja</string>
+
+    // Setting Screen
+    <string name="app_language">Sovelluksen kieli</string>
+    <string name="system_default">Järjestelmän oletus</string>
+    <string name="delay_sending">Viivästetty lähetys</string>
+    <string name="no_delay">Ei viivettä</string>
+    <string name="signatures">Allekirjoitukset</string>
+    <string name="add_your_signature">Lisää allekirjoituksesi</string>
+    <string name="launcher_settings">Käynnistimen asetukset</string>
+    <string name="customize_your_layout_and_icons">Mukauta asettelua ja kuvakkeita</string>
+    <string name="about_messages">Tietoja Messagesista</string>
+    <string name="invite_friends">Kutsu ystäviä</string>
+    <string name="rate_us">Arvostele meitä</string>
+
+    // Delay Dialog
+    <string name="_3_sec_delay">3 sekunnin viive</string>
+    <string name="_5_sec_delay">5 sekunnin viive</string>
+    <string name="_10_sec_delay">10 sekunnin viive</string>
+    <string name="cancel">Peruuta</string>
+    <string name="okay">OK</string>
+
+    // Signature Dialog
+    <string name="delete">Poista</string>
+    <string name="dash">-</string>
+    <string name="save">Tallenna</string>
+
+    // Launcher Settings Screen
+    <string name="serialize">Lajittele</string>
+    <string name="by_name_asc_a_to_z">Nimen mukaan nouseva (A–Z)</string>
+    <string name="by_name_desc_z_to_a">Nimen mukaan laskeva (Z–A)</string>
+    <string name="by_installed_date">Asennuspäivän mukaan</string>
+
+    // App Page Screen
+    <string name="preview">Esikatselu</string>
+    <string name="label_visibility">Nimikkeen näkyvyys</string>
+    <string name="hide_app_name">Piilota sovelluksen nimi</string>
+    <string name="app_icon_size">Sovelluskuvakkeen koko</string>
+    <string name="app_label_size">Sovellusnimikkeen koko</string>
+    <string name="_10">10</string>
+
+    // About Messages Screen
+    <string name="version">Versio</string>
+    <string name="privacy_policy">Tietosuojakäytäntö</string>
+    <string name="terms_conditions">Käyttöehdot</string>
+
+    // Recycle Bin Dialog
+    <string name="move_to_bin">Siirrä roskakoriin</string>
+    <string name="are_you_sure_you_want_to_move_to_bin_this_message">Haluatko varmasti siirtää tämän viestin roskakoriin?</string>
+
+    // Block Dialog
+    <string name="are_you_sure_you_want_to_block_this_message">Haluatko varmasti estää tämän viestin?</string>
+
+    // Delete Dialog
+    <string name="delete_conversation">Poista keskustelu</string>
+    <string name="are_you_sure_you_want_to_delete_permanently_this_message">Haluatko varmasti poistaa tämän viestin pysyvästi?</string>
+
+    // Toast Messages
+    <string name="toast_archived">Arkistoitu</string>
+    <string name="toast_unarchived">Poistettu arkistosta</string>
+    <string name="toast_blocked">Estetty</string>
+    <string name="toast_unblocked">Esto poistettu</string>
+    <string name="toast_moved_to_recycle_bin">Siirretty roskakoriin</string>
+    <string name="toast_restored_from_bin">Palautettu roskakorista</string>
+    <string name="toast_conversation_deleted">Keskustelu poistettu</string>
+    <string name="toast_pinned">Kiinnitetty ylös</string>
+    <string name="toast_unpinned">Irrotettu</string>
+
+    // Other in App
+    <string name="selected">Valittu</string>
+    <string name="no_archived_messages">Ei arkistoituja viestejä</string>
+    <string name="no_block_messages">Ei estettyjä viestejä</string>
+    <string name="no_data_found">Tietoja ei löytynyt</string>
+    <string name="recycle_bin_empty">Roskakori on tyhjä</string>
+
+    // Backup Activity
+    <string name="backup_and_restore">Varmuuskopiointi ja palautus</string>
+    <string name="backup_and_restore_message_easily">Varmuuskopioi ja palauta viestit helposti</string>
+    <string name="backup_location">Varmuuskopion sijainti</string>
+    <string name="set_folder">Valitse kansio</string>
+    <string name="restore">Palauta</string>
+    <string name="select_a_backup">Valitse varmuuskopio</string>
+    <string name="currently_only_sms_is_supported_by_backup_and_restore_mms_support_and_scheduled_backups_will_be_coming_soon">Tällä hetkellä vain SMS on tuettu varmuuskopioinnissa ja palautuksessa. MMS-tuki ja ajoitetut varmuuskopiot ovat tulossa pian!</string>
+    <string name="backup_now">Varmuuskopioi nyt</string>
+    <string name="backup_backing_up">Varmuuskopioidaan viestejä</string>
+    <string name="backup_restoring">Palautetaan varmuuskopiosta</string>
+    <string name="backup_parsing">Analysoidaan varmuuskopiota…</string>
+    <string name="backup_saving">Tallennetaan varmuuskopiota…</string>
+    <string name="backup_syncing">Synkronoidaan viestejä…</string>
+    <string name="backup_finished">Valmis!</string>
+    <string name="backup_progress">%1$d/%2$d viestiä</string>
+    <string name="backup_message_count">%1$d viestiä</string>
+    <string name="backup_restore_dialog_title">Varmuuskopiot</string>
+    <string name="backup_restore_dialog_empty">Varmuuskopioita ei löytynyt</string>
+    <string name="backup_restore_confirm_title">Palauta varmuuskopiosta</string>
+    <string name="backup_restore_confirm_message">Haluatko varmasti palauttaa viestisi tästä varmuuskopiosta?</string>
+    <string name="backup_error_title">Virhe</string>
+    <string name="backup_error_read">Varmuuskopiotiedostoa ei voitu lukea</string>
+    <string name="backup_select_location_first">Valitse ensin varmuuskopion sijainti</string>
+    <string name="backup_permission_required">SMS-käyttöoikeus tarvitaan varmuuskopiointiin ja palautukseen</string>
+    <string name="backup_default_app_required">Aseta tämä sovellus oletus-SMS-sovellukseksi viestien palauttamiseksi</string>
+    <string name="backup_stop_restore_title">Pysäytetäänkö palautus?</string>
+    <string name="backup_stop_restore_message">Jo palautetut viestit säilyvät laitteellasi</string>
+    <string name="stop">Pysäytä</string>
+
+    // Other out App
+    <string name="search">Search</string>
+    <string name="open">Open</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="trending_news">Trending News</string>
+    <string name="read_more">Read More</string>
+    <string name="loading_ads">Loading Ads…</string>
+    <string name="this_action_may_contain_ads">This action may contain Ads</string>
+
+    <string name="markrting_converter1">gclid</string>
+    <string name="utm_source_apps_facebook_com">utm_source=apps.facebook.com</string>
+    <string name="utm_source_apps_instagram_com">utm_source=apps.instagram.com</string>
+    <string name="utm_source_marketing">utm_source=marketing</string>
+
+</resources>

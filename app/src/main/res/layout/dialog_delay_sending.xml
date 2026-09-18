@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_dialog_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/_16sdp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fig_tree_semibold"
+        android:text="@string/delay_sending"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13sdp" />
+
+    <RadioGroup
+        android:id="@+id/rgDelay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbNoDelay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/custom_radio_selected"
+            android:fontFamily="@font/fig_tree_medium"
+            android:paddingStart="@dimen/_4sdp"
+            android:text="@string/no_delay"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            tools:ignore="RtlSymmetry" />
+
+        <RadioButton
+            android:id="@+id/rbThreeDelay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/custom_radio_selected"
+            android:fontFamily="@font/fig_tree_medium"
+            android:paddingStart="@dimen/_4sdp"
+            android:text="@string/_3_sec_delay"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            tools:ignore="RtlSymmetry" />
+
+        <RadioButton
+            android:id="@+id/rbFiveDelay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/custom_radio_selected"
+            android:fontFamily="@font/fig_tree_medium"
+            android:paddingStart="@dimen/_4sdp"
+            android:text="@string/_5_sec_delay"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            tools:ignore="RtlSymmetry" />
+
+        <RadioButton
+            android:id="@+id/rbTenDelay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/custom_radio_selected"
+            android:fontFamily="@font/fig_tree_medium"
+            android:paddingStart="@dimen/_4sdp"
+            android:text="@string/_10_sec_delay"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            tools:ignore="RtlSymmetry" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvCancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_36sdp"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="@color/divider"
+            android:fontFamily="@font/fig_tree_medium"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/_12sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvOkay"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_36sdp"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:fontFamily="@font/fig_tree_medium"
+            android:gravity="center"
+            android:text="@string/okay"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>activityChange</key>
+        <value>com.messages.smartsms.activities.MainActivity</value>
+    </entry>
+    <entry>
+        <key>Show_Screen_Flow</key>
+        <value>["Language","Collection","DefaultSMS","DefaultHome","Intro"]</value>
+    </entry>
+</defaultsMap>

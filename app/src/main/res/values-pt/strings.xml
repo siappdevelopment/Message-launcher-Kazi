@@ -1,0 +1,211 @@
+﻿<resources>
+    <string name="app_name">Messages</string>
+    <string name="app_name_launcher"># Messages</string>
+    <string name="one_inbox_for_every_conversation">One Inbox For Every Conversation</string>
+
+    // Language Screen
+    <string name="done">Concluído</string>
+    <string name="next">Seguinte</string>
+
+    // Collection / Data consent screen
+    <string name="collection_title">Uma breve nota sobre os seus dados</string>
+    <string name="collection_intro_1">Utilizamos informações limitadas do dispositivo e da aplicação para manter o Messages rápido, seguro e fiável, apresentar anúncios que ajudam a manter a aplicação gratuita e enviar-lhe notificações importantes.</string>
+    <string name="collection_intro_2">As suas mensagens, contactos e conversas pessoais não são recolhidos para análises ou publicidade e permanecem no seu dispositivo.</string>
+    <string name="collection_what_we_use">O que utilizamos e porquê:</string>
+    <string name="collection_bullet_1">• Informações de utilização da aplicação – como os ecrãs que abre e as funcionalidades que utiliza – para melhorar o desempenho e a experiência do utilizador</string>
+    <string name="collection_bullet_2">• Identificadores do dispositivo e da aplicação – para guardar as suas preferências, melhorar a estabilidade da aplicação e suportar notificações</string>
+    <string name="collection_bullet_3">• Localização geral com base na sua rede – para compreender tendências de utilização e fornecer funcionalidades relevantes para a sua região</string>
+    <string name="collection_bullet_4">• Identificadores de publicidade – para apresentar e medir anúncios que ajudam a manter a aplicação gratuita</string>
+    <string name="collection_footer">Ao tocar em Concordar e Continuar, concorda com os nossos Termos de Serviço e reconhece a nossa Política de Privacidade. Recolhemos apenas as informações descritas acima para melhorar a aplicação, fornecer funcionalidades essenciais e suportar publicidade. As suas mensagens e conversas pessoais permanecem privadas.</string>
+    <string name="collection_agree_checkbox">Concordo com esta recolha de dados</string>
+    <string name="collection_agree_continue">Concordar e Continuar</string>
+    <string name="collection_agree_toast">Concorde com a recolha de dados para continuar.</string>
+    <string name="terms">Termos</string>
+
+    // Default SMS Screen
+    <string name="set_default_sms">Definir SMS predefinido</string>
+    <string name="set_default_sms_desc">Defina esta aplicação como a sua aplicação de SMS predefinida para manter todas as suas mensagens organizadas, seguras e fáceis de gerir.</string>
+    <string name="set_as_default_sms">Definir como SMS predefinido</string>
+
+    // Default App Screen
+    <string name="set_default_app">Definir aplicação predefinida</string>
+    <string name="set_default_app_desc">Defina esta aplicação como o seu iniciador de ecrã inicial predefinido para desfrutar de uma experiência de ecrã inicial mais rápida, mais limpa e personalizada.</string>
+    <string name="set_as_default_app">Definir como aplicação predefinida</string>
+
+    // Intro Screen
+    <string name="intro_1_title">Mensagens inteligentes</string>
+    <string name="intro_1_description">Gira as conversas de forma eficiente com uma experiência de mensagens organizada, segura e instantânea.</string>
+    <string name="intro_2_title">Chat em tempo real</string>
+    <string name="intro_2_description">Ligue-se instantaneamente através de conversas rápidas, fiáveis e fluidas em tempo real todos os dias.</string>
+    <string name="intro_3_title">Gestão de contactos</string>
+    <string name="intro_3_description">Organize os contactos sem esforço para uma comunicação mais rápida e melhor acessibilidade a qualquer momento.</string>
+    <string name="intro_4_title">Chat arquivado</string>
+    <string name="intro_4_description">Guarde conversas importantes de forma segura para um acesso rápido sempre que precisar mais tarde.</string>
+
+    // Permission Dialog
+    <string name="please_allow_permissions_from_app_settings">Permita as permissões nas definições da aplicação</string>
+    <string name="open_settings">Abrir definições</string>
+
+    // Main Screen
+    <string name="messages">Mensagens</string>
+    <string name="contacts">Contactos</string>
+    <string name="settings">Definições</string>
+
+    // Messages Screen
+    <string name="overlay_permission_required">Permissão de sobreposição necessária</string>
+    <string name="overlay_permission_description">Esta aplicação precisa de permissão de sobreposição para mostrar janelas de mensagens pop-up.</string>
+    <string name="permission_required">Permissão necessária</string>
+    <string name="permission_message_description">A permissão de mensagens é necessária para aceder às suas mensagens e enviar mensagens rápidas.</string>
+    <string name="permission_contact_description">A permissão de contactos é necessária para aceder aos seus contactos guardados e fazer chamadas rápidas.</string>
+    <string name="your_conversation_will_appear_here">A sua conversa aparecerá aqui</string>
+    <string name="allow">Permitir</string>
+    <string name="your_contacts_will_appear_here">Os seus contactos aparecerão aqui</string>
+    <string name="search_message">Pesquisar mensagens</string>
+    <string name="all">Todas</string>
+    <string name="unread">Não lidas</string>
+    <string name="personal">Pessoal</string>
+    <string name="transaction">Transação</string>
+    <string name="otp">OTP</string>
+    <string name="offer">Oferta</string>
+    <string name="blocked">Bloqueadas</string>
+    <string name="to_move_this_conversation_out_of_blocking_and_get_messages_again_unblock">Para tirar esta conversa de \'Bloqueio\' e voltar a receber mensagens, desbloqueie</string>
+    <string name="sender_does_not_support_replies">O remetente não suporta respostas</string>
+    <string name="this_conversation_blocked_by_you">Esta conversa foi bloqueada por si</string>
+    <string name="enter_message">Escrever mensagem</string>
+    <string name="today">Hoje</string>
+    <string name="yesterday">Ontem</string>
+    <string name="send_failed">Falha ao enviar a mensagem</string>
+    <string name="send_sms_permission_required">É necessária a permissão de SMS para enviar mensagens</string>
+
+    // Menu
+    <string name="mark_as_all_read">Marcar tudo como lido</string>
+    <string name="add_to_contact">Adicionar aos contactos</string>
+    <string name="archived">Arquivado</string>
+    <string name="unarchived">Removido do arquivo</string>
+    <string name="block">Bloquear</string>
+    <string name="unblock">Desbloquear</string>
+    <string name="recycle_bin">Reciclagem</string>
+    <string name="restore_from_bin">Restaurar da reciclagem</string>
+    <string name="change_langauge">Alterar idioma</string>
+
+    // Contacts Screen
+    <string name="search_contact">Pesquisar contactos</string>
+
+    // Setting Screen
+    <string name="app_language">Idioma da aplicação</string>
+    <string name="system_default">Predefinição do sistema</string>
+    <string name="delay_sending">Envio atrasado</string>
+    <string name="no_delay">Sem atraso</string>
+    <string name="signatures">Assinaturas</string>
+    <string name="add_your_signature">Adicione a sua assinatura</string>
+    <string name="launcher_settings">Definições do launcher</string>
+    <string name="customize_your_layout_and_icons">Personalize o esquema e os ícones</string>
+    <string name="about_messages">Acerca do Messages</string>
+    <string name="invite_friends">Convidar amigos</string>
+    <string name="rate_us">Avalie-nos</string>
+
+    // Delay Dialog
+    <string name="_3_sec_delay">Atraso de 3 seg.</string>
+    <string name="_5_sec_delay">Atraso de 5 seg.</string>
+    <string name="_10_sec_delay">Atraso de 10 seg.</string>
+    <string name="cancel">Cancelar</string>
+    <string name="okay">OK</string>
+
+    // Signature Dialog
+    <string name="delete">Eliminar</string>
+    <string name="dash">-</string>
+    <string name="save">Guardar</string>
+
+    // Launcher Settings Screen
+    <string name="serialize">Ordenar</string>
+    <string name="by_name_asc_a_to_z">Por nome ASC (A a Z)</string>
+    <string name="by_name_desc_z_to_a">Por nome DESC (Z a A)</string>
+    <string name="by_installed_date">Por data de instalação</string>
+
+    // App Page Screen
+    <string name="preview">Pré-visualização</string>
+    <string name="label_visibility">Visibilidade da etiqueta</string>
+    <string name="hide_app_name">Ocultar nome da aplicação</string>
+    <string name="app_icon_size">Tamanho do ícone da aplicação</string>
+    <string name="app_label_size">Tamanho da etiqueta da aplicação</string>
+    <string name="_10">10</string>
+
+    // About Messages Screen
+    <string name="version">Versão</string>
+    <string name="privacy_policy">Política de privacidade</string>
+    <string name="terms_conditions">Termos e condições</string>
+
+    // Recycle Bin Dialog
+    <string name="move_to_bin">Mover para a reciclagem</string>
+    <string name="are_you_sure_you_want_to_move_to_bin_this_message">Tem a certeza de que pretende mover esta mensagem para a reciclagem?</string>
+
+    // Block Dialog
+    <string name="are_you_sure_you_want_to_block_this_message">Tem a certeza de que pretende bloquear esta mensagem?</string>
+
+    // Delete Dialog
+    <string name="delete_conversation">Eliminar conversa</string>
+    <string name="are_you_sure_you_want_to_delete_permanently_this_message">Tem a certeza de que pretende eliminar permanentemente esta mensagem?</string>
+
+    // Toast Messages
+    <string name="toast_archived">Arquivado</string>
+    <string name="toast_unarchived">Removido do arquivo</string>
+    <string name="toast_blocked">Bloqueado</string>
+    <string name="toast_unblocked">Desbloqueado</string>
+    <string name="toast_moved_to_recycle_bin">Movido para a reciclagem</string>
+    <string name="toast_restored_from_bin">Restaurado da reciclagem</string>
+    <string name="toast_conversation_deleted">Conversa eliminada</string>
+    <string name="toast_pinned">Afixixado no topo</string>
+    <string name="toast_unpinned">Desafixado</string>
+
+    // Other in App
+    <string name="selected">Selecionado</string>
+    <string name="no_archived_messages">Sem mensagens arquivadas</string>
+    <string name="no_block_messages">Sem mensagens bloqueadas</string>
+    <string name="no_data_found">Nenhum dado encontrado</string>
+    <string name="recycle_bin_empty">Reciclagem vazia</string>
+
+    // Backup Activity
+    <string name="backup_and_restore">Cópia de segurança e restauro</string>
+    <string name="backup_and_restore_message_easily">Faça cópias de segurança e restaure mensagens facilmente</string>
+    <string name="backup_location">Localização da cópia de segurança</string>
+    <string name="set_folder">Definir pasta</string>
+    <string name="restore">Restaurar</string>
+    <string name="select_a_backup">Selecionar uma cópia de segurança</string>
+    <string name="currently_only_sms_is_supported_by_backup_and_restore_mms_support_and_scheduled_backups_will_be_coming_soon">Atualmente, apenas SMS é suportado para cópia de segurança e restauro. O suporte a MMS e as cópias de segurança agendadas chegarão em breve!</string>
+    <string name="backup_now">Fazer cópia de segurança agora</string>
+    <string name="backup_backing_up">A fazer cópia de segurança das mensagens</string>
+    <string name="backup_restoring">A restaurar a partir da cópia de segurança</string>
+    <string name="backup_parsing">A analisar a cópia de segurança…</string>
+    <string name="backup_saving">A guardar a cópia de segurança…</string>
+    <string name="backup_syncing">A sincronizar mensagens…</string>
+    <string name="backup_finished">Concluído!</string>
+    <string name="backup_progress">%1$d/%2$d mensagens</string>
+    <string name="backup_message_count">%1$d mensagens</string>
+    <string name="backup_restore_dialog_title">Cópias de segurança</string>
+    <string name="backup_restore_dialog_empty">Nenhuma cópia de segurança encontrada</string>
+    <string name="backup_restore_confirm_title">Restaurar a partir da cópia de segurança</string>
+    <string name="backup_restore_confirm_message">Tem a certeza de que pretende restaurar as suas mensagens a partir desta cópia de segurança?</string>
+    <string name="backup_error_title">Erro</string>
+    <string name="backup_error_read">Não foi possível ler o ficheiro da cópia de segurança</string>
+    <string name="backup_select_location_first">Selecione primeiro uma localização para a cópia de segurança</string>
+    <string name="backup_permission_required">É necessária a permissão de SMS para cópia de segurança e restauro</string>
+    <string name="backup_default_app_required">Defina esta aplicação como a aplicação SMS predefinida para restaurar mensagens</string>
+    <string name="backup_stop_restore_title">Parar o restauro?</string>
+    <string name="backup_stop_restore_message">As mensagens já restauradas permanecerão no seu dispositivo</string>
+    <string name="stop">Parar</string>
+
+    // Other out App
+    <string name="search">Search</string>
+    <string name="open">Open</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="trending_news">Trending News</string>
+    <string name="read_more">Read More</string>
+    <string name="loading_ads">Loading Ads…</string>
+    <string name="this_action_may_contain_ads">This action may contain Ads</string>
+
+    <string name="markrting_converter1">gclid</string>
+    <string name="utm_source_apps_facebook_com">utm_source=apps.facebook.com</string>
+    <string name="utm_source_apps_instagram_com">utm_source=apps.instagram.com</string>
+    <string name="utm_source_marketing">utm_source=marketing</string>
+
+</resources>

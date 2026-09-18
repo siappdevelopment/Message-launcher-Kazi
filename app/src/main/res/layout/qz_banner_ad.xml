@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:padding="@dimen/_10sdp">
+
+    <RelativeLayout
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp">
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/qzShimmerIcon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <include layout="@layout/qz_shimmer" />
+
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="@dimen/_10sdp"
+            app:cardElevation="0dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivQZAppIcon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:visibility="gone" />
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_6sdp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvQZLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_label"
+                android:fontFamily="@font/fig_tree_semibold"
+                android:paddingStart="@dimen/_2sdp"
+                android:paddingTop="@dimen/_1sdp"
+                android:paddingEnd="@dimen/_2sdp"
+                android:paddingBottom="@dimen/_1sdp"
+                android:text="AD"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_6sdp"
+                tools:ignore="HardcodedText" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvQZAppTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:fontFamily="@font/fig_tree_semibold"
+                android:paddingBottom="@dimen/_1sdp"
+                android:singleLine="true"
+                android:text="App Title"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11sdp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvQZAppDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fig_tree_medium"
+            android:maxLines="2"
+            android:text="App Description"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/_10sdp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/btnQZClick"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_32sdp"
+        android:background="@drawable/custom_button_round"
+        android:fontFamily="@font/fig_tree_semibold"
+        android:gravity="center"
+        android:paddingHorizontal="@dimen/_6sdp"
+        android:singleLine="true"
+        android:text="Click Here"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_11sdp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
