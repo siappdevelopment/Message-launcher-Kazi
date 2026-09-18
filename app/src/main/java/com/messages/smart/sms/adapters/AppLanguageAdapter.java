@@ -1,6 +1,5 @@
 package com.messages.smart.sms.adapters;
 
-import static android.view.View.INVISIBLE;
 import static android.view.View.VISIBLE;
 
 import android.annotation.SuppressLint;
@@ -21,7 +20,7 @@ import com.messages.smart.sms.interfaces.OnLanguageClickListener;
 
 import java.util.ArrayList;
 
-public class LanguageAdapter extends RecyclerView.Adapter<LanguageAdapter.ViewHolder> {
+public class AppLanguageAdapter extends RecyclerView.Adapter<AppLanguageAdapter.ViewHolder> {
     private final Context context;
     private final ArrayList<Integer> arrayListIcon;
     private final ArrayList<String> arrayListName;
@@ -32,7 +31,7 @@ public class LanguageAdapter extends RecyclerView.Adapter<LanguageAdapter.ViewHo
     private boolean isItemClick = false;
     private int selectedPosition = -1;
 
-    public LanguageAdapter(Context context, ArrayList<Integer> arrayListIcon, ArrayList<String> arrayListName, ArrayList<String> arrayListSubName, ArrayList<String> arrayListCode, OnLanguageClickListener onLanguageClickListenerNext) {
+    public AppLanguageAdapter(Context context, ArrayList<Integer> arrayListIcon, ArrayList<String> arrayListName, ArrayList<String> arrayListSubName, ArrayList<String> arrayListCode, OnLanguageClickListener onLanguageClickListenerNext) {
         this.context = context;
         this.arrayListIcon = arrayListIcon;
         this.arrayListName = arrayListName;
@@ -44,39 +43,32 @@ public class LanguageAdapter extends RecyclerView.Adapter<LanguageAdapter.ViewHo
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new ViewHolder(LayoutInflater.from(context).inflate(R.layout.adapter_language, parent, false));
+        return new ViewHolder(LayoutInflater.from(context).inflate(R.layout.adapter_app_language, parent, false));
     }
 
     @SuppressLint("NotifyDataSetChanged")
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, @SuppressLint("RecyclerView") int position) {
+        boolean isSelected;
         if (isItemClick) {
-            if (selectedPosition == position) {
-                holder.tvLanguageName.setTextColor(context.getResources().getColor(R.color.primary));
-                holder.ivLanguageSelect.setImageResource(R.drawable.ic_language_select);
-            } else {
-                holder.tvLanguageName.setTextColor(context.getResources().getColor(R.color.black));
-                holder.ivLanguageSelect.setImageResource(R.drawable.ic_language_un_select);
-            }
+            isSelected = (selectedPosition == position);
         } else {
-            if (Utils.getAppLanguageNew(context).equals(arrayListCode.get(position))) {
-                holder.tvLanguageName.setTextColor(context.getResources().getColor(R.color.primary));
-                holder.ivLanguageSelect.setImageResource(R.drawable.ic_language_select);
-            } else {
-                holder.tvLanguageName.setTextColor(context.getResources().getColor(R.color.black));
-                holder.ivLanguageSelect.setImageResource(R.drawable.ic_language_un_select);
-            }
+            isSelected = Utils.getAppLanguageNew(context).equals(arrayListCode.get(position));
+        }
+
+        if (isSelected) {
+            holder.llLanguageSelect.setBackgroundResource(R.drawable.bg_language_item_selected);
+            holder.tvLanguageName.setTextColor(context.getResources().getColor(R.color.black));
+            holder.ivLanguageSelect.setImageResource(R.drawable.ic_radio_selected);
+        } else {
+            holder.llLanguageSelect.setBackgroundResource(R.drawable.bg_language_item_unselected);
+            holder.tvLanguageName.setTextColor(context.getResources().getColor(R.color.black));
+            holder.ivLanguageSelect.setImageResource(R.drawable.ic_radio_unselected);
         }
 
         holder.ivLanguageIcon.setImageResource(arrayListIcon.get(position));
         holder.tvLanguageName.setText(arrayListName.get(position));
         holder.tvLanguageSubName.setText(arrayListSubName.get(position));
-
-        if (position == arrayListIcon.size() - 1) {
-            holder.ivDividerLine.setVisibility(INVISIBLE);
-        } else {
-            holder.ivDividerLine.setVisibility(VISIBLE);
-        }
 
         holder.llLanguageSelect.setOnClickListener(view -> {
             isItemClick = true;
@@ -107,7 +99,7 @@ public class LanguageAdapter extends RecyclerView.Adapter<LanguageAdapter.ViewHo
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
         private final LinearLayout llLanguageSelect;
-        private final AppCompatImageView ivLanguageIcon, ivLanguageSelect, ivDividerLine;
+        private final AppCompatImageView ivLanguageIcon, ivLanguageSelect;
         private final AppCompatTextView tvLanguageName, tvLanguageSubName;
 
         public ViewHolder(@NonNull View itemView) {
@@ -117,7 +109,6 @@ public class LanguageAdapter extends RecyclerView.Adapter<LanguageAdapter.ViewHo
             tvLanguageName = itemView.findViewById(R.id.tvLanguageName);
             tvLanguageSubName = itemView.findViewById(R.id.tvLanguageSubName);
             ivLanguageSelect = itemView.findViewById(R.id.ivLanguageSelect);
-            ivDividerLine = itemView.findViewById(R.id.ivDividerLine);
         }
     }
 }

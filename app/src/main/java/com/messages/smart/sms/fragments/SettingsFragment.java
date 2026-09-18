@@ -24,7 +24,7 @@ import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.messages.smart.sms.R;
 import com.messages.smart.sms.activities.AboutMessagesActivity;
 import com.messages.smart.sms.activities.BackupRestoreActivity;
-import com.messages.smart.sms.activities.LanguageActivity;
+import com.messages.smart.sms.activities.AppLanguageActivity;
 import com.messages.smart.sms.activities.LauncherSettingsActivity;
 import com.messages.smart.sms.common.AdPlacement;
 import com.messages.smart.sms.common.Utils;
@@ -107,9 +107,9 @@ public class SettingsFragment extends Fragment {
         llAppLanguage.setOnClickListener(view -> {
             Utils.isAppLanguageStarting = false;
             if (AdPlacement.getOtherInterstitialAdShow()) {
-                AdPlacement.loadInterstitialAd(getActivity(), AdPlacement.getOtherInterstitialId(), () -> openActivity(new Intent(getActivity(), LanguageActivity.class)));
+                AdPlacement.loadInterstitialAd(getActivity(), AdPlacement.getOtherInterstitialId(), () -> openActivity(new Intent(getActivity(), AppLanguageActivity.class)));
             } else {
-                openActivity(new Intent(getActivity(), LanguageActivity.class));
+                openActivity(new Intent(getActivity(), AppLanguageActivity.class));
             }
         });
 

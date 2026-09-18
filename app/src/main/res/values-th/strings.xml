@@ -4,6 +4,7 @@
     <string name="one_inbox_for_every_conversation">One Inbox For Every Conversation</string>
 
     // Language Screen
+    <string name="select_language">เลือกภาษา</string>
     <string name="done">เสร็จสิ้น</string>
     <string name="next">ถัดไป</string>
 

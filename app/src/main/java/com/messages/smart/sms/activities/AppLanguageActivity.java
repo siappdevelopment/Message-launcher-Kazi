@@ -5,6 +5,8 @@ import static android.view.View.VISIBLE;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
@@ -20,7 +22,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.facebook.shimmer.ShimmerFrameLayout;
 import com.messages.smart.sms.R;
-import com.messages.smart.sms.adapters.LanguageAdapter;
+import com.messages.smart.sms.adapters.AppLanguageAdapter;
 import com.messages.smart.sms.common.AdPlacement;
 import com.messages.smart.sms.common.ScreenFlowNavigator;
 import com.messages.smart.sms.common.Utils;
@@ -28,7 +30,7 @@ import com.messages.smart.sms.interfaces.OnLanguageClickListener;
 
 import java.util.ArrayList;
 
-public class LanguageActivity extends AppCompatActivity implements OnLanguageClickListener {
+public class AppLanguageActivity extends AppCompatActivity implements OnLanguageClickListener {
     private AppCompatImageView ivBack;
     private LinearLayout llTitle, llHeader;
     private AppCompatTextView tvTitle, tvSubTitle, tvDone, tvNext;
@@ -38,7 +40,7 @@ public class LanguageActivity extends AppCompatActivity implements OnLanguageCli
     public LinearLayout llBannerAd;
     private FrameLayout flNativeAd;
 
-    private LanguageAdapter languageAdapter;
+    private AppLanguageAdapter appLanguageAdapter;
 
     private String savedLanguageCode;
     private String savedLanguageName;
@@ -62,7 +64,7 @@ public class LanguageActivity extends AppCompatActivity implements OnLanguageCli
         if (getIntent() != null && getIntent().getBooleanExtra(ScreenFlowNavigator.EXTRA_LANGUAGE_FLOW_STARTING, false)) {
             Utils.isAppLanguageStarting = true;
         }
-        setContentView(R.layout.activity_language);
+        setContentView(R.layout.activity_app_language);
 
         initViews();
     }
@@ -108,9 +110,11 @@ public class LanguageActivity extends AppCompatActivity implements OnLanguageCli
         if (Utils.isAppLanguageStarting) {
             llTitle.setVisibility(VISIBLE);
             llHeader.setVisibility(GONE);
+            tvNext.setVisibility(View.GONE);
         } else {
             llTitle.setVisibility(GONE);
             llHeader.setVisibility(VISIBLE);
+            tvDone.setVisibility(View.GONE);
         }
 
         loadLanguages();
@@ -134,7 +138,7 @@ public class LanguageActivity extends AppCompatActivity implements OnLanguageCli
             Runnable goNext = () -> {
                 applySelectedLanguage();
                 if (Utils.isAppLanguageStarting) {
-                    ScreenFlowNavigator.continueAfter(LanguageActivity.this, AdPlacement.SCREEN_LANGUAGE);
+                    ScreenFlowNavigator.continueAfter(AppLanguageActivity.this, AdPlacement.SCREEN_LANGUAGE);
                 } else {
                     finishAfterLanguageApplied();
                 }
@@ -181,7 +185,7 @@ public class LanguageActivity extends AppCompatActivity implements OnLanguageCli
         arrayListIcon.add(R.drawable.ic_vietnamese);
         arrayListIcon.add(R.drawable.ic_chinese);
 
-        arrayListName.add("English");
+        arrayListName.add("English (Default)");
         arrayListName.add("Hindi");
         arrayListName.add("Russian");
         arrayListName.add("Italian");
@@ -281,16 +285,16 @@ public class LanguageActivity extends AppCompatActivity implements OnLanguageCli
         if (localized == null) {
             localized = this;
         }
-        tvTitle.setText(localized.getString(R.string.app_language));
-        tvSubTitle.setText(localized.getString(R.string.app_language));
+        tvTitle.setText(localized.getString(R.string.select_language));
+        tvSubTitle.setText(localized.getString(R.string.select_language));
         tvDone.setText(localized.getString(R.string.done));
         tvNext.setText(localized.getString(R.string.next));
     }
 
     private void setLanguageAdapter() {
-        languageAdapter = new LanguageAdapter(this, arrayListIcon, arrayListName, arrayListSubName, arrayListCode, this);
+        appLanguageAdapter = new AppLanguageAdapter(this, arrayListIcon, arrayListName, arrayListSubName, arrayListCode, this);
         rvLanguage.setLayoutManager(new LinearLayoutManager(this));
-        rvLanguage.setAdapter(languageAdapter);
+        rvLanguage.setAdapter(appLanguageAdapter);
     }
 
     private void applySelectedLanguage() {
@@ -323,8 +327,8 @@ public class LanguageActivity extends AppCompatActivity implements OnLanguageCli
 
     private void previewSelectedLanguage(String languageCode) {
         updateLanguageUi();
-        if (languageAdapter != null) {
-            languageAdapter.updateSelectedLanguage(languageCode);
+        if (appLanguageAdapter != null) {
+            appLanguageAdapter.updateSelectedLanguage(languageCode);
         }
     }
 
@@ -344,5 +348,13 @@ public class LanguageActivity extends AppCompatActivity implements OnLanguageCli
         Utils.appLanguage = pendingLanguageCode;
         Utils.appLanguageName = pendingLanguageName;
         previewSelectedLanguage(value);
+
+        new Handler(Looper.getMainLooper()).postDelayed(() -> {
+            if (Utils.isAppLanguageStarting) {
+                tvNext.setVisibility(VISIBLE);
+            } else {
+                tvDone.setVisibility(VISIBLE);
+            }
+        }, 500);
     }
 }

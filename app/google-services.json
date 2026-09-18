@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "549497100313",
+    "project_id": "smart-sms-cd3aa",
+    "storage_bucket": "smart-sms-cd3aa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549497100313:android:1eb04dc087e8a76d3cf288",
+        "android_client_info": {
+          "package_name": "com.messages.smart.sms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA982aMRRrrTBdwG9CxEo2XBccm1TMq6K0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

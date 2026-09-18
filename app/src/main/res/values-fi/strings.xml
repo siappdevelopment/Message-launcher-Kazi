@@ -4,6 +4,7 @@
     <string name="one_inbox_for_every_conversation">One Inbox For Every Conversation</string>
 
     // Language Screen
+    <string name="select_language">Valitse kieli</string>
     <string name="done">Valmis</string>
     <string name="next">Seuraava</string>
 

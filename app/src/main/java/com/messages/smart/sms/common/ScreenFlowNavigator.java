@@ -11,7 +11,7 @@ import com.messages.smart.sms.activities.CollectionActivity;
 import com.messages.smart.sms.activities.DefaultAppActivity;
 import com.messages.smart.sms.activities.DefaultSMSActivity;
 import com.messages.smart.sms.activities.IntroSwipeActivity;
-import com.messages.smart.sms.activities.LanguageActivity;
+import com.messages.smart.sms.activities.AppLanguageActivity;
 import com.messages.smart.sms.activities.LauncherHomeActivity;
 
 import java.util.List;
@@ -194,7 +194,7 @@ public final class ScreenFlowNavigator {
 
     private static Intent buildScreenIntent(Context context, String screen) {
         if (AdPlacement.SCREEN_LANGUAGE.equalsIgnoreCase(screen)) {
-            Intent intent = new Intent(context, LanguageActivity.class);
+            Intent intent = new Intent(context, AppLanguageActivity.class);
             intent.putExtra(EXTRA_LANGUAGE_FLOW_STARTING, true);
             return intent;
         }

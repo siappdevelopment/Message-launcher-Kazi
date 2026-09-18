@@ -18,10 +18,10 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_12sdp"
             android:layout_weight="1"
-            android:fontFamily="@font/avigea"
-            android:text="@string/app_language"
-            android:textColor="@color/primary"
-            android:textSize="@dimen/_20sdp" />
+            android:fontFamily="@font/fig_tree_semibold"
+            android:text="@string/select_language"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18sdp" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tvNext"
@@ -62,9 +62,9 @@
             android:layout_marginEnd="@dimen/_10sdp"
             android:layout_weight="1"
             android:fontFamily="@font/fig_tree_semibold"
-            android:text="@string/app_language"
+            android:text="@string/select_language"
             android:textColor="@color/black"
-            android:textSize="@dimen/_13sdp" />
+            android:textSize="@dimen/_14sdp" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tvDone"

@@ -110,7 +110,7 @@
         </activity>
 
         <activity
-            android:name=".activities.LanguageActivity"
+            android:name=".activities.AppLanguageActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
 

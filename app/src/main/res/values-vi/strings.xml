@@ -4,6 +4,7 @@
     <string name="one_inbox_for_every_conversation">One Inbox For Every Conversation</string>
 
     // Language Screen
+    <string name="select_language">Chọn ngôn ngữ</string>
     <string name="done">Xong</string>
     <string name="next">Tiếp</string>
 

@@ -4,6 +4,7 @@
     <string name="one_inbox_for_every_conversation">One Inbox For Every Conversation</string>
 
     // Language Screen
+    <string name="select_language">भाषा चुनें</string>
     <string name="done">हो गया</string>
     <string name="next">अगला</string>
 
