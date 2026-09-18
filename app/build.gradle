@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace 'com.messages.smartsms'
+    namespace 'com.messages.smart.sms'
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId "com.messages.smartsms"
+        applicationId "com.messages.smart.sms"
         minSdk 24
         targetSdk 37
         versionCode 13

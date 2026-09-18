@@ -16,13 +16,13 @@
 # ====================================================================
 
 # Keep model classes intact (crucial for Retrofit/Gson parsing)
--keep class com.messages.smartsms.models.** { *; }
--keepclassmembers class com.messages.smartsms.models.** { *; }
+-keep class com.messages.smart.sms.models.** { *; }
+-keepclassmembers class com.messages.smart.sms.models.** { *; }
 
 # Keep service and interface classes
--keep class com.messages.smartsms.services.** { *; }
--keep class com.messages.smartsms.interfaces.** { *; }
--keep class com.messages.smartsms.common.** { *; }
+-keep class com.messages.smart.sms.services.** { *; }
+-keep class com.messages.smart.sms.interfaces.** { *; }
+-keep class com.messages.smart.sms.common.** { *; }
 
 # ====================================================================
 # Gson
