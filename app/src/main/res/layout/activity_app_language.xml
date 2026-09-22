@@ -23,18 +23,26 @@
             android:textColor="@color/black"
             android:textSize="@dimen/_18sdp" />
 
-        <androidx.appcompat.widget.AppCompatTextView
+<!--        <androidx.appcompat.widget.AppCompatTextView-->
+<!--            android:id="@+id/tvNext"-->
+<!--            android:layout_width="@dimen/_60sdp"-->
+<!--            android:layout_height="@dimen/_28sdp"-->
+<!--            android:layout_marginEnd="@dimen/_12sdp"-->
+<!--            android:background="@drawable/custom_button_round"-->
+<!--            android:fontFamily="@font/fig_tree_medium"-->
+<!--            android:gravity="center"-->
+<!--            android:singleLine="true"-->
+<!--            android:text="@string/next"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="@dimen/_12sdp" />-->
+        
+        <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/tvNext"
-            android:layout_width="@dimen/_60sdp"
-            android:layout_height="@dimen/_28sdp"
-            android:layout_marginEnd="@dimen/_12sdp"
-            android:background="@drawable/custom_button_round"
-            android:fontFamily="@font/fig_tree_medium"
-            android:gravity="center"
-            android:singleLine="true"
-            android:text="@string/next"
-            android:textColor="@color/white"
-            android:textSize="@dimen/_12sdp" />
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:src="@drawable/ic_right"
+            android:layout_marginEnd="@dimen/_18sdp"
+            />
 
     </LinearLayout>
 

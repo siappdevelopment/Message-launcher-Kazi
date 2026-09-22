@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Messages</string>
+    <string name="app_name_launcher"># Messages</string>
+    <string name="one_inbox_for_every_conversation">Satu Kotak Masuk untuk Semua Percakapan</string>
+
+    // Language Screen
+    <string name="select_language">Pilih Bahasa</string>
+    <string name="done">Selesai</string>
+    <string name="next">Berikutnya</string>
+
+    // Collection / Data consent screen
+    <string name="collection_title">Catatan singkat tentang data Anda</string>
+    <string name="collection_intro_1">Kami menggunakan informasi perangkat dan aplikasi yang terbatas untuk menjaga Messages tetap cepat, aman, dan andal, menampilkan iklan yang membantu menjaga aplikasi tetap gratis, serta mengirimkan notifikasi penting kepada Anda.</string>
+    <string name="collection_intro_2">Pesan, kontak, dan percakapan pribadi Anda tidak dikumpulkan untuk analitik atau iklan dan tetap berada di perangkat Anda.</string>
+    <string name="collection_what_we_use">Yang kami gunakan dan alasannya:</string>
+    <string name="collection_bullet_1">• Informasi penggunaan aplikasi - seperti layar yang Anda buka dan fitur yang Anda gunakan - untuk meningkatkan kinerja dan pengalaman pengguna</string>
+    <string name="collection_bullet_2">• Identitas perangkat dan aplikasi - untuk menyimpan preferensi Anda, meningkatkan stabilitas aplikasi, dan mendukung notifikasi</string>
+    <string name="collection_bullet_3">• Lokasi umum berdasarkan jaringan Anda - untuk memahami tren penggunaan dan menyediakan fitur yang relevan dengan wilayah</string>
+    <string name="collection_bullet_4">• Identitas iklan - untuk menampilkan dan mengukur iklan yang membantu menjaga aplikasi tetap gratis</string>
+    <string name="collection_footer">Dengan mengetuk Setuju &amp; Lanjutkan, Anda menyetujui Ketentuan Layanan kami dan mengakui Kebijakan Privasi kami. Kami hanya mengumpulkan informasi yang dijelaskan di atas untuk meningkatkan aplikasi, menyediakan fitur penting, dan mendukung iklan. Pesan dan percakapan pribadi Anda tetap pribadi.</string>
+    <string name="collection_agree_checkbox">Saya menyetujui pengumpulan data ini</string>
+    <string name="collection_agree_continue">Setuju &amp; Lanjutkan</string>
+    <string name="collection_agree_toast">Harap setujui pengumpulan data untuk melanjutkan.</string>
+    <string name="terms">Ketentuan</string>
+
+    // Default SMS Screen
+    <string name="set_default_sms">Atur SMS Default</string>
+    <string name="set_default_sms_desc">Atur aplikasi ini sebagai aplikasi SMS default Anda untuk menjaga semua pesan tetap terorganisir, aman, dan mudah dikelola.</string>
+    <string name="set_as_default_sms">Jadikan SMS Default</string>
+
+    // Default Screen
+    <string name="set_default_app">Atur Aplikasi Default</string>
+    <string name="set_default_app_desc">Atur aplikasi ini sebagai launcher Home default Anda untuk menikmati pengalaman layar utama yang lebih cepat, bersih, dan personal.</string>
+    <string name="set_as_default_app">Jadikan Aplikasi Default</string>
+
+    // Intro Screen
+    <string name="intro_1_title">Pesan Cerdas</string>
+    <string name="intro_1_description">Kelola percakapan dengan efisien melalui pengalaman berkirim pesan yang terorganisir, aman, dan cepat.</string>
+    <string name="intro_2_title">Chat Real-Time</string>
+    <string name="intro_2_description">Terhubung secara instan melalui percakapan real-time yang cepat, andal, dan lancar setiap hari.</string>
+    <string name="intro_3_title">Manajemen Kontak</string>
+    <string name="intro_3_description">Atur kontak dengan mudah untuk komunikasi yang lebih cepat dan akses yang lebih nyaman kapan saja.</string>
+    <string name="intro_4_title">Chat Diarsipkan</string>
+    <string name="intro_4_description">Simpan percakapan penting dengan aman agar dapat diakses dengan cepat kapan pun diperlukan.</string>
+
+    // Permission Dialog
+    <string name="please_allow_permissions_from_app_settings">Harap izinkan izin melalui pengaturan aplikasi</string>
+    <string name="open_settings">Buka Pengaturan</string>
+
+    // Main Screen
+    <string name="messages">Pesan</string>
+    <string name="contacts">Kontak</string>
+    <string name="settings">Pengaturan</string>
+
+    // Messages Screen
+    <string name="overlay_permission_required">Izin Overlay Diperlukan</string>
+    <string name="overlay_permission_description">Aplikasi ini memerlukan izin overlay untuk menampilkan jendela pesan pop-up.</string>
+    <string name="permission_required">Izin Diperlukan</string>
+    <string name="permission_message_description">Izin pesan diperlukan untuk mengakses pesan Anda dan mengirim pesan dengan cepat.</string>
+    <string name="permission_contact_description">Izin kontak diperlukan untuk mengakses kontak yang tersimpan dan melakukan panggilan cepat.</string>
+    <string name="your_conversation_will_appear_here">Percakapan Anda akan muncul di sini</string>
+    <string name="allow">Izinkan</string>
+    <string name="your_contacts_will_appear_here">Kontak Anda akan muncul di sini</string>
+    <string name="search_message">Cari Pesan</string>
+    <string name="all">Semua</string>
+    <string name="unread">Belum Dibaca</string>
+    <string name="personal">Pribadi</string>
+    <string name="transaction">Transaksi</string>
+    <string name="otp">OTP</string>
+    <string name="offer">Penawaran</string>
+    <string name="blocked">Diblokir</string>
+    <string name="to_move_this_conversation_out_of_blocking_and_get_messages_again_unblock">Untuk mengeluarkan percakapan ini dari "Diblokir" dan menerima pesan lagi, buka blokir</string>
+    <string name="sender_does_not_support_replies">Pengirim tidak mendukung balasan</string>
+    <string name="this_conversation_blocked_by_you">Percakapan ini diblokir oleh Anda</string>
+    <string name="enter_message">Masukkan Pesan</string>
+    <string name="today">Hari ini</string>
+    <string name="yesterday">Kemarin</string>
+    <string name="send_failed">Pesan gagal dikirim</string>
+    <string name="send_sms_permission_required">Izin SMS diperlukan untuk mengirim pesan</string>
+
+    // Menu
+    <string name="mark_as_all_read">Tandai Semua Sudah Dibaca</string>
+    <string name="add_to_contact">Tambahkan ke Kontak</string>
+    <string name="archived">Diarsipkan</string>
+    <string name="unarchived">Dikeluarkan dari Arsip</string>
+    <string name="block">Blokir</string>
+    <string name="unblock">Buka Blokir</string>
+    <string name="recycle_bin">Tempat Sampah</string>
+    <string name="restore_from_bin">Pulihkan dari Tempat Sampah</string>
+    <string name="change_langauge">Ubah Bahasa</string>
+
+    // Contacts Screen
+    <string name="search_contact">Cari Kontak</string>
+
+    // Setting Screen
+    <string name="app_language">Bahasa Aplikasi</string>
+    <string name="system_default">Default Sistem</string>
+    <string name="delay_sending">Penundaan Pengiriman</string>
+    <string name="no_delay">Tanpa Penundaan</string>
+    <string name="signatures">Tanda Tangan</string>
+    <string name="add_your_signature">Tambahkan tanda tangan Anda</string>
+    <string name="launcher_settings">Pengaturan Launcher</string>
+    <string name="customize_your_layout_and_icons">Sesuaikan tata letak dan ikon Anda</string>
+    <string name="about_messages">Tentang Messages</string>
+    <string name="invite_friends">Undang Teman</string>
+    <string name="rate_us">Beri Kami Rating</string>
+
+    // Delay Dialog
+    <string name="_3_sec_delay">Penundaan 3 Detik</string>
+    <string name="_5_sec_delay">Penundaan 5 Detik</string>
+    <string name="_10_sec_delay">Penundaan 10 Detik</string>
+    <string name="cancel">Batal</string>
+    <string name="okay">Oke</string>
+
+    // Signature Dialog
+    <string name="delete">Hapus</string>
+    <string name="dash">-</string>
+    <string name="save">Simpan</string>
+
+    // Launcher Settings Screen
+    <string name="serialize">Urutkan</string>
+    <string name="by_name_asc_a_to_z">Berdasarkan Nama ASC (A ke Z)</string>
+    <string name="by_name_desc_z_to_a">Berdasarkan Nama DESC (Z ke A)</string>
+    <string name="by_installed_date">Berdasarkan Tanggal Instalasi</string>
+
+    // App Page Screen
+    <string name="preview">Pratinjau</string>
+    <string name="label_visibility">Visibilitas Label</string>
+    <string name="hide_app_name">Sembunyikan nama aplikasi</string>
+    <string name="app_icon_size">Ukuran Ikon Aplikasi</string>
+    <string name="app_label_size">Ukuran Label Aplikasi</string>
+    <string name="_10">10</string>
+
+    // About Messages Screen
+    <string name="version">Versi</string>
+    <string name="privacy_policy">Kebijakan Privasi</string>
+    <string name="terms_conditions">Syarat &amp; Ketentuan</string>
+
+    // Recycle Bin Dialog
+    <string name="move_to_bin">Pindahkan ke Tempat Sampah</string>
+    <string name="are_you_sure_you_want_to_move_to_bin_this_message">Apakah Anda yakin ingin memindahkan pesan ini ke tempat sampah?</string>
+
+    // Block Dialog
+    <string name="are_you_sure_you_want_to_block_this_message">Apakah Anda yakin ingin memblokir pesan ini?</string>
+
+    // Delete Dialog
+    <string name="delete_conversation">Hapus Percakapan</string>
+    <string name="are_you_sure_you_want_to_delete_permanently_this_message">Apakah Anda yakin ingin menghapus pesan ini secara permanen?</string>
+
+    // Toast Messages
+    <string name="toast_archived">Diarsipkan</string>
+    <string name="toast_unarchived">Dikeluarkan dari Arsip</string>
+    <string name="toast_blocked">Diblokir</string>
+    <string name="toast_unblocked">Blokir Dibuka</string>
+    <string name="toast_moved_to_recycle_bin">Dipindahkan ke tempat sampah</string>
+    <string name="toast_restored_from_bin">Dipulihkan dari tempat sampah</string>
+    <string name="toast_conversation_deleted">Percakapan dihapus</string>
+    <string name="toast_pinned">Disematkan ke atas</string>
+    <string name="toast_unpinned">Sematan Dilepas</string>
+
+    // Other in App
+    <string name="selected">Dipilih</string>
+    <string name="no_archived_messages">Tidak Ada Pesan yang Diarsipkan</string>
+    <string name="no_block_messages">Tidak Ada Pesan yang Diblokir</string>
+    <string name="no_data_found">Data Tidak Ditemukan</string>
+    <string name="recycle_bin_empty">Tempat Sampah Kosong</string>
+
+    // Backup Activity
+    <string name="backup_and_restore">Cadangkan dan Pulihkan</string>
+    <string name="backup_and_restore_message_easily">Cadangkan dan pulihkan pesan dengan mudah</string>
+    <string name="backup_location">Lokasi Cadangan</string>
+    <string name="set_folder">Atur Folder</string>
+    <string name="restore">Pulihkan</string>
+    <string name="select_a_backup">Pilih Cadangan</string>
+    <string name="currently_only_sms_is_supported_by_backup_and_restore_mms_support_and_scheduled_backups_will_be_coming_soon">Saat ini, hanya SMS yang didukung untuk pencadangan dan pemulihan. Dukungan MMS dan pencadangan terjadwal akan segera hadir!</string>
+    <string name="backup_now">Cadangkan Sekarang</string>
+    <string name="backup_backing_up">Mencadangkan pesan</string>
+    <string name="backup_restoring">Memulihkan dari cadangan</string>
+    <string name="backup_parsing">Memproses cadangan…</string>
+    <string name="backup_saving">Menyimpan cadangan…</string>
+    <string name="backup_syncing">Menyinkronkan pesan…</string>
+    <string name="backup_finished">Selesai!</string>
+    <string name="backup_progress">%1$d/%2$d pesan</string>
+    <string name="backup_message_count">%1$d pesan</string>
+    <string name="backup_restore_dialog_title">Cadangan</string>
+    <string name="backup_restore_dialog_empty">Tidak ada cadangan yang ditemukan</string>
+    <string name="backup_restore_confirm_title">Pulihkan dari cadangan</string>
+    <string name="backup_restore_confirm_message">Apakah Anda yakin ingin memulihkan pesan Anda dari cadangan ini?</string>
+    <string name="backup_error_title">Kesalahan</string>
+    <string name="backup_error_read">Tidak dapat membaca file cadangan</string>
+    <string name="backup_select_location_first">Harap pilih lokasi cadangan terlebih dahulu</string>
+    <string name="backup_permission_required">Izin SMS diperlukan untuk pencadangan dan pemulihan</string>
+    <string name="backup_default_app_required">Harap jadikan aplikasi ini sebagai aplikasi SMS default untuk memulihkan pesan</string>
+    <string name="backup_stop_restore_title">Hentikan pemulihan?</string>
+    <string name="backup_stop_restore_message">Pesan yang telah dipulihkan akan tetap berada di perangkat Anda</string>
+    <string name="stop">Berhenti</string>
+
+    // Other out App
+    <string name="search">Cari</string>
+    <string name="open">Buka</string>
+    <string name="uninstall">Copot Instalasi</string>
+    <string name="trending_news">Berita Tren</string>
+    <string name="read_more">Baca Selengkapnya</string>
+    <string name="loading_ads">Memuat Iklan…</string>
+    <string name="this_action_may_contain_ads">Tindakan ini mungkin menampilkan Iklan</string>
+
+    <string name="markrting_converter1">gclid</string>
+    <string name="utm_source_apps_facebook_com">utm_source=apps.facebook.com</string>
+    <string name="utm_source_apps_instagram_com">utm_source=apps.instagram.com</string>
+    <string name="utm_source_marketing">utm_source=marketing</string>
+</resources>

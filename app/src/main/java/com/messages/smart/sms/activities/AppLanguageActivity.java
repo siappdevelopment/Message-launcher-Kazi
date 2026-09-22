@@ -33,7 +33,8 @@ import java.util.ArrayList;
 public class AppLanguageActivity extends AppCompatActivity implements OnLanguageClickListener {
     private AppCompatImageView ivBack;
     private LinearLayout llTitle, llHeader;
-    private AppCompatTextView tvTitle, tvSubTitle, tvDone, tvNext;
+    private AppCompatTextView tvTitle, tvSubTitle, tvDone;
+    private AppCompatImageView tvNext;
     private RecyclerView rvLanguage;
     private RelativeLayout rlAdView, rlBannerAdView, rlNativeAdView;
     private ShimmerFrameLayout slBannerShimmer, slNativeShimmer;
@@ -158,113 +159,93 @@ public class AppLanguageActivity extends AppCompatActivity implements OnLanguage
         arrayListSubName.clear();
         arrayListCode.clear();
 
+
+        arrayListIcon.add(R.drawable.ic_default);
         arrayListIcon.add(R.drawable.ic_english);
         arrayListIcon.add(R.drawable.ic_hindi);
         arrayListIcon.add(R.drawable.ic_russian);
         arrayListIcon.add(R.drawable.ic_italian);
         arrayListIcon.add(R.drawable.ic_french);
         arrayListIcon.add(R.drawable.ic_spanish);
-        arrayListIcon.add(R.drawable.ic_portuguese_portugal);
-        arrayListIcon.add(R.drawable.ic_german);
         arrayListIcon.add(R.drawable.ic_japanese);
         arrayListIcon.add(R.drawable.ic_korean);
-        arrayListIcon.add(R.drawable.ic_portuguese_brazil);
-        arrayListIcon.add(R.drawable.ic_afrikaans);
-        arrayListIcon.add(R.drawable.ic_greek);
-        arrayListIcon.add(R.drawable.ic_finnish);
-        arrayListIcon.add(R.drawable.ic_danish);
-        arrayListIcon.add(R.drawable.ic_croatian);
-        arrayListIcon.add(R.drawable.ic_lithuanian);
-        arrayListIcon.add(R.drawable.ic_dutch);
-        arrayListIcon.add(R.drawable.ic_romanian);
-        arrayListIcon.add(R.drawable.ic_swedish);
+        arrayListIcon.add(R.drawable.ic_german);
+        arrayListIcon.add(R.drawable.ic_chinese);
         arrayListIcon.add(R.drawable.ic_thai);
+        arrayListIcon.add(R.drawable.ic_greek);
+        arrayListIcon.add(R.drawable.ic_portuguese_portugal);
+        arrayListIcon.add(R.drawable.ic_portuguese_brazil);
+        arrayListIcon.add(R.drawable.ic_dutch);
         arrayListIcon.add(R.drawable.ic_filipino);
         arrayListIcon.add(R.drawable.ic_turkish);
-        arrayListIcon.add(R.drawable.ic_ukrainian);
-        arrayListIcon.add(R.drawable.ic_vietnamese);
-        arrayListIcon.add(R.drawable.ic_chinese);
+        arrayListIcon.add(R.drawable.ic_indonesian);
+        arrayListIcon.add(R.drawable.ic_afrikaans);
+
 
         arrayListName.add("English (Default)");
+        arrayListName.add("English(UK)");
         arrayListName.add("Hindi");
         arrayListName.add("Russian");
         arrayListName.add("Italian");
         arrayListName.add("French");
         arrayListName.add("Spanish");
-        arrayListName.add("Portuguese (Portugal)");
-        arrayListName.add("German");
         arrayListName.add("Japanese");
         arrayListName.add("Korean");
-        arrayListName.add("Portuguese (Brazil)");
-        arrayListName.add("Afrikaans");
-        arrayListName.add("Greek");
-        arrayListName.add("Finnish");
-        arrayListName.add("Danish");
-        arrayListName.add("Croatian");
-        arrayListName.add("Lithuanian");
-        arrayListName.add("Dutch");
-        arrayListName.add("Romanian");
-        arrayListName.add("Swedish");
+        arrayListName.add("German");
+        arrayListName.add("Chinese");
         arrayListName.add("Thai");
+        arrayListName.add("Greek");
+        arrayListName.add("Portuguese (Portugal)");
+        arrayListName.add("Portuguese (Brazil)");
+        arrayListName.add("Dutch");
         arrayListName.add("Filipino");
         arrayListName.add("Turkish");
-        arrayListName.add("Ukrainian");
-        arrayListName.add("Vietnamese");
-        arrayListName.add("Chinese");
+        arrayListName.add("Indonesian");
+        arrayListName.add("Afrikaans");
 
+
+        arrayListSubName.add("English");
         arrayListSubName.add("English");
         arrayListSubName.add("हिंदी");
         arrayListSubName.add("Русский");
         arrayListSubName.add("Italiano");
         arrayListSubName.add("Français");
-        arrayListSubName.add("Española");
-        arrayListSubName.add("Português");
-        arrayListSubName.add("Deutsch");
+        arrayListSubName.add("Español");
         arrayListSubName.add("日本語");
-        arrayListSubName.add("한국인");
+        arrayListSubName.add("한국어");
+        arrayListSubName.add("Deutsch");
+        arrayListSubName.add("中文");
+        arrayListSubName.add("ไทย");
+        arrayListSubName.add("Ελληνικά");
         arrayListSubName.add("Português");
-        arrayListSubName.add("Afrikaans");
-        arrayListSubName.add("ελληνικά");
-        arrayListSubName.add("Suomalainen");
-        arrayListSubName.add("Dansk");
-        arrayListSubName.add("Hrvatski");
-        arrayListSubName.add("Lietuvių");
+        arrayListSubName.add("Português");
         arrayListSubName.add("Nederlands");
-        arrayListSubName.add("Română");
-        arrayListSubName.add("Svenska");
-        arrayListSubName.add("แบบไทย");
         arrayListSubName.add("Filipino");
         arrayListSubName.add("Türkçe");
-        arrayListSubName.add("українська");
-        arrayListSubName.add("Tiếng Việt");
-        arrayListSubName.add("中国人");
+        arrayListSubName.add("Bahasa Indonesia");
+        arrayListSubName.add("Afrikaans");
+
 
         arrayListCode.add("en");
+        arrayListCode.add("en-GB");
         arrayListCode.add("hi");
         arrayListCode.add("ru");
         arrayListCode.add("it");
         arrayListCode.add("fr");
         arrayListCode.add("es");
-        arrayListCode.add("pt");
-        arrayListCode.add("de");
         arrayListCode.add("ja");
         arrayListCode.add("ko");
-        arrayListCode.add("pt-BR");
-        arrayListCode.add("af");
-        arrayListCode.add("el");
-        arrayListCode.add("fi");
-        arrayListCode.add("da");
-        arrayListCode.add("hr");
-        arrayListCode.add("lt");
-        arrayListCode.add("nl");
-        arrayListCode.add("ro");
-        arrayListCode.add("sv");
+        arrayListCode.add("de");
+        arrayListCode.add("zh");
         arrayListCode.add("th");
+        arrayListCode.add("el");
+        arrayListCode.add("pt");
+        arrayListCode.add("pt-BR");
+        arrayListCode.add("nl");
         arrayListCode.add("fil");
         arrayListCode.add("tr");
-        arrayListCode.add("uk");
-        arrayListCode.add("vi");
-        arrayListCode.add("zh");
+        arrayListCode.add("in");
+        arrayListCode.add("af");
 
         setLanguageAdapter();
     }
@@ -288,7 +269,6 @@ public class AppLanguageActivity extends AppCompatActivity implements OnLanguage
         tvTitle.setText(localized.getString(R.string.select_language));
         tvSubTitle.setText(localized.getString(R.string.select_language));
         tvDone.setText(localized.getString(R.string.done));
-        tvNext.setText(localized.getString(R.string.next));
     }
 
     private void setLanguageAdapter() {
@@ -336,7 +316,9 @@ public class AppLanguageActivity extends AppCompatActivity implements OnLanguage
     protected void onResume() {
         super.onResume();
         loadSavedLanguage();
-        previewSelectedLanguage(pendingLanguageCode);
+        if (!Utils.isAppLanguageStarting) {
+            previewSelectedLanguage(pendingLanguageCode);
+        }
     }
 
     @Override

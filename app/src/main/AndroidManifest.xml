@@ -135,7 +135,7 @@
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".activities.Intro1Activity"
+            android:name=".activities.IntroFirstActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
 

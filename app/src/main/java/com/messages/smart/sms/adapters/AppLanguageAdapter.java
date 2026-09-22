@@ -28,7 +28,7 @@ public class AppLanguageAdapter extends RecyclerView.Adapter<AppLanguageAdapter.
     private final ArrayList<String> arrayListCode;
     private final OnLanguageClickListener onLanguageClickListenerNext;
 
-    private boolean isItemClick = false;
+    private boolean isItemClick = true;
     private int selectedPosition = -1;
 
     public AppLanguageAdapter(Context context, ArrayList<Integer> arrayListIcon, ArrayList<String> arrayListName, ArrayList<String> arrayListSubName, ArrayList<String> arrayListCode, OnLanguageClickListener onLanguageClickListenerNext) {
@@ -50,11 +50,8 @@ public class AppLanguageAdapter extends RecyclerView.Adapter<AppLanguageAdapter.
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, @SuppressLint("RecyclerView") int position) {
         boolean isSelected;
-        if (isItemClick) {
-            isSelected = (selectedPosition == position);
-        } else {
-            isSelected = Utils.getAppLanguageNew(context).equals(arrayListCode.get(position));
-        }
+
+        isSelected = selectedPosition == position;
 
         if (isSelected) {
             holder.llLanguageSelect.setBackgroundResource(R.drawable.bg_language_item_selected);
